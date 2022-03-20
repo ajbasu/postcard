@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FOTW Colllection Tracking - @redteapost</title>
+</head>
+
+<body>
+    <!-- Styles -->
+    <style>
+        #chartdiv {
+            width: 95vw;
+            height: 95vh;
+        }
+    </style>
+
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <!-- <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script> -->
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldHigh.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Chart code -->
+    <script>
+        am5.ready(function () {
+
+            // Data
+            var groupData = [
+                {
+                    "name": "Received",
+                    "data": [
+                        { "id": "AU", "receivedon": "11-02-2022" },
+                        { "id": "BH", "receivedon": "07-02-2022" },
+                        { "id": "BE", "receivedon": "22-12-2021" },
+                        { "id": "BQ", "receivedon": "24-02-2022" },
+                        { "id": "BR", "receivedon": "10-03-2022" },
+                        { "id": "CA", "receivedon": "31-01-2022" },
+                        { "id": "CN", "receivedon": "16-02-2022" },
+                        { "id": "HR", "receivedon": "11-02-2022" },
+                        { "id": "CZ", "receivedon": "11-02-2022" },
+                        { "id": "EE", "receivedon": "03-02-2022" },
+                        { "id": "FI", "receivedon": "22-01-2022" },
+                        { "id": "FR", "receivedon": "03-02-2022" },
+                        { "id": "IE", "receivedon": "03-12-2021" },
+                        { "id": "IL", "receivedon": "10-03-2022" },
+                        { "id": "IT", "receivedon": "03-01-2022" },
+                        { "id": "LV", "receivedon": "03-01-2022" },
+                        { "id": "LB", "receivedon": "11-03-2022" },
+                        { "id": "MY", "receivedon": "22-01-2022" },
+                        { "id": "MX", "receivedon": "22-01-2022" },
+                        { "id": "NL", "receivedon": "03-01-2022" },
+                        { "id": "PL", "receivedon": "22-12-2021" },
+                        { "id": "PT", "receivedon": "31-01-2022" },
+                        { "id": "RU", "receivedon": "03-02-2022" },
+                        { "id": "SK", "receivedon": "31-01-2022" },
+                        { "id": "ES", "receivedon": "03-01-2022" },
+                        { "id": "SE", "receivedon": "22-01-2022" },
+                        { "id": "TW", "receivedon": "22-01-2022" },
+                        { "id": "US", "receivedon": "03-01-2022" },
+                        { "id": "GB", "receivedon": "12-01-2022" },
+                        { "id": "AD", "receivedon": "16-03-2022" },
+                        { "id": "HK", "receivedon": "16-03-2022" },
+                    ]
+                }, {
+                    "name": "Travelling",
+                    "data": [
+                        { "id": "AT", "receivedon": "2004" },
+                        { "id": "BY", "receivedon": "2004" },
+                        { "id": "BG", "receivedon": "2004" },
+                        { "id": "CL", "receivedon": "2004" },
+                        { "id": "GG", "receivedon": "2004" },
+                        { "id": "HU", "receivedon": "2004" },
+                        { "id": "ID", "receivedon": "2004" },
+                        { "id": "LT", "receivedon": "2004" },
+                        { "id": "MC", "receivedon": "2004" },
+                        { "id": "NO", "receivedon": "2004" },
+                        { "id": "PH", "receivedon": "2004" },
+                        { "id": "RO", "receivedon": "2004" },
+                        { "id": "SG", "receivedon": "2004" },
+                        { "id": "SI", "receivedon": "2004" },
+                        { "id": "LK", "receivedon": "2004" },
+                        { "id": "CH", "receivedon": "2004" },
+                        { "id": "TR", "receivedon": "2004" },
+                        { "id": "UA", "receivedon": "2004" },
+                        { "id": "VA", "receivedon": "2004" },
+                        { "id": "IN", "receivedon": "2004" },
+                    ]
+                }, {
+                    "name": "Arranged",
+                    "data": [
+                        { "id": "BD", "receivedon": "2007" },
+                        { "id": "MO", "receivedon": "2007" },
+                    ]
+                }, {
+                    "name": "From tag/offer",
+                    "data": [
+                        { "id": "DE", "receivedon": "2013" },
+                        { "id": "JP", "receivedon": "2013" },
+                    ]
+                }
+            ];
+
+
+            // Create root and chart
+            var root = am5.Root.new("chartdiv");
+
+
+            // Set themes
+            root.setThemes([
+                am5themes_Animated.new(root)
+            ]);
+
+
+            // Create chart
+            var chart = root.container.children.push(am5map.MapChart.new(root, {
+                // homeZoomLevel: 3.5,
+                // homeGeoPoint: { longitude: 10, latitude: 52 }
+            }));
+
+
+            // Create world polygon series
+            var worldSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+                geoJSON: am5geodata_worldHigh,
+                exclude: ["AQ"]
+            }));
+
+            worldSeries.mapPolygons.template.setAll({
+                fill: am5.color(0xaaaaaa),
+                tooltipText: "{name}"
+            });
+
+            worldSeries.events.on("datavalidated", () => {
+                chart.goHome();
+            });
+
+
+            // Add legend
+            var legend = chart.children.push(am5.Legend.new(root, {
+                useDefaultMarker: true,
+                centerX: am5.p50,
+                x: am5.p50,
+                centerY: am5.p100,
+                y: am5.p100,
+                dy: -20,
+                background: am5.RoundedRectangle.new(root, {
+                    fill: am5.color(0xffffff),
+                    fillOpacity: 0.2
+                })
+            }));
+
+            legend.valueLabels.template.set("forceHidden", true)
+
+
+            // Create series for each group
+            var colors = am5.ColorSet.new(root, {
+                step: 2
+            });
+            colors.next();
+
+            am5.array.each(groupData, function (group) {
+                var countries = [];
+                var color = colors.next();
+
+                am5.array.each(group.data, function (country) {
+                    countries.push(country.id)
+                });
+
+                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
+                    geoJSON: am5geodata_worldHigh,
+                    include: countries,
+                    name: group.name,
+                    fill: color
+                }));
+
+
+                // polygonSeries.mapPolygons.template.setAll({
+                //     tooltipText: "[bold]{name}[/]" + { receivedon } ? "\nMember since {receivedon}" : "",
+                //     interactive: true,
+                //     fill: color,
+                //     strokeWidth: .5
+                // });
+
+                // polygonSeries.mapPolygons.template.states.create("hover", {
+                //     fill: am5.Color.brighten(color, -0.3)
+                // });
+
+                // polygonSeries.mapPolygons.template.events.on("pointerover", function (ev) {
+                //     ev.target.series.mapPolygons.each(function (polygon) {
+                //         polygon.states.applyAnimate("hover");
+                //     });
+                // });
+
+                // polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
+                //     ev.target.series.mapPolygons.each(function (polygon) {
+                //         polygon.states.applyAnimate("default");
+                //     });
+                // });
+                polygonSeries.data.setAll(group.data);
+
+                legend.data.push(polygonSeries);
+            });
+
+        }); // end am5.ready()
+    </script>
+
+    <!-- HTML -->
+    <div id="chartdiv"></div>
+</body>
+
+</html>
