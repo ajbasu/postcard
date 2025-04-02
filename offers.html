@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postcards for Swap</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Postcards for Swap</h1>
+    <div class="gallery" id="gallery"></div>
+
+    <div class="modal" id="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <span class="nav-button nav-prev" onclick="prevImage()">&#10094;</span>
+        <span class="nav-button nav-next" onclick="nextImage()">&#10095;</span>
+        <img id="modalImage" src="" alt="">
+        <div class="modal-caption" id="modalCaption"></div>
+        <div class="modal-tag-box" id="modalTagBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
