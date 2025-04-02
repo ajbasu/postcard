@@ -1,116 +1,5 @@
 [
     {
-        "name": "Taj Mahal, Uttar Pradesh",
-        "image": "assets/001 Taj Mahal, Uttar Pradesh.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 2
-    },
-    {
-        "name": "Sacred Ensembles of the Hoysalas, Karnataka (Chennakeshava Temple, Somanathapura)",
-        "image": "assets/002 Chennakeshava Temple, Somanathapura.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 2
-    },
-    {
-        "name": "Sacred Ensembles of the Hoysalas, Karnataka",
-        "image": "assets/011 Sacred Ensembles of the Hoysalas.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1,
-        "orientation": "portrait"
-    },
-    {
-        "name": "Group of Monuments at Hampi, Karnataka (Virupaksha Temple, Hampi)",
-        "image": "assets/003 Virupaksha Temple, Hampi.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1
-    },
-    {
-        "name": "Group of Monuments at Hampi, Karnataka (Pushkarani or Water Tank, Hampi)",
-        "image": "assets/004 Pushkarani or Water Tank, Hampi.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1
-    },
-    {
-        "name": "Group of Monuments at Hampi, Karnataka",
-        "image": "assets/005 Group of Monuments at Hampi, Karnataka.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1
-    },
-    {
-        "name": "Group of Monuments at Mahabalipuram, Tamil Nadu (Shore Temple, Mahabalipuram)",
-        "image": "assets/006 Group of Monuments at Mahabalipuram, Tamil Nadu (Shore Temple, Mahabalipuram).jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1
-    },
-    {
-        "name": "Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur)",
-        "image": "assets/007 Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur).jpg",
-        "tag": "UNESCO WHS",
-        "cards": 2
-    },
-    {
-        "name": "Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur)",
-        "image": "assets/008 Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur).jpg",
-        "tag": "UNESCO WHS",
-        "cards": 1
-    },
-    {
-        "name": "Great Living Chola Temples, Tamil Nadu (Gangaikonda Cholapuram)",
-        "image": "assets/009 Great Living Chola Temples, Tamil Nadu (Gangaikonda Cholapuram).jpg",
-        "tag": "UNESCO WHS",
-        "cards": 2
-    },
-    {
-        "name": "Jaipur City, Rajasthan",
-        "image": "assets/010 Jaipur City, Rajasthan.jpg",
-        "tag": "UNESCO WHS",
-        "cards": 2,
-        "orientation": "portrait"
-    },
-    {
-        "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Orchha City)",
-        "image": "assets/012 Orchha City.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 2
-    },
-    {
-        "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Chhatri, Orchha)",
-        "image": "assets/013 Chhatri Orchha.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 2
-    },
-    {
-        "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Cave Temple, Badami)",
-        "image": "assets/014 Cave Temple, Badami.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 2
-    },
-    {
-        "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Agastya Lake, Badami)",
-        "image": "assets/015 Agastya Lake, Badami.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 1
-    },
-    {
-        "name": "Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu",
-        "image": "assets/016 Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 2,
-        "orientation": "portrait"
-    },
-    {
-        "name": "Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu (Temple Pillars)",
-        "image": "assets/017 Temple Pillars, Srirangam, Tamil Nadu.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 1
-    },
-    {
-        "name": "Temples of Kanchipuram, Tamil Nadu (Varadharaja Perumal Temple, Kanchipuram)",
-        "image": "assets/018 Varadharaja Perumal Temple, Kanchipuram.jpg",
-        "tag": "UNESCO Tentative",
-        "cards": 2
-    },
-    {
         "name": "Ranganathaswamy Temple, Srirangapatna, Karnataka",
         "image": "assets/019 Ranganathaswamy Temple, Srirangapatna, Karnataka.jpg",
         "cards": 2,
@@ -190,11 +79,6 @@
         "name": "Elephant on the Road, Kerala",
         "image": "assets/034 Elephant on the Road, Kerala.jpg",
         "cards": 2
-    },
-    {
-        "name": "Elephant on the Road, Kerala",
-        "image": "assets/035 Elephant on the Road, Kerala.jpg",
-        "cards": 1
     },
     {
         "name": "Elephant on the Road, Kerala",
@@ -375,6 +259,117 @@
         "name": "Map of India",
         "image": "assets/068 Map of India.jpg",
         "cards": 1,
+        "orientation": "portrait"
+    },
+    {
+        "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Orchha City)",
+        "image": "assets/012 Orchha City.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 2
+    },
+    {
+        "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Chhatri, Orchha)",
+        "image": "assets/013 Chhatri Orchha.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 2
+    },
+    {
+        "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Cave Temple, Badami)",
+        "image": "assets/014 Cave Temple, Badami.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 2
+    },
+    {
+        "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Agastya Lake, Badami)",
+        "image": "assets/015 Agastya Lake, Badami.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 1
+    },
+    {
+        "name": "Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu",
+        "image": "assets/016 Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 2,
+        "orientation": "portrait"
+    },
+    {
+        "name": "Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu (Temple Pillars)",
+        "image": "assets/017 Temple Pillars, Srirangam, Tamil Nadu.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 1
+    },
+    {
+        "name": "Temples of Kanchipuram, Tamil Nadu (Varadharaja Perumal Temple, Kanchipuram)",
+        "image": "assets/018 Varadharaja Perumal Temple, Kanchipuram.jpg",
+        "tag": "UNESCO Tentative",
+        "cards": 2
+    },
+    {
+        "name": "Taj Mahal, Uttar Pradesh",
+        "image": "assets/001 Taj Mahal, Uttar Pradesh.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 2
+    },
+    {
+        "name": "Sacred Ensembles of the Hoysalas, Karnataka (Chennakeshava Temple, Somanathapura)",
+        "image": "assets/002 Chennakeshava Temple, Somanathapura.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 2
+    },
+    {
+        "name": "Sacred Ensembles of the Hoysalas, Karnataka",
+        "image": "assets/011 Sacred Ensembles of the Hoysalas.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1,
+        "orientation": "portrait"
+    },
+    {
+        "name": "Group of Monuments at Hampi, Karnataka (Virupaksha Temple, Hampi)",
+        "image": "assets/003 Virupaksha Temple, Hampi.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1
+    },
+    {
+        "name": "Group of Monuments at Hampi, Karnataka (Pushkarani or Water Tank, Hampi)",
+        "image": "assets/004 Pushkarani or Water Tank, Hampi.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1
+    },
+    {
+        "name": "Group of Monuments at Hampi, Karnataka",
+        "image": "assets/005 Group of Monuments at Hampi, Karnataka.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1
+    },
+    {
+        "name": "Group of Monuments at Mahabalipuram, Tamil Nadu (Shore Temple, Mahabalipuram)",
+        "image": "assets/006 Group of Monuments at Mahabalipuram, Tamil Nadu (Shore Temple, Mahabalipuram).jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1
+    },
+    {
+        "name": "Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur)",
+        "image": "assets/007 Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur).jpg",
+        "tag": "UNESCO WHS",
+        "cards": 2
+    },
+    {
+        "name": "Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur)",
+        "image": "assets/008 Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur).jpg",
+        "tag": "UNESCO WHS",
+        "cards": 1
+    },
+    {
+        "name": "Great Living Chola Temples, Tamil Nadu (Gangaikonda Cholapuram)",
+        "image": "assets/009 Great Living Chola Temples, Tamil Nadu (Gangaikonda Cholapuram).jpg",
+        "tag": "UNESCO WHS",
+        "cards": 2
+    },
+    {
+        "name": "Jaipur City, Rajasthan",
+        "image": "assets/010 Jaipur City, Rajasthan.jpg",
+        "tag": "UNESCO WHS",
+        "cards": 2,
         "orientation": "portrait"
     }
 ]

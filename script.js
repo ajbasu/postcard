@@ -54,12 +54,15 @@ fetch("postcards.json")
             imgContainer.appendChild(img);
 
             // Add tag in gallery (if available)
+            const tagDiv = document.createElement("div");
+            tagDiv.classList.add("tag");
             if (postcard.tag) {
-                const tagDiv = document.createElement("div");
-                tagDiv.classList.add("tag");
-                tagDiv.textContent = postcard.tag;
-                imgContainer.appendChild(tagDiv);
+                tagDiv.textContent = postcard.tag + " | " + postcard.cards + "×";
             }
+            else {
+                tagDiv.textContent = postcard.cards + "×";
+            }
+            imgContainer.appendChild(tagDiv);
 
             const caption = document.createElement("figcaption");
             caption.textContent = postcard.name;
