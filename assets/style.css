@@ -260,3 +260,47 @@ html {
     width: 95vw;
     height: 90vh;
 }
+
+/* Hide Menu Button on Desktop */
+#fotw-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Responsive: Mobile View */
+@media (max-width: 768px) {
+    #fotw-header {
+        padding: 10px;
+    }
+
+    /* Hide Navigation by Default */
+    .fotw-header-right nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .fotw-header-right nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Show Hamburger Menu Button */
+    #fotw-menu-toggle {
+        display: block;
+    }
+
+    /* Show Menu When Active */
+    .fotw-header-right nav.active {
+        display: flex;
+    }
+}
