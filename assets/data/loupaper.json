@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Received",
+        "data": [
+            {
+                "id": "US-AL",
+                "receivedon": "Will be added",
+                "name": "Alabama"
+            },
+            {
+                "id": "US-AK",
+                "receivedon": "Will be added",
+                "name": "Alaska"
+            },
+            {
+                "id": "US-AZ",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-AR",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-CA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-CO",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-CT",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-FL",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-GA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-HI",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-ID",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-IL",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-IN",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-IA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-KY",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-LA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-ME",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MD",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MI",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MN",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MS",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MO",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-MT",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NE",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NV",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NJ",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NY",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-OK",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-OH",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-OR",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-PA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-RI",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-SC",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-SD",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-TN",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-TX",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-UT",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-VA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-WA",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-WV",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-WI",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-WY",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-KS",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NH",
+                "receivedon": "Will be added"
+            }
+        ]
+    },
+    {
+        "name": "Travelling",
+        "data": [
+            {
+                "id": "US-DE",
+                "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NM",
+                "receivedon": "Will be added"
+            }
+        ]
+    },
+    {
+        "name": "Yet to Release",
+        "data": [
+            {
+                "id": "US-ND",
+                "receivedon": "Yet to Release"
+            },
+            {
+                "id": "US-VT",
+                "receivedon": "Yet to Release"
+            }
+        ]
+    }
+]

@@ -12,7 +12,7 @@ const nsTags = nsParamRaw ? nsParamRaw.split(',').map(tag => tag.trim().toLowerC
 const shParamRaw = urlParams.get('sh');
 const shTags = shParamRaw ? shParamRaw.split(',').map(tag => tag.trim().toLowerCase()) : [];
 
-fetch("postcards.json")
+fetch("assets/data/postcards.json")
     .then(response => response.json())
     .then(data => {
         // Filtering logic:

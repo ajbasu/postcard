@@ -1,284 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>FOTW Colllection Tracking - @redteapost</title>
-</head>
-
-<body>
-    <!-- Styles -->
-    <style>
-        #chartdiv {
-            width: 95vw;
-            height: 95vh;
-        }
-
-        #link {
-            right: 10px;
-            bottom: 10px;
-            z-index: 20;
-            position: absolute;
-            font-size: small;
-        }
-
-    </style>
-
-    <!-- Resources -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOTW Collection - redteapost</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-    <!-- <script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script> -->
     <script src="https://cdn.amcharts.com/lib/5/geodata/worldHigh.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
-    <!-- Chart code -->
+    <!-- Set the page-specific title for the header -->
     <script>
-        am5.ready(function () {
-
-            // Data
-            var groupData = [
-                {
-                    "name": "Received",
-                    "data": [
-						{ "id": "AU", "receivedon": "11-02-2022" },
-                        { "id": "AD", "receivedon": "16-03-2022" },
-                        { "id": "AE", "receivedon": "08-05-2022" },
-                        { "id": "AL", "receivedon": "02-11-2022" },
-                        { "id": "AT", "receivedon": "31-08-2022" },
-                        { "id": "AX", "receivedon": "17-09-2022" },
-                        { "id": "BA", "receivedon": "16-02-2023" },
-                        { "id": "BE", "receivedon": "22-12-2021" },
-                        { "id": "BH", "receivedon": "07-02-2022" },
-                        { "id": "BN", "receivedon": "01-12-2022" },
-                        { "id": "BQ", "receivedon": "24-02-2022" },
-                        { "id": "BR", "receivedon": "10-03-2022" },
-                        { "id": "CA", "receivedon": "31-01-2022" },
-                        { "id": "CL", "receivedon": "08-05-2022" },
-                        { "id": "CN", "receivedon": "16-02-2022" },
-                        { "id": "CX", "receivedon": "08-05-2022" },
-                        { "id": "CZ", "receivedon": "11-02-2022" },
-                        { "id": "DE", "receivedon": "17-06-2022" },
-                        { "id": "DK", "receivedon": "01-12-2022" },
-                        { "id": "EE", "receivedon": "03-02-2022" },
-                        { "id": "ES", "receivedon": "03-01-2022" },
-                        { "id": "FI", "receivedon": "22-01-2022" },
-                        { "id": "FR", "receivedon": "03-02-2022" },
-                        { "id": "GB", "receivedon": "12-01-2022" },
-                        { "id": "GH", "receivedon": "02-03-2023" },
-                        { "id": "GR", "receivedon": "03-08-2022" },
-                        { "id": "HK", "receivedon": "16-03-2022" },
-                        { "id": "HR", "receivedon": "11-02-2022" },
-                        { "id": "HU", "receivedon": "19-10-2022" },
-                        { "id": "ID", "receivedon": "01-07-2022" },
-                        { "id": "IE", "receivedon": "03-12-2021" },
-                        { "id": "IL", "receivedon": "10-03-2022" },
-                        { "id": "IT", "receivedon": "03-01-2022" },
-                        { "id": "JP", "receivedon": "03-08-2022" },
-                        { "id": "KH", "receivedon": "01-12-2022" },
-                        { "id": "KR", "receivedon": "11-02-2023" },
-                        { "id": "LA", "receivedon": "13-01-2023" },
-                        { "id": "LB", "receivedon": "11-03-2022" },
-                        { "id": "LI", "receivedon": "07-07-2022" },
-                        { "id": "LK", "receivedon": "21-03-2022" },
-                        { "id": "LV", "receivedon": "03-01-2022" },
-                        { "id": "MC", "receivedon": "08-05-2022" },
-                        { "id": "MO", "receivedon": "03-08-2022" },
-                        { "id": "MX", "receivedon": "22-01-2022" },
-                        { "id": "MY", "receivedon": "22-01-2022" },
-                        { "id": "NL", "receivedon": "03-01-2022" },
-                        { "id": "NO", "receivedon": "22-08-2022" },
-                        { "id": "NZ", "receivedon": "04-10-2022" },
-                        { "id": "PH", "receivedon": "26-11-2022" },
-                        { "id": "PL", "receivedon": "22-12-2021" },
-                        { "id": "PT", "receivedon": "31-01-2022" },
-                        { "id": "RO", "receivedon": "21-12-2022" },
-                        { "id": "RU", "receivedon": "03-02-2022" },
-                        { "id": "SE", "receivedon": "22-01-2022" },
-                        { "id": "SG", "receivedon": "01-07-2022" },
-                        { "id": "SK", "receivedon": "31-01-2022" },
-                        { "id": "SM", "receivedon": "09-06-2022" },
-                        { "id": "TH", "receivedon": "05-11-2022" },
-                        { "id": "TW", "receivedon": "22-01-2022" },
-                        { "id": "UA", "receivedon": "05-11-2022" },
-                        { "id": "US", "receivedon": "03-01-2022" },
-                        { "id": "VA", "receivedon": "14-10-2022" },
-			{ "id": "BD", "receivedon": "15-04-2023" },
-			{ "id": "IM", "receivedon": "25-04-2023" },
-			{ "id": "HT", "receivedon": "29-04-2023" },
-			{ "id": "IN", "receivedon": "16-05-2023" },
-			{ "id": "BG", "receivedon": "17-06-2023" },
-			{ "id": "CY", "receivedon": "30-06-2023" },
-			{ "id": "CH", "receivedon": "06-07-2023" },
-			{ "id": "SZ", "receivedon": "15-07-2023" },
-			{ "id": "LU", "receivedon": "19-07-2023" },
-			{ "id": "DZ", "receivedon": "02-08-2023" },
-			{ "id": "NF", "receivedon": "19-08-2023" },
-			{ "id": "VN", "receivedon": "02-09-2023" },
-			{ "id": "GI", "receivedon": "27-09-2023" },
-			{ "id": "KZ", "receivedon": "10-01-2024" },
-			{ "id": "PW", "receivedon": "15-02-2024" },
-			{ "id": "LT", "receivedon": "27-02-2024" },
-			{ "id": "BY", "receivedon": "29-05-2024" },
-			{ "id": "CR", "receivedon": "24-06-2024" },
-			{ "id": "MT", "receivedon": "24-06-2024" },
-			{ "id": "AO", "receivedon": "24-06-2024" },
-			{ "id": "TC", "receivedon": "03-08-2024" },
-			{ "id": "SI", "receivedon": "06-08-2024" }, // Slovenia
-			{ "id": "TR", "receivedon": "09-08-2024" }, // Turkey
-			{ "id": "GL", "receivedon": "16-10-2024" }, // Greenland
-			{ "id": "IS", "receivedon": "16-10-2024" }, // Iceland
-			{ "id": "SA", "receivedon": "26-11-2024" }, // Saudi Arabia
-			{ "id": "SN", "receivedon": "26-11-2024" }, // Senegal
-			{ "id": "GM", "receivedon": "14-12-2024" }, // Gambia
-			{ "id": "PE", "receivedon": "14-12-2024" }, // Peru
-			{ "id": "KE", "receivedon": "17-01-2025" }, // Kenya
-			{ "id": "TZ", "receivedon": "11-02-2025" }, // Tanzania
-			{ "id": "OM", "receivedon": "07-03-2025" }, // Oman
-			{ "id": "WS", "receivedon": "11-03-2025" }, // Samoa
-			{ "id": "JM", "receivedon": "13-03-2025" } // Jamaica
-                    ]
-                } 
-		    /*, {
-                    "name": "Failed",
-                    "data": [
-			{ "id": "CO", "receivedon": "17-05-2023" },
-			{ "id": "EC", "receivedon": "17-05-2023" },
-			{ "id": "PA", "receivedon": "17-05-2023" },
-			{ "id": "PY", "receivedon": "17-05-2023" }
-                    ]
-                }, {
-                    "name": "Arranged",
-                    "data": [
-                    ]
-                }, {
-                    "name": "Travelling for too long",
-                    "data": [
-			    { "id": "AR", "receivedon": "2023" }, // Argentina
-			    { "id": "AM", "receivedon": "2023" }, // Armenia
-			    { "id": "CV", "receivedon": "2023" }, // Cape Verde
-			    { "id": "FK", "receivedon": "2023" }, // Falkland Islands
-			    { "id": "GE", "receivedon": "2023" }, // Georgia
-			    { "id": "GG", "receivedon": "2023" }, // Guernsey
-			    { "id": "XK", "receivedon": "2023" }, // Kosovo
-			    { "id": "MV", "receivedon": "2023" }, // Maldives
-			    { "id": "MD", "receivedon": "2023" }, // Moldova
-			    { "id": "ME", "receivedon": "2023" }, // Montenegro
-			    { "id": "MA", "receivedon": "2023" }, // Morocco
-			    { "id": "MK", "receivedon": "2023" }, // North Macedonia
-			    { "id": "RS", "receivedon": "2023" }, // Serbia
-			    { "id": "ZA", "receivedon": "2023" }, // South Africa
-			    { "id": "ST", "receivedon": "2023" }, // São Tomé and Príncipe
-			    { "id": "VI", "receivedon": "2023" }, // US Virgin Islands
-			    { "id": "UZ", "receivedon": "2023" }  // Uzbekistan
-			]
-                }*/
-            ];
-
-
-            // Create root and chart
-            var root = am5.Root.new("chartdiv");
-
-
-            // Set themes
-            root.setThemes([
-                am5themes_Animated.new(root)
-            ]);
-
-
-            // Create chart
-            var chart = root.container.children.push(am5map.MapChart.new(root, {
-                // homeZoomLevel: 3.5,
-                // homeGeoPoint: { longitude: 10, latitude: 52 }
-            }));
-
-
-            // Create world polygon series
-            var worldSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                geoJSON: am5geodata_worldHigh,
-                exclude: ["AQ"]
-            }));
-
-            worldSeries.mapPolygons.template.setAll({
-                fill: am5.color(0xaaaaaa),
-                tooltipText: "{name}"
-            });
-
-            worldSeries.events.on("datavalidated", () => {
-                chart.goHome();
-            });
-
-
-            // Add legend
-            var legend = chart.children.push(am5.Legend.new(root, {
-                useDefaultMarker: true,
-                centerX: am5.p50,
-                x: am5.p50,
-                centerY: am5.p100,
-                y: am5.p100,
-                dy: -20,
-                background: am5.RoundedRectangle.new(root, {
-                    fill: am5.color(0xffffff),
-                    fillOpacity: 0.2
-                })
-            }));
-
-            legend.valueLabels.template.set("forceHidden", true)
-
-
-            // Create series for each group
-            var colors = am5.ColorSet.new(root, {
-                step: 2
-            });
-            colors.next();
-
-            am5.array.each(groupData, function (group) {
-                var countries = [];
-                var color = colors.next();
-
-                am5.array.each(group.data, function (country) {
-                    countries.push(country.id)
-                });
-
-                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                    geoJSON: am5geodata_worldHigh,
-                    include: countries,
-                    name: group.name,
-                    fill: color
-                }));
-
-
-                // polygonSeries.mapPolygons.template.setAll({
-                //     tooltipText: "[bold]{name}[/]" + { receivedon } ? "\nMember since {receivedon}" : "",
-                //     interactive: true,
-                //     fill: color,
-                //     strokeWidth: .5
-                // });
-
-                // polygonSeries.mapPolygons.template.states.create("hover", {
-                //     fill: am5.Color.brighten(color, -0.3)
-                // });
-
-                // polygonSeries.mapPolygons.template.events.on("pointerover", function (ev) {
-                //     ev.target.series.mapPolygons.each(function (polygon) {
-                //         polygon.states.applyAnimate("hover");
-                //     });
-                // });
-
-                // polygonSeries.mapPolygons.template.events.on("pointerout", function (ev) {
-                //     ev.target.series.mapPolygons.each(function (polygon) {
-                //         polygon.states.applyAnimate("default");
-                //     });
-                // });
-                polygonSeries.data.setAll(group.data);
-
-                legend.data.push(polygonSeries);
-            });
-
-        }); // end am5.ready()
+        window.pageTitle = "FOTW Collection";
     </script>
+</head>
 
-    <!-- HTML -->
-    <div id="chartdiv"></div>
-    <div id="link"><a href="/postcard/loupaper.html">LouPaper</a></div>
+<body>
+    <!-- Header placeholder -->
+    <div id="header-container"></div>
+
+    <div id="fotw-container">
+        <div id="fotw-sheet-container">
+            <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTx8MVqTEWSNRM3bgajPtxJD3pjnLmtTSS5ReTiZPVpspqhIRnmJeHqejr_xYaP5FcP1I4jGFGPqrEH/pubhtml?gid=1393900579&amp;single=false&amp;widget=false&amp;headers=false">
+            </iframe>
+        </div>
+        <div id="fotw-chartdiv"></div>
+    </div>
+
+    <script src="scripts/loadHeader.js"></script>
+    <script src="scripts/fotw.js"></script>
 </body>
 
 </html>

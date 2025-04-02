@@ -1,194 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>LouPaper Colllection Tracking - @redteapost</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LouPaper Collection - redteapost</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script>
+        window.pageTitle = "LouPaper Collection";
+    </script>
 </head>
 
 <body>
-    <!-- Styles -->
-    <style>
-        #chartdiv {
-            width: 95vw;
-            height: 95vh;
-        }
 
-        #link {
-            right: 10px;
-            bottom: 10px;
-            z-index: 20;
-            position: absolute;
-            font-size: small;
-        }
-    </style>
+    <!-- Header -->
+    <div id="header-container"></div>
 
-    <!-- Resources -->
+    <!-- Chart Container -->
+    <div id="lou-chartdiv"></div>
+
     <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
     <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
 
-    <!-- Chart code -->
-    <script>
-        am5.ready(function () {
+    <script src="scripts/loupaper.js"></script>
+    <script src="scripts/loadHeader.js"></script>
 
-            // Data
-            var groupData = [
-                {
-                    "name": "Received",
-                    "data": [
-                        { "id": "US-AL", "receivedon": "Will be added" }, // Alabama
-                        { "id": "US-AK", "receivedon": "Will be added" }, // Alaska
-                        { "id": "US-AZ", "receivedon": "Will be added" }, // Arizona
-                        { "id": "US-AR", "receivedon": "Will be added" }, // Arkansas
-                        { "id": "US-CA", "receivedon": "Will be added" }, // California
-                        { "id": "US-CO", "receivedon": "Will be added" }, // Colorado
-                        { "id": "US-CT", "receivedon": "Will be added" }, // Connecticut
-                        { "id": "US-FL", "receivedon": "Will be added" }, // Florida
-                        { "id": "US-GA", "receivedon": "Will be added" }, // Georgia
-                        { "id": "US-HI", "receivedon": "Will be added" }, // Hawaii
-                        { "id": "US-ID", "receivedon": "Will be added" }, // Idaho
-                        { "id": "US-IL", "receivedon": "Will be added" }, // Illinois
-                        { "id": "US-IN", "receivedon": "Will be added" }, // Indiana
-                        { "id": "US-IA", "receivedon": "Will be added" }, // Iowa
-                        { "id": "US-KY", "receivedon": "Will be added" }, // Kentucky
-                        { "id": "US-LA", "receivedon": "Will be added" }, // Louisiana
-                        { "id": "US-ME", "receivedon": "Will be added" }, // Maine
-                        { "id": "US-MD", "receivedon": "Will be added" }, // Maryland
-                        { "id": "US-MA", "receivedon": "Will be added" }, // Massachusetts
-                        { "id": "US-MI", "receivedon": "Will be added" }, // Michigan
-                        { "id": "US-MN", "receivedon": "Will be added" }, // Minnesota
-                        { "id": "US-MS", "receivedon": "Will be added" }, // Mississippi
-                        { "id": "US-MO", "receivedon": "Will be added" }, // Missouri
-                        { "id": "US-MT", "receivedon": "Will be added" }, // Montana
-                        { "id": "US-NE", "receivedon": "Will be added" }, // Nebraska
-                        { "id": "US-NV", "receivedon": "Will be added" }, // Nevada
-                        { "id": "US-NJ", "receivedon": "Will be added" }, // New Jersey
-                        { "id": "US-NY", "receivedon": "Will be added" }, // New York
-                        { "id": "US-OK", "receivedon": "Will be added" }, // Oklahoma
-                        { "id": "US-OH", "receivedon": "Will be added" }, // Ohio
-                        { "id": "US-OR", "receivedon": "Will be added" }, // Oregon
-                        { "id": "US-PA", "receivedon": "Will be added" }, // Pennsylvania
-                        { "id": "US-RI", "receivedon": "Will be added" }, // Rhode Island
-                        { "id": "US-SC", "receivedon": "Will be added" }, // South Carolina
-                        { "id": "US-SD", "receivedon": "Will be added" }, // South Dakota
-                        { "id": "US-TN", "receivedon": "Will be added" }, // Tennessee
-                        { "id": "US-TX", "receivedon": "Will be added" }, // Texas
-                        { "id": "US-UT", "receivedon": "Will be added" }, // Utah
-                        { "id": "US-VA", "receivedon": "Will be added" }, // Virginia
-                        { "id": "US-WA", "receivedon": "Will be added" }, // Washington
-                        { "id": "US-WV", "receivedon": "Will be added" }, // West Virginia
-                        { "id": "US-WI", "receivedon": "Will be added" }, // Wisconsin
-                        { "id": "US-WY", "receivedon": "Will be added" }, // Wyoming
-                        { "id": "US-KS", "receivedon": "Will be added" }, // Kansas
-                        { "id": "US-NH", "receivedon": "Will be added" }, // New Hampshire 
-                    ]
-                }, {
-                    "name": "Travelling",
-                    "data": [
-
-                    ]
-                }, {
-                    "name": "Yet to Release",
-                    "data": [
-                        { "id": "US-ND", "receivedon": "Yet to Release" },
-                        { "id": "US-VT", "receivedon": "Yet to Release" },
-                    ]
-                },
-                // }, {
-                //     "name": "From tag/offer",
-                //     "data": [
-
-                //     ]
-                // }
-            ];
-
-
-            // Create root and chart
-            var root = am5.Root.new("chartdiv");
-
-
-            // Set themes
-            root.setThemes([
-                am5themes_Animated.new(root)
-            ]);
-
-
-            // Create chart
-            var chart = root.container.children.push(am5map.MapChart.new(root, {
-                panX: "rotateX",
-                panY: "none",
-                projection: am5map.geoAlbersUsa(),
-                layout: root.horizontalLayout
-            }));
-
-
-            // Create world polygon series
-            var worldSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                geoJSON: am5geodata_usaLow,
-                valueField: "value",
-                calculateAggregates: true
-            }));
-
-            worldSeries.mapPolygons.template.setAll({
-                fill: am5.color(0xaaaaaa),
-                tooltipText: "{name}"
-            });
-
-            worldSeries.events.on("datavalidated", () => {
-                chart.goHome();
-            });
-
-
-            // Add legend
-            var legend = chart.children.push(am5.Legend.new(root, {
-                useDefaultMarker: true,
-                centerX: am5.p50,
-                x: am5.p50,
-                centerY: am5.p100,
-                y: am5.p100,
-                dy: -20,
-                background: am5.RoundedRectangle.new(root, {
-                    fill: am5.color(0xffffff),
-                    fillOpacity: 0.2
-                })
-            }));
-
-            legend.valueLabels.template.set("forceHidden", true)
-
-
-            // Create series for each group
-            var colors = am5.ColorSet.new(root, {
-                step: 2
-            });
-            colors.next();
-
-            am5.array.each(groupData, function (group) {
-                var countries = [];
-                var color = group.name == 'Yet to Release' ? am5.color(0xd3d3d9) : colors.next();;
-
-                am5.array.each(group.data, function (country) {
-                    countries.push(country.id)
-                });
-
-                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                    geoJSON: am5geodata_usaLow,
-                    include: countries,
-                    name: group.name,
-                    fill: color,
-                }));
-
-                polygonSeries.data.setAll(group.data);
-
-                legend.data.push(polygonSeries);
-            });
-
-        }); // end am5.ready()
-    </script>
-
-    <!-- HTML -->
-    <div id="chartdiv"></div>
-    <div id="link"><a href="/postcard/">FOTW</a></div>
 </body>
 
 </html>
