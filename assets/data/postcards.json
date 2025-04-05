@@ -73,7 +73,9 @@
     {
         "name": "Atul Shakti Cargo, Kutch, Gujarat",
         "image": "assets/images/033 Atul Shakti Cargo, Kutch, Gujarat.jpg",
-        "cards": 2
+        "cards": 1,
+        "comment": "Taken by @MikaMinsk on PC Forum Tag",
+        "link": "https://community.postcrossing.com/t/i-m-offering-you-can-choose-tag-2-part-2/864696/2320"
     },
     {
         "name": "Elephant on the Road, Kerala",
@@ -133,8 +135,10 @@
     {
         "name": "Camel and the Owner, Rajasthan",
         "image": "assets/images/044 Camel and the Owner, Rajasthan.jpg",
-        "cards": 2,
-        "orientation": "portrait"
+        "cards": 1,
+        "orientation": "portrait",
+        "comment": "Taken by @Stella_marina007 on PC Forum Tag",
+        "link": "https://community.postcrossing.com/t/i-m-offering-you-can-choose-tag-1-offer-tag-reverse-tag-part-2/864702/2504"
     },
     {
         "name": "Market Place, Goa",

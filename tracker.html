@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Collection Tracker - redteapost</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/tracker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script>
+        window.pageTitle = "Collection Tracker";
+    </script>
+</head>
+
+<body style="text-align: left;">
+    <div id="header-container"></div>
+    <div id="grid-container"></div>
+    <div id="list-container"></div>
+
+    <div id="imageModal" class="image-modal">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <p class="subtitle">Greyed out cards are missing.</p>
+        <div class="image-modal-content" id="modalImages"></div>
+    </div>
+
+    <div id="singleImageModal" class="single-image-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="image-container">
+                <div class="tag" id="singleImageTag"></div>
+                <img id="singleImage" src="" alt="" />
+                <div class="name" id="singleImageName"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="legend-container">
+        <div id="legend-wrapper">
+            <div id="legend-tab">
+                <i id="legend-arrow" class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div id="legend-box">
+                <div class="legend-item">
+                    <span class="dot green"></span> Received
+                </div>
+                <div class="legend-item">
+                    <span class="dot red"></span> Arranged
+                </div>
+                <div class="legend-item">
+                    <span class="strikethrough">St</span> Received
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/tracker.js"></script>
+    <script src="scripts/loadHeader.js"></script>
+</body>
+
+</html>

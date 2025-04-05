@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error("Error loading header:", error));
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-    const menuToggle = document.getElementById("fotw-menu-toggle");
-    const navMenu = document.querySelector(".fotw-header-right nav");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const menuToggle = document.getElementById("fotw-menu-toggle");
+//     const navMenu = document.querySelector(".fotw-header-right nav");
 
-    menuToggle.addEventListener("click", function () {
-        navMenu.classList.toggle("active");
-    });
-});
+//     menuToggle.addEventListener("click", function () {
+//         navMenu.classList.toggle("active");
+//     });
+// });
