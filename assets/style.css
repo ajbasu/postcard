@@ -304,3 +304,10 @@ html {
         display: flex;
     }
 }
+
+.view-counter {
+    position: absolute;
+    left: 31px;
+    top: 21px;
+    opacity: 0;
+}
