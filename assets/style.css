@@ -3,9 +3,8 @@
 
 body {
     font-family: "Poppins", sans-serif !important;
-    margin: 20px;
+    margin: 0;
     background-color: #f9f9f9;
-    text-align: center;
 }
 
 h1 {
@@ -198,18 +197,10 @@ figcaption {
     color: #F7F7F7;
 }
 
-/* Page Layout Styles */
-body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
 
 #fotw-container {
     display: flex;
     height: calc(100vh - 80px);
-    /* Adjust height to account for header */
 }
 
 /* Desktop / Tablet View */

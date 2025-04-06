@@ -197,6 +197,37 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
         });
+    fetch("assets/data/countrywise.csv")
+        .then(response => response.text())
+        .then(csv => {
+            const lines = csv.trim().split("\n");
+            const countries = lines.map(line => {
+                const [country, code, ...series] = line.split(",");
+                return {
+                    country: country.trim(),
+                    code: code.trim().toLowerCase(), // ISO code in lowercase for flag URL
+                    series: series.map(s => s.trim()).filter(Boolean).sort()
+                };
+            });
+
+            // Sort countries alphabetically
+            countries.sort((a, b) => a.country.localeCompare(b.country));
+
+            const trackerContainer = document.getElementById("country-tracker");
+
+            countries.forEach(({ country, code, series }) => {
+                const div = document.createElement("div");
+                div.className = "country-entry";
+
+                let flagHTML = "";
+                if (code && code !== "-") {
+                    flagHTML = `<img class="country-flag" src="https://flagcdn.com/h20/${code}.png" alt="${country} flag">`;
+                }
+
+                div.innerHTML = `<strong>${country}</strong><br>${series.join(", ")} ${flagHTML}`;
+                trackerContainer.appendChild(div);
+            });
+        });
 });
 
 function showGallery(series) {
@@ -288,4 +319,13 @@ window.addEventListener("click", (e) => {
     }
 });
 
+document.getElementById("countrySearch").addEventListener("input", function () {
+    const query = this.value.toLowerCase().trim();
+    const entries = document.querySelectorAll("#country-tracker .country-entry");
+
+    entries.forEach(entry => {
+        const text = entry.textContent.toLowerCase();
+        entry.style.display = text.includes(query) ? "block" : "none";
+    });
+});
 

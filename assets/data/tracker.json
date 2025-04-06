@@ -1403,5 +1403,44 @@
                 "received": "yes"
             }
         ]
+    },
+    {
+        "series": "Nisan World Travel",
+        "link": "https://eu.zonerama.com/redteapost/Album/9198146",
+        "subgroups": [
+            {
+                "series": "Others",
+                "status": [
+                    {
+                        "name": "Christmas",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Year of the Tiger",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Year of the Rabbit",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Year of the Dragon",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Year of the Snake",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Zaporizhzhia",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "California",
+                        "received": "yes"
+                    }
+                ]
+            }
+        ]
     }
 ]

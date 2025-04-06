@@ -9,7 +9,7 @@ Welcome to my personal postcard collection and swap tracker!
 - 🖼️ View postcard images in a responsive grid with shadowbox
 - 📱 Fully mobile-friendly design
 - 🔍 Easily find missing cards
-- 📦 Built with HTML, CSS, and JavaScript — hosted on GitHub Pages
+- 📦 Built with HTML, CSS, and JavaScript - hosted on GitHub Pages
 
 ## 📌 Main Collections
 
@@ -45,5 +45,5 @@ To deploy your own version, simply fork this repo and enable GitHub Pages in you
 
 ---
 
-Thanks for visiting — and happy collecting!  
+Thanks for visiting - and happy collecting!  
 
