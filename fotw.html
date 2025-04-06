@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOTW Collection - redteapost</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/geodata/worldHigh.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+    <!-- Set the page-specific title for the header -->
+    <script>
+        window.pageTitle = "FOTW Collection";
+    </script>
+</head>
+
+<body>
+    <!-- Header placeholder -->
+    <div id="header-container"></div>
+
+    <div id="fotw-container">
+        <div id="fotw-sheet-container">
+            <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTx8MVqTEWSNRM3bgajPtxJD3pjnLmtTSS5ReTiZPVpspqhIRnmJeHqejr_xYaP5FcP1I4jGFGPqrEH/pubhtml?gid=1393900579&amp;single=false&amp;widget=false&amp;headers=false">
+            </iframe>
+        </div>
+        <div id="fotw-chartdiv"></div>
+    </div>
+
+    <script src="scripts/loadHeader.js"></script>
+    <script src="scripts/fotw.js"></script>
+</body>
+
+</html>
