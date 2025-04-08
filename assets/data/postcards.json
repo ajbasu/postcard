@@ -131,8 +131,10 @@
     {
         "name": "Cow",
         "image": "assets/images/043 Cow.jpg",
-        "cards": 1,
-        "orientation": "portrait"
+        "cards": 0,
+        "orientation": "portrait",
+        "comment": "Taken by @ellistrations on PC Forum Tag to sent to @CrimsonKing",
+        "link": "https://community.postcrossing.com/t/i-m-offering-you-can-choose-tag-2-part-2/864696/2368"
     },
     {
         "name": "Camel and the Owner, Rajasthan",
