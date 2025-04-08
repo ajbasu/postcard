@@ -860,7 +860,7 @@
             },
             {
                 "name": "Thailand",
-                "received": "arranged"
+                "received": "yes"
             },
             {
                 "name": "Turkey",
@@ -943,7 +943,7 @@
             {
                 "id": 22,
                 "name": "Cyprus",
-                "received": "no"
+                "received": "yes"
             },
             {
                 "id": 23,
@@ -1336,7 +1336,7 @@
                     },
                     {
                         "name": "Holiday Mail postcard.",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Breads Postcard.",
@@ -1344,11 +1344,11 @@
                     },
                     {
                         "name": "Donuts Postcard.",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Sushi Postcard.",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Old Fashioned Postcard. Classic cocktails.",
@@ -1372,7 +1372,7 @@
                     },
                     {
                         "name": "Meetup in Venice - 30 November 2024",
-                        "received": "no"
+                        "received": "arranged"
                     }
                 ]
             }

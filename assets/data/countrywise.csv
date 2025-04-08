@@ -18,7 +18,7 @@ Chile,CL,FOTW,GF
 China,CN,FOTW,Blue Cats WT,CCUN,WOW,Titina,Nisan WT
 Costa Rica,CR,FOTW
 Croatia,HR,FOTW
-Cyprus,CY,FOTW,Nisan WT
+Cyprus,CY,FOTW,Nisan WT,UiD
 Czech Republic,CZ,FOTW,Blue Cats WT,UiD
 Denmark,DK,FOTW,GF
 Estonia,EE,FOTW
@@ -37,7 +37,7 @@ Ireland,IE,FOTW,UiD,GF,Icons,Titina,Nisan WT
 Israel,IL,FOTW,Nisan WT
 Italy,IT,FOTW
 Jamaica,JM,FOTW
-Japan,JP,FOTW,Blue Cats WT,Nisan WT
+Japan,JP,FOTW,Blue Cats WT,Nisan WT,GF
 Kazakhstan,KZ,FOTW,WonderPost
 Kenya,KE,FOTW
 Laos,LA,FOTW
@@ -75,7 +75,7 @@ Sweden,SE,FOTW,LouPaper
 Switzerland,CH,FOTW,Blue Cats WT
 Taiwan,TW,FOTW,GF,Icons,Nisan WT
 Tanzania,TZ,FOTW
-Thailand,TH,FOTW,GF,WonderPost,Nisan WT
+Thailand,TH,FOTW,GF,WonderPost,Nisan WT,Blue Cats WT
 The Gambia,GM,FOTW
 Turkey,TR,FOTW,Blue Cats WT
 Ukraine,UA,FOTW,CCUN,Nisan WT
@@ -101,3 +101,4 @@ Turks and Caicos Islands,TC,FOTW
 Wales,GB-WLS,FOTW
 The Bahamas,BS,WonderPost
 North Korea,KP,Nisan WT
+Nepal,NP,FOTW
