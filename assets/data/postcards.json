@@ -381,7 +381,9 @@
         "name": "Jaipur City, Rajasthan",
         "image": "assets/images/010 Jaipur City, Rajasthan.jpg",
         "tag": "UNESCO WHS",
-        "cards": 2,
-        "orientation": "portrait"
+        "cards": 1,
+        "orientation": "portrait",
+        "comment":"Taken by @Bagheera on PC Forum Swap",
+        "link": "https://community.postcrossing.com/t/re-offer-unesco-world-heritage-sites-and-tentative-sites-from-india/1053703"
     }
 ]
