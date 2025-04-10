@@ -306,8 +306,6 @@ figcaption {
     justify-content: center;
     gap: 6rem;
     animation: fadeIn 1.5s ease-in-out;
-    height: 100vh;
-    width: 100vw;
 }
 
 .about-image {
