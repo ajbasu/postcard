@@ -197,8 +197,10 @@
     {
         "name": "Market Scene, Goa",
         "image": "assets/images/055 Market Scene, Goa.jpg",
-        "cards": 2,
-        "orientation": "portrait"
+        "cards": 1,
+        "orientation": "portrait",
+        "comment": "Taken by @conetoiles on PC Forum Swap",
+        "link": "https://community.postcrossing.com/t/re-offer-united-nations-cards-with-un-stamps/1055718"
     },
     {
         "name": "Flower Seller, Goa",
@@ -275,7 +277,9 @@
         "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Orchha City)",
         "image": "assets/images/012 Orchha City.jpg",
         "tag": "UNESCO Tentative",
-        "cards": 2
+        "cards": 1,
+        "comment": "Taken by @Xiaoi on PC Forum Swap",
+        "link": "https://community.postcrossing.com/t/re-offer-unesco-world-heritage-sites-and-tentative-sites-from-india/1054748"
     },
     {
         "name": "The Historic Ensemble of Orchha, Madhya Pradesh (Chhatri, Orchha)",
@@ -287,7 +291,9 @@
         "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Cave Temple, Badami)",
         "image": "assets/images/014 Cave Temple, Badami.jpg",
         "tag": "UNESCO Tentative",
-        "cards": 2
+        "cards": 1,
+        "comment": "Taken by @Beat on PC Forum Swap",
+        "link": "https://community.postcrossing.com/t/re-offer-unesco-world-heritage-sites-and-tentative-sites-from-india/1054090"
     },
     {
         "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Agastya Lake, Badami)",
@@ -362,7 +368,7 @@
         "image": "assets/images/007 Great Living Chola Temples, Tamil Nadu (Brihadisvara Temple, Thanjavur).jpg",
         "tag": "UNESCO WHS",
         "cards": 1,
-        "comment":"Taken by @aletterbox on PC Forum Swap",
+        "comment": "Taken by @aletterbox on PC Forum Swap",
         "link": "https://community.postcrossing.com/t/re-offer-unesco-world-heritage-sites-and-tentative-sites-from-india/1054093"
     },
     {
@@ -383,7 +389,7 @@
         "tag": "UNESCO WHS",
         "cards": 1,
         "orientation": "portrait",
-        "comment":"Taken by @Bagheera on PC Forum Swap",
+        "comment": "Taken by @Bagheera on PC Forum Swap",
         "link": "https://community.postcrossing.com/t/re-offer-unesco-world-heritage-sites-and-tentative-sites-from-india/1053703"
     }
 ]

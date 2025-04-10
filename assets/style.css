@@ -42,9 +42,9 @@ figure {
 .img-container {
     width: 100%;
     height: 200px;
-    /* fixed height for both modes */
     overflow: hidden;
     position: relative;
+    border: 1px solid #aaa;
 }
 
 .img-container img {
@@ -442,4 +442,48 @@ figcaption {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.img-container.more-offers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+    min-height: 200px;
+    text-align: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: background-size 0.3s ease;
+    background-image: url("images/018 Varadharaja Perumal Temple, Kanchipuram.jpg");
+    background-position: 60% 29%;
+    background-repeat: no-repeat;
+    background-size: 500%;
+}
+
+.img-container.more-offers:hover {
+    background-size: 550%;
+}
+
+.more-text {
+    position: relative;
+    z-index: 2;
+}
+
+.more-text a {
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.more-text a:hover {
+    color: #D3364D;
+}
+
+.img-container.more-offers::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
 }

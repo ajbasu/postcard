@@ -71,6 +71,23 @@ fetch("assets/data/postcards.json")
             figure.appendChild(caption);
             container.appendChild(figure);
         });
+
+        if (!shTags || shTags.length === 0) {
+            const figure = document.createElement("figure");
+            figure.classList.add("portrait");
+
+            const imgContainer = document.createElement("div");
+            imgContainer.classList.add("img-container", "more-offers");
+
+            const moreDiv = document.createElement("div");
+            moreDiv.classList.add("more-text");
+            moreDiv.innerHTML = `<a href="https://eu.zonerama.com/redteapost/Album/7985055" target="_blank"
+                    rel="noopener">Click Here for more Offers in Zonerama Album <i class="fas fa-link"></i></a>`;
+            imgContainer.appendChild(moreDiv);
+
+            figure.appendChild(imgContainer);
+            container.appendChild(figure);
+        }
     })
     .catch(error => console.error("Error loading postcards:", error));
 
