@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-size: 13px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--boga-kalar);
+    color: var(--kola-kalar);
 }
 
 #grid-container,
@@ -20,8 +20,8 @@ body {
 
 .series-card {
     flex: 0 0 260px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 1px solid var(--border-kalar);
     border-radius: 6px;
     padding: 1rem;
     height: fit-content;
@@ -40,12 +40,12 @@ body {
 
 .series-card h2 i {
     margin-left: 0.4rem;
-    color: #666;
+    color: var(--strikethrough-kalar);
     transition: color 0.2s ease-in-out;
 }
 
 .series-card h2 i:hover {
-    color: #007bff;
+    color: var(--raja-kalar);
 }
 
 .series-card ol {
@@ -60,12 +60,12 @@ body {
 
 .series-card li.strikethrough {
     text-decoration: line-through;
-    color: #888;
+    color: var(--strikethrough-kalar);
 }
 
 .grid-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 1px solid var(--border-kalar);
     border-radius: 6px;
     padding: 1rem;
     height: fit-content;
@@ -86,24 +86,24 @@ body {
 .grid-cell {
     padding: 0.4rem;
     text-align: center;
-    border: 1px solid #ccc;
-    background-color: #fff;
+    border: 1px solid var(--border-kalar);
+    background-color: white;
     border-radius: 4px;
     font-weight: 500;
 }
 
 .grid-cell.received {
-    background-color: #d3edbb;
-    color: #000;
+    background-color: var(--received-kalar);
+    color: black;
 }
 
 .grid-cell.arranged {
-    background-color: #ffe6a1;
-    color: #000;
+    background-color: var(--arranged-kalar);
+    color: black;
 }
 
 .grid-cell:hover {
-    border-color: #D3364D;
+    border-color: var(--raja-kalar);
 }
 
 .image-modal {
@@ -198,7 +198,7 @@ body {
 .counter {
     margin-top: 1rem;
     font-size: 0.85rem;
-    color: #555;
+    color: grey;
     font-weight: 500;
     text-align: right;
 }
@@ -218,7 +218,7 @@ body {
 }
 
 #legend-tab {
-    background-color: #D3364D;
+    background-color: var(--raja-kalar);
     color: white;
     padding: 0.4rem 0.6rem;
     border-radius: 6px 0 0 6px;
@@ -251,7 +251,7 @@ body {
     border-radius: 50%;
     display: inline-block;
     margin-right: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-kalar);
     vertical-align: middle;
 }
 
@@ -261,16 +261,16 @@ body {
 }
 
 .green {
-    background-color: #d3edbb;
+    background-color: var(--received-kalar);
 }
 
 .red {
-    background-color: #ffe6a1;
+    background-color: var(--arranged-kalar);
 }
 
 #legend-box .strikethrough {
     text-decoration: line-through;
-    color: #888;
+    color: var(--strikethrough-kalar);
     padding-right: 8px;
 }
 
@@ -333,8 +333,8 @@ body {
 }
 
 .country-tracker-container {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 1px solid var(--dhek-kalar);
     border-radius: 6px;
     padding: 1rem;
     margin: 1rem;
@@ -373,7 +373,7 @@ body {
     box-sizing: border-box;
     padding: 0.5rem 2.5rem 0.5rem 1rem;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-kalar);
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -387,14 +387,14 @@ body {
     right: 1rem;
     top: 50%;
     transform: translateY(-50%);
-    color: #888;
+    color: var(--strikethrough-kalar);
     pointer-events: none;
 }
 
 .country-entry {
     position: relative;
-    background-color: #f9f9f9;
-    border-left: 2px solid #D3364D;
+    background-color: var(--boga-kalar);
+    border-left: 2px solid var(--raja-kalar);
     padding: 0.75rem 1rem;
     border-radius: 6px;
     margin-bottom: 1rem;
@@ -414,7 +414,7 @@ body {
 }
 
 .country-entry strong {
-    color: #333;
+    color: var(--kola-kalar);
     font-weight: 600;
 }
 

@@ -8,25 +8,18 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            width: 100%;
-            box-sizing: border-box;
-            /* overflow-x: hidden; */
-        }
-    </style>
 </head>
 
-<body>
+<body id="about-page">
+    <div class="language-toggle-wrapper">
+        <span class="lang-label">English</span>
+        <label class="language-toggle-switch">
+            <input type="checkbox" id="langToggle">
+            <span class="slider"></span>
+        </label>
+        <span class="lang-label as-text">অসমীয়া</span>
+    </div>
+
     <div class="about-container">
         <div class="profile-image-wrapper">
             <img src="assets/images/profile.jpg" alt="RedTeaPost's photo" class="about-image" />
@@ -34,12 +27,11 @@
                 <img src="assets/images/redteapost.png" alt="Logo" />
             </div>
         </div>
-        <div class="about-text">
-            <h1><span title="Hello in Bodo language">Khulumbai</span>!&nbsp;I'm&nbsp;Amlān,</h1>
+        <div class="about-text" id="about-en">
+            <h1 class="intro-text-en"><span title="Hello in Bodo language">Khulumbai</span>!&nbsp;I'm&nbsp;Amlān,</h1>
             <p>or as the postcard community knows me - <strong>RedTeaPost</strong>! 👋 </p>
-            <p>Based in
-                <strong>Bangalore</strong>, where I spend my days working as a software engineer and my nights admiring
-                postcards and stamps.
+            <p>Based in <strong>Bangalore</strong>, where I spend my days working as a software engineer and my nights
+                admiring postcards and stamps.
             </p>
             <p>I’ve created this website to <strong>organize and track my postcard collection and swaps</strong>,
                 because spreadsheets just weren’t cutting it anymore. 😅</p>
@@ -76,7 +68,62 @@
                 </p>
             </div>
         </div>
+        <div class="about-text as-text" id="about-as">
+            <h1 class="intro-text-as"><span title="বড়ো ভাষাত নমস্কাৰ">খুলুম্বাই</span>!&nbsp;মই&nbsp;অম্লান,</h1>
+            <p>প’ষ্টকাৰ্ডৰ জগতত মই <strong>ৰেড টি প’ষ্ট</strong> নামেৰে পৰিচিত! 👋 </p>
+            <p>মই কৰ্ণাটক ৰাজ্যৰ <strong>বেংগালুৰু</strong> চহৰত ছ’ফ্টৱেৰ অভিযন্তা হিচাবে কৰ্মৰত। বিশ্বৰ বিভিন্ন দেশৰ
+                পৰা প’ষ্টকাৰ্ড আৰু ডাকটিকট সংগ্ৰহ কৰাটো মোৰ অভিৰুচি। </p>
+            <p>এই ৱেবছাইটটো মই মোৰ <strong>প’ষ্টকাৰ্ড সংগ্ৰহসমূহ</strong> শৃংখলাবদ্ধভাবে সংগঠিত কৰিবলৈ সৃষ্টি কৰিছো,
+                যাতে মই সকলো তথ্য একে ঠাইতে ৰাখিব পাৰো। 😅</p>
+            <p>মই <a href="https://community.postcrossing.com" target="_blank" rel="noopener">প’ষ্টক্ৰছিং ফ’ৰামত</a> অতি
+                সক্ৰিয়, য’ত মই সমগ্ৰ বিশ্বৰ প’ষ্টক্ৰছাৰ সকলৰ লগত প’ষ্টকাৰ্ড বিনিময় কৰি ভাল পাওঁ। 🌍</p>
+            <p><strong>বিশ্বৰ পতাকাৰ শৃংখলা</strong> (এফ অ’ টি ডাব্লিউ: ফ্লেগছ অফ দা ৱৰ্ল্ড) মোৰ মূল সংগ্ৰহৰ বিষয়, যদিও
+                মই আন বহু বিষয় সংগ্ৰহ:</p>
+            <ul>
+                <li>লুপেপাৰ</li>
+                <li>নিচান ডাব্লিউ টি (বিশ্ব ভ্ৰমণ)</li>
+                <li>ইংগে লুক আন্টিজ </li>
+                <li>টাবিনেক’</li>
+                <li>ব্লু কেটছ ডব্লিউ টি আৰু অন্যান্য ব্লু কেটছ</li>
+                <li>বৈচিত্ৰ্যত ঐক্য (ইউনাইটেড ইন ডাইভাৰচিটি)</li>
+                <li>ল’কা মেডৰ ল’কাপিডিয়া </li>
+                <li>...আৰু বহুত কিবাকিবি!</li>
+            </ul>
+            <p>যদি আপুনি মোৰ সৈতে প’ষ্টকাৰ্ড বিনিময় কৰিব বিচাৰে তেন্তে <strong>মোৰ সৈতে যোগাযোগ কৰক</strong>! ✉️</p>
+
+            <div class="social-links">
+                <p>
+                    <a href="fotw.html"><i class="fas fa-map"></i> বিশ্বৰ পতাকা</a>
+                    <a href="loupaper.html"><i class="fa-solid fa-paperclip"></i> লুপেপাৰ</a>
+                    <a href="tracker.html"><i class="fa-solid fa-list-check"></i> অন্যান্য শৃংখলা ট্ৰেকাৰ</a>
+                </p>
+                <p>
+                    <a href="offers.html"><i class="fas fa-exchange-alt"></i> বিনিময়ৰ বাবে প’ষ্টকাৰ্ড</a>
+                    <a href="https://eu.zonerama.com/redteapost/1081067" target="_blank" rel="noopener"><i
+                            class="fas fa-gift"></i> অধিক প’ষ্টকাৰ্ড</a>
+                    <a href="https://eu.zonerama.com/redteapost/1096791" target="_blank" rel="noopener"><i
+                            class="fas fa-archive"></i> সংগ্ৰাহালয়</a>
+                    <a href="https://www.instagram.com/redteapost" target="_blank" rel="noopener"><i
+                            class="fab fa-instagram"></i> ইনষ্টাগ্ৰাম</a>
+                </p>
+            </div>
+        </div>
     </div>
+    <script>
+        const langToggleBtn = document.getElementById("langToggle");
+        const aboutEn = document.getElementById("about-en");
+        const aboutAs = document.getElementById("about-as");
+
+        window.addEventListener("DOMContentLoaded", () => {
+            aboutEn.classList.add("active");
+            aboutAs.classList.remove("active");
+        });
+
+        langToggleBtn.addEventListener("change", function () {
+            aboutEn.classList.toggle("active");
+            aboutAs.classList.toggle("active");
+        });
+    </script>
 </body>
 
 </html>

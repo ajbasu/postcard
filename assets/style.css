@@ -1,15 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap');
+
+:root {
+    --raja-kalar: #D3364D;
+    --bulu-kalar: #d87786;
+    --boga-kalar: #f9f9f9;
+    --kola-kalar: #333;
+    --strikethrough-kalar: #888;
+    --dhela-kalar: #f3f3f3;
+    --border-kalar: #e0e0e0;
+    --arranged-kalar: #ffe6a1;
+    --received-kalar: #d3edbb;
+}
 
 body {
     font-family: "Poppins", sans-serif !important;
     margin: 0;
-    background-color: #f9f9f9;
+    background-color: var(--boga-kalar);
 }
 
 h1 {
     font-size: 24px;
     font-weight: 600;
+}
+
+a {
+    color: var(--raja-kalar);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--raja-kalar) !important;
 }
 
 .gallery {
@@ -148,8 +172,8 @@ figcaption {
 
 #fotw-header {
     width: 100%;
-    background: linear-gradient(135deg, #D3364D 0%, #d87786 100%);
-    color: #fff;
+    background: linear-gradient(135deg, var(--raja-kalar) 0%, var(--bulu-kalar) 100%);
+    color: white;
     padding: 15px 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
@@ -187,14 +211,14 @@ figcaption {
 }
 
 .fotw-header-right nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 .fotw-header-right nav ul li a:hover {
-    color: #F7F7F7;
+    color: var(--boga-kalar);
 }
 
 
@@ -314,7 +338,7 @@ figcaption {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid #e0e0e0;
+    border: 4px solid var(--border-kalar);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
@@ -330,10 +354,13 @@ figcaption {
     animation: slideIn 1.5s ease-in-out;
 }
 
-.about-text h1 {
+.intro-text-en {
     font-family: "Shadows Into Light", cursive;
+}
+
+.about-text h1 {
     font-size: 2.5rem !important;
-    color: #D3364D !important;
+    color: var(--raja-kalar) !important;
     font-weight: 400;
     font-style: normal;
     display: inline-block;
@@ -353,12 +380,12 @@ figcaption {
 .social-links a {
     margin-right: 1rem;
     text-decoration: none;
-    color: #D3364D;
+    color: var(--raja-kalar);
     transition: color 0.3s;
 }
 
 .social-links a:hover {
-    color: #d87786;
+    color: var(--bulu-kalar);
 }
 
 @keyframes fadeIn {
@@ -446,7 +473,7 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f3f3f3;
+    background-color: var(--dhela-kalar);
     min-height: 200px;
     text-align: center;
     margin: 0 1rem;
@@ -469,13 +496,13 @@ figcaption {
 
 .more-text a {
     font-weight: bold;
-    color: #333;
+    color: var(--kola-kalar);
     text-decoration: none;
     font-size: 1.1rem;
 }
 
 .more-text a:hover {
-    color: #D3364D;
+    color: var(--raja-kalar);
 }
 
 .img-container.more-offers::before {
@@ -484,4 +511,109 @@ figcaption {
     inset: 0;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 1;
+}
+
+/* for about page */
+#about-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dhela-kalar);
+    color: var(--kola-kalar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+.about-text {
+    display: none;
+}
+
+.about-text.active {
+    display: block;
+}
+
+.as-text {
+    font-family: 'Anek Bangla', 'Nirmala UI', 'Arial Unicode MS', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.intro-text-as {
+    font-family: "Alkatra", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.language-toggle-wrapper {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.lang-label {
+    font-weight: 500;
+}
+
+.language-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+}
+
+.language-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--border-kalar);
+    border-radius: 22px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.language-toggle-switch input:checked+.slider {
+    background-color: var(--raja-kalar);
+}
+
+.language-toggle-switch input:checked+.slider::before {
+    transform: translateX(20px);
 }
