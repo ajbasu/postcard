@@ -203,10 +203,6 @@
         "name": "Yet to Release",
         "data": [
             {
-                "id": "US-ND",
-                "receivedon": "Yet to Release"
-            },
-            {
                 "id": "US-VT",
                 "receivedon": "Yet to Release"
             }

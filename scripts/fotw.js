@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             var chart = root.container.children.push(am5map.MapChart.new(root, {}));
             var worldSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                geoJSON: am5geodata_worldHigh,
+                geoJSON: am5geodata_worldIndiaHigh,
                 exclude: ["AQ"]
             }));
 
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
 
                 var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                    geoJSON: am5geodata_worldHigh,
+                    geoJSON: am5geodata_worldIndiaHigh,
                     include: countries,
                     name: group.name,
                     fill: color
