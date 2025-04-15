@@ -142,6 +142,7 @@
             {
                 "id": "28",
                 "received": "yes",
+                "count": 2,
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/28_gummor.jpg"
             },
             {
@@ -452,6 +453,7 @@
                 "id": "2",
                 "received": "yes",
                 "name": "Snow jungle gym",
+                "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i1ce0391569be2e56/version/1637666887/image.jpg"
             },
             {
@@ -488,6 +490,7 @@
                 "id": "8",
                 "received": "yes",
                 "name": "Wind from the sea",
+                "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iae44ab745b306f22/version/1637666887/image.jpg"
             },
             {
@@ -602,6 +605,7 @@
                 "id": "27",
                 "received": "yes",
                 "name": "On the matsu tree",
+                "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i4b98b2b31d6ba39c/version/1637666886/image.jpg"
             },
             {
@@ -656,6 +660,7 @@
                 "id": "36",
                 "received": "yes",
                 "name": "Christmas song",
+                "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i62d1b118cd53bd1b/version/1637666886/image.jpg"
             },
             {
@@ -734,6 +739,7 @@
                 "id": "49",
                 "received": "yes",
                 "name": "Sakura on the Hill",
+                "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ife49757c65e4c099/version/1637666666/image.jpg"
             }
         ]
@@ -1440,6 +1446,33 @@
                         "received": "yes"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "series": "Postcard Albums",
+        "sort": "no",
+        "status": [
+            {
+                "name": "136 Pockets: LouPaper, GF"
+            },
+            {
+                "name": "264 Pockets: FOTW"
+            },
+            {
+                "name": "264 Pockets: Blue Cats"
+            },
+            {
+                "name": "264 Pockets: Inge Löök, WonderPost, Icons, Liv Wan, WOW, PaperSisters, Postboxes, CCUN, Lokapedia"
+            },
+            {
+                "name": "56 Pockets: Tabineko"
+            },
+            {
+                "name": "56 Pockets: UiD"
+            },
+            {
+                "name": "56 Pockets: Nisan WT"
             }
         ]
     }

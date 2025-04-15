@@ -248,7 +248,7 @@ function showGallery(series) {
 
         const tag = document.createElement("div");
         tag.className = "tag";
-        tag.textContent = item.id + (item.received === "arranged" ? " (Arranged)" : "");
+        tag.textContent = item.id + (item.received === "arranged" ? " | Arranged" : "") + (item.count && item.count > 1 ? ` | ${item.count}×` : "");
 
         imgDiv.appendChild(tag);
         imgDiv.appendChild(img);

@@ -225,8 +225,10 @@
     {
         "name": "Hampi, Karnataka",
         "image": "assets/images/058 Hampi, Karnataka.jpg",
-        "cards": 2,
-        "orientation": "portrait"
+        "cards": 1,
+        "orientation": "portrait",
+        "comment": "Taken by @miss_aksvell on PC Forum Tag",
+        "link": "https://community.postcrossing.com/t/re-show-the-card-you-offer-offer-tag-reverse-tag-part-2/1059599"
     },
     {
         "name": "Konark Beach, Odisha",
