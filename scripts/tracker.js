@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     if (series.gallery) {
                         title.innerHTML = `${series.series}`;
                         title.style.cursor = "pointer";
-                        title.addEventListener("click", () => showGallery(series));
+                        title.addEventListener("click", (event) => showGallery(event, series));
                     } else {
                         title.textContent = series.series;
                     }
@@ -183,15 +183,20 @@ document.addEventListener("DOMContentLoaded", function () {
             if (s) {
                 const targetSeriesMap = {
                     tabineko: "Tabineko",
-                    ingelook: "Inge Löök Aunties"
+                    ingelook: "Inge Löök Aunties",
+                    bluecats: "Blue Cats WT",
+                    uid: "Unity in Diversity"
                 };
 
                 const seriesName = targetSeriesMap[s.toLowerCase()];
                 if (seriesName) {
                     const allSeries = [...gridSeries, ...nonGridSeries];
                     const found = allSeries.find(series => series.series === seriesName);
-                    if (found && found.type === "grid") {
-                        showGallery(found);
+                    if (found && found.gallery) {
+                        const m = params.get("m");
+                        let dummyEvent = null;
+                        if (m) dummyEvent = { metaKey: true, };
+                        showGallery(dummyEvent, found);
                     }
                 }
             }
@@ -230,17 +235,30 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 });
 
-function showGallery(series) {
+function showGallery(event, series) {
     const modal = document.getElementById("imageModal");
     const modalImages = document.getElementById("modalImages");
     const modalTitle = document.getElementById("modalTitle");
+    const modalSubtitle = document.getElementById("modalSubtitle");
     modalImages.innerHTML = "";
     modalTitle.textContent = series.series;
 
-    series.status.forEach(item => {
+    let filteredSeries = { ...series };
+    let isMeta = false;
+
+    if (event?.metaKey || event?.ctrlKey) { // Filter out received entries
+        filteredSeries.status = series.status.filter(item => item.received.toLowerCase() !== "yes");
+        isMeta = true;
+        modalSubtitle.textContent = "Missing Cards";
+    }
+    else {
+        modalSubtitle.textContent = "Greyed out cards are missing.";
+    }
+
+    filteredSeries.status.forEach(item => {
         const imgDiv = document.createElement("div");
         imgDiv.className = "image-item";
-        if (item.received !== "yes") imgDiv.classList.add("greyed");
+        if (!isMeta && item.received !== "yes") imgDiv.classList.add("greyed");
 
         const img = document.createElement("img");
         img.src = item.image || "";
