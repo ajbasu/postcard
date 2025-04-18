@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Title
                     const title = document.createElement("h2");
 
-                    if (series.type === "grid") {
+                    if (series.gallery) {
                         title.innerHTML = `${series.series}`;
                         title.style.cursor = "pointer";
                         title.addEventListener("click", () => showGallery(series));
@@ -244,13 +244,15 @@ function showGallery(series) {
 
         const img = document.createElement("img");
         img.src = item.image || "";
-        img.alt = item.id;
+        img.alt = item.id ? item.id : item.name ? item.name : '';
 
-        const tag = document.createElement("div");
-        tag.className = "tag";
-        tag.textContent = item.id + (item.received === "arranged" ? " | Arranged" : "") + (item.count && item.count > 1 ? ` | ${item.count}×` : "");
+        if (item.id) {
+            const tag = document.createElement("div");
+            tag.className = "tag";
+            tag.textContent = item.id + (item.received === "arranged" ? " | Arranged" : "") + (item.count && item.count > 1 ? ` | ${item.count}×` : "");
+            imgDiv.appendChild(tag);
+        }
 
-        imgDiv.appendChild(tag);
         imgDiv.appendChild(img);
 
         if (item.name) {

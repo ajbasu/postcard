@@ -3,6 +3,7 @@
         "series": "Inge Löök Aunties",
         "type": "grid",
         "link": "https://eu.zonerama.com/redteapost/Album/9198137",
+        "gallery": true,
         "status": [
             {
                 "id": "1",
@@ -252,7 +253,7 @@
             },
             {
                 "id": "50",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2016/02/50.jpg"
             },
             {
@@ -442,6 +443,7 @@
         "series": "Tabineko",
         "type": "grid",
         "link": "https://eu.zonerama.com/redteapost/Album/9335861",
+        "gallery": true,
         "status": [
             {
                 "id": "1",
@@ -747,304 +749,371 @@
     {
         "series": "Blue Cats WT",
         "link": "https://eu.zonerama.com/redteapost/Album/8596077",
+        "gallery": true,
         "status": [
             {
                 "name": "Argentina",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/files/8/a/8a8b9ff1_AWT31_World-Trip-Argentina.jpg"
             },
             {
                 "name": "Australia",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/9/79a7db34_AWT27_World-Trip-Australia.jpg"
             },
             {
                 "name": "Austria",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/d/3/d3096d6a_AWT21_World-Trip-Austria.jpg"
             },
             {
                 "name": "Belarus",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bef5c37_29934092_AWT01_World-Trip-Belarus.jpg"
             },
             {
                 "name": "Belgium",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/1/61fc43e9_AWT29_World-Trip-Belgium.jpg"
             },
             {
                 "name": "Brazil",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/f/7f8d781e_AWT28_World-Trip-Brazil.jpg"
             },
             {
                 "name": "Canada",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/e/5/e543130c_01a529f2_AWT06_World-Trip-Canada.jpg"
             },
             {
                 "name": "China",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/4/a/4a905030_0d2f4dff_AWT02_World-Trip-China.jpg"
             },
             {
                 "name": "Czechia",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/3/f37ef8b4_a2e76b0d_AWT07_World-Trip-Czechia.jpg"
             },
             {
                 "name": "Egypt",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/b/0/b01927df_1f2a6cff_AWT19_World-Trip-Egypt.jpg"
             },
             {
                 "name": "England",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/b/e/beaed1b8_AWT22_World-Trip-England.jpg"
             },
             {
                 "name": "Finland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/2/0/20cdb78a_bb2532b4_AWT20_World-Trip-Finland.jpg"
             },
             {
                 "name": "France",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/a/2/a24cfdd2_5398589a_AWT04_World-Trip-France.jpg"
             },
             {
                 "name": "Germany",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/a/fa8cc9fa_e399c8f3_AWT17_World-Trip-Germany.jpg"
             },
             {
                 "name": "Greece",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/c/fcfda7d0_73c8fdea_AWT15_World-Trip-Greece.jpg"
             },
             {
                 "name": "India",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/f/5f81ab8b_1b702916_AWT18_World-Trip-India.jpg"
             },
             {
                 "name": "Italy",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/7/07222de4_75cf3417_AWT03_Italy.jpg"
             },
             {
                 "name": "Japan",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/0/60e7fca0_cfd6de2c_AWT11_World-Trip-Japan.jpg"
             },
             {
                 "name": "Lithuania",
-                "received": "no"
+                "received": "no",
+                "image": "https://placehold.jp/30/dddee3/ffffff/240x160.png?text=Lithuania"
             },
             {
                 "name": "Mexico",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/c/5c40a4de_AWT23_World-Trip-Mexico.jpg"
             },
             {
                 "name": "Netherlands",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bf401fe_98e5a584_AWT12_World-Trip-Netherlands.jpg"
             },
             {
                 "name": "Norway",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/a/6a8951d9_3d70b530_AWT10_World-Trip-Norway.jpg"
             },
             {
                 "name": "Poland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/8/5/85ba054e_f727c942_AWT16_World-Trip-Poland.jpg"
             },
             {
                 "name": "Portugal",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/d/b/dbbaf765_AWT26_World-Trip-Portugal.jpg"
             },
             {
                 "name": "Romania",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/a/7a7f9f54_305fb298_AWT05_World-Trip-Romania.jpg"
             },
             {
                 "name": "Russia",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/d/5d7c8b98_95e5d64e_AWT09_World-Trip-Russia.jpg"
             },
             {
                 "name": "South Korea",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/9/f/9f9f897a_AWT30_World-Trip-South-Korea.jpg"
             },
             {
                 "name": "Spain",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/d/6d3d472e_5a3235b4_AWT14_World-Trip-Spain.jpg"
             },
             {
                 "name": "Switzerland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/8/686a66bf_327b6a03_AWT08_-World-Trip-Switzerland.jpg"
             },
             {
                 "name": "Thailand",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/1/7/17b948ec_AWT32_World-Trip-Thailand.jpg"
             },
             {
                 "name": "Turkey",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/7/6719ce55_144c5070_AWT13_World-Trip-Turkey.jpg"
             },
             {
                 "name": "UAE",
-                "received": "no"
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/c/5/c516a887_1-d-preview-4-4-44fa67af_WT_United-Arab-Emirates.jpg"
             },
             {
                 "name": "USA",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/e/c/ec3731d5_AWT24_World-Trip-USA.jpg"
             }
         ]
     },
     {
         "series": "Unity in Diversity",
         "link": "https://eu.zonerama.com/redteapost/Album/9198102",
+        "gallery": true,
         "status": [
             {
                 "id": 10,
                 "name": "Belgium",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/05Belgia-1_800x.jpg?v=1605402803"
             },
             {
                 "id": 11,
                 "name": "Bulgaria",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/06Bulgaria-1_800x.jpg?v=1605402925"
             },
             {
                 "id": 12,
                 "name": "Czech Republic",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/07Cehia-1_800x.jpg?v=1605402803"
             },
             {
                 "id": 13,
                 "name": "Denmark",
-                "received": "no"
+                "received": "arranged",
+                "image": "https://postcardsmarket.com/cdn/shop/products/08Danemarca-1_800x.jpg?v=1605402743"
             },
             {
                 "id": 14,
                 "name": "Germany",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/09Deutschland-1_800x.jpg?v=1605402683"
             },
             {
                 "id": 15,
                 "name": "Estonia",
-                "received": "no"
+                "received": "arranged",
+                "image": "https://postcardsmarket.com/cdn/shop/products/10EEsti-1_800x.jpg?v=1605402743"
             },
             {
                 "id": 16,
                 "name": "Ireland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/11Ireland-1_400x.jpg?v=1605402804"
             },
             {
                 "id": 17,
                 "name": "Greece",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/12Grecia-1.jpg?v=1605402683"
             },
             {
                 "id": 18,
                 "name": "Spain",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/13Espana-1_400x.jpg?v=1605402682"
             },
             {
                 "id": 19,
                 "name": "France",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/14France-1_400x.jpg?v=1605402406"
             },
             {
                 "id": 20,
                 "name": "Croatia",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/15Hrvatska-1_400x.jpg?v=1605402467"
             },
             {
                 "id": 21,
                 "name": "Italy",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/16Italia-1_400x.jpg?v=1632496816"
             },
             {
                 "id": 22,
                 "name": "Cyprus",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/17Kypros-1_400x.jpg?v=1605402468"
             },
             {
                 "id": 23,
                 "name": "Latvia",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/18Latvia-1_400x.jpg?v=1605402406"
             },
             {
                 "id": 24,
                 "name": "Lithuania",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/19Lietuva-1_400x.jpg?v=1605402466"
             },
             {
                 "id": 25,
                 "name": "Luxembourg",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/20Luxemburg-1_400x.jpg?v=1605402406"
             },
             {
                 "id": 26,
                 "name": "Hungary",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/21Magyarorsag-1_400x.jpg?v=1605402406"
             },
             {
                 "id": 27,
                 "name": "Malta",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/22Malta-1_400x.jpg?v=1605402528"
             },
             {
                 "id": 28,
                 "name": "Netherlands",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/23Nederland-1_400x.jpg?v=1605402406"
             },
             {
                 "id": 29,
                 "name": "Austria",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/24Osterreich-1_400x.jpg?v=1605402153"
             },
             {
                 "id": 30,
                 "name": "Poland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/25Polska-1_800x.jpg?v=1605402153"
             },
             {
                 "id": 31,
                 "name": "Portugal",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/26Portugal-1_800x.jpg?v=1605402153"
             },
             {
                 "id": 32,
                 "name": "Romania",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/27Romania-1_800x.jpg?v=1621265598"
             },
             {
                 "id": 33,
                 "name": "Slovenia",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/28Slovenia-1_800x.jpg?v=1605402153"
             },
             {
                 "id": 34,
                 "name": "Slovakia",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/29Slovensko-1_800x.jpg?v=1605402396"
             },
             {
                 "id": 35,
                 "name": "Finland",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/30Suomi-1_400x.jpg?v=1605402275"
             },
             {
                 "id": 36,
                 "name": "Sweden",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/31Sverige-1_1200x.jpg?v=1606408631"
             },
             {
                 "id": 37,
                 "name": "United Kingdom",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/UK_0e52a1e9-a500-42a1-861d-097a36d98847.jpg?v=1646915451"
             },
             {
                 "id": 91,
                 "name": "Map",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/files/03EuMap-1_400x.jpg?v=1704803209"
             },
             {
                 "id": 92,
                 "name": "Globe",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/01Globe-1_3414bbe8-e3fc-4826-99e2-3f3a0bc5bdfa_400x.jpg?v=1605402994"
             },
             {
                 "id": 93,
                 "name": "Euro Currency",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/Screenshot2020-11-26181139_268x.jpg?v=1606407406"
             },
             {
                 "id": 94,
                 "name": "Train",
-                "received": "no"
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/files/02Train-1_268x.jpg?v=1704803508"
             }
         ]
     },
