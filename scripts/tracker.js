@@ -249,7 +249,7 @@ function showGallery(event, series) {
     if (event?.metaKey || event?.ctrlKey) { // Filter out received entries
         filteredSeries.status = series.status.filter(item => item.received.toLowerCase() !== "yes");
         isMeta = true;
-        modalSubtitle.textContent = "Missing Cards";
+        modalSubtitle.textContent = `${filteredSeries.status.length} Missing Cards`;
     }
     else {
         modalSubtitle.textContent = "Greyed out cards are missing.";
@@ -283,7 +283,9 @@ function showGallery(event, series) {
         modalImages.appendChild(imgDiv);
     });
 
-    modal.style.display = "flex";
+    if (filteredSeries.status.length) {
+        modal.style.display = "flex";
+    }
 }
 
 
