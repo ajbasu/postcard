@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('assets/header.html')
+    fetch('../assets/header.html')
         .then(response => response.text())
         .then(html => {
             document.getElementById("header-container").innerHTML = html;

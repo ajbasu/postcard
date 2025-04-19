@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("assets/data/tracker.json")
+    fetch("../assets/data/tracker.json")
         .then(response => response.json())
         .then(data => {
             const gridContainer = document.getElementById("grid-container");
@@ -31,6 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         link.target = "_blank";
                         link.rel = "noopener noreferrer";
                         link.innerHTML = `<i class="fas fa-link"></i>`;
+                        link.addEventListener("click", function (e) {
+                            e.stopPropagation();
+                        });
                         title.appendChild(link);
                     }
 
@@ -202,7 +205,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
         });
-    fetch("assets/data/countrywise.csv")
+    fetch("../assets/data/countrywise.csv")
         .then(response => response.text())
         .then(csv => {
             const lines = csv.trim().split("\n");

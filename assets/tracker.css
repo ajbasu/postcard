@@ -433,3 +433,8 @@ body {
         width: 100%;
     }
 }
+
+#bookmarks a {
+    text-decoration: none;
+    color: var(--kola-kalar);
+}

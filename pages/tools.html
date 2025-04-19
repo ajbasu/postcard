@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tools - redteapost</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/tracker.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <script>
+        window.pageTitle = "Tools";
+    </script>
+</head>
+
+<body style="text-align: left;">
+    <div id="header-container"></div>
+    <div id="list-container">
+        <div class="series-card">
+            <h2>Checklist <i id="resetChecklist" class="fa-solid fa-rotate-right" style="cursor: pointer;"></i></h2>
+            <div id="checkbox-group">
+                <input type="checkbox" id="address"><label for="address">Address</label><br>
+                <input type="checkbox" id="message"><label for="message">Message</label><br>
+                <input type="checkbox" id="stamp"><label for="stamp">Stamp</label><br>
+                <input type="checkbox" id="airmail"><label for="airmail">Airmail</label><br>
+                <input type="checkbox" id="date"><label for="date">Date</label><br>
+                <input type="checkbox" id="place"><label for="place">Place</label><br>
+                <input type="checkbox" id="temperature"><label for="temperature">Temperature</label><br>
+                <input type="checkbox" id="myid"><label for="myid">My id</label><br>
+            </div>
+            <div class="counter" id="check-counter">Counter: 0 / 8</div>
+        </div>
+    </div>
+    <div id="list-container">
+        <div class="series-card">
+            <h2>Bookmarks <i class="fa-regular fa-bookmark"></i></h2>
+            <ul id="bookmarks" style="padding-inline-start: 1rem;">
+                <li> <a href="https://community.postcrossing.com/t/prices-of-stamps-for-postcards-in-all-countries-territories-wiki/125"
+                        target="_blank" rel="noopener">
+                        Tariff for Postcards around the Globe</a> </li>
+                <li> <a href="https://www.indiapost.gov.in/MBE/Pages/Content/international-letter.aspx" target="_blank"
+                        rel="noopener">
+                        India Post International Letters Tariff</a> </li>
+                <li> <a href="https://postagestamps.gov.in/Stamps.aspx" target="_blank" rel="noopener">
+                        India Post Postage Stamps</a> </li>
+                <li> <a href="https://www.indiapost.gov.in/_layouts/15/DOP.Portal.Tracking/TrackConsignment.aspx"
+                        target="_blank" rel="noopener">
+                        India Post Track Consignment</a> </li>
+                <li> <a href="https://www.tabi-neko.info/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88-gallery/" target="_blank"
+                        rel="noopener">
+                        Tabineko Official Website</a> </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../scripts/loadHeader.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const checkboxGroup = document.getElementById("checkbox-group");
+            const checkboxes = checkboxGroup.querySelectorAll('input[type="checkbox"]');
+            const counter = document.getElementById("check-counter");
+
+            function updateCounter() {
+                const checked = checkboxGroup.querySelectorAll('input[type="checkbox"]:checked').length;
+                const total = checkboxes.length;
+                counter.textContent = `Counter: ${checked} / ${total}`;
+            }
+
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener("change", updateCounter);
+            });
+
+            document.getElementById("resetChecklist").addEventListener("click", () => {
+                checkboxes.forEach(cb => cb.checked = false);
+                updateCounter();
+            });
+
+            updateCounter();
+        });
+    </script>
+</body>
+
+</html>
