@@ -438,3 +438,8 @@ body {
     text-decoration: none;
     color: var(--kola-kalar);
 }
+
+.checkbox-div {
+    display: flex;
+    align-items: center;
+}
