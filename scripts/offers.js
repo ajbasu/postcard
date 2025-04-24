@@ -113,7 +113,7 @@ fetch("../assets/data/postcards.json")
         //     container.appendChild(figure);
         // }
 
-        window.pageTitle = `${window.pageTitle} (${postcardsData.length} Cards)`;
+        // window.pageTitle = `${window.pageTitle} (${postcardsData.length} Cards)`;
     })
     .catch(error => console.error("Error loading postcards:", error));
 
