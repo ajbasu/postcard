@@ -98,6 +98,11 @@ fetch("../assets/data/postcards.json")
             if (idx != null) openModal(Number(idx));
         });
 
+        if (postcardsData.length) {
+            const cardCount = document.getElementById("card-count");
+            cardCount.innerHTML = `${postcardsData.length} Available Card${postcardsData.length > 1 ? 's' : ''}`
+        }
+
         // if (!shTags || shTags.length === 0) {
         //     const figure = document.createElement("figure");
         //     figure.classList.add("portrait");

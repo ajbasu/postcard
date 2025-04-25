@@ -484,6 +484,9 @@
     {
         "name": "Santa is coming!",
         "image": "https://eu.zonerama.com/photos/511021750_1417x991.jpg",
+        "tag": [
+            "Holiday"
+        ],
         "cards": 1,
         "level": 1
     },

@@ -618,3 +618,8 @@ figcaption {
 .language-toggle-switch input:checked+.slider::before {
     transform: translateX(20px);
 }
+
+#card-count {
+    padding-top: 15px;
+    text-align: center;
+}

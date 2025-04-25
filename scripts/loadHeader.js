@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // If window.pageTitle is defined, update the header title
             if (window.pageTitle) {
                 let title = window.pageTitle;
-                if (typeof postcardsData !== "undefined" && Array.isArray(postcardsData) && postcardsData.length > 0) {
-                    title = `${window.pageTitle} (${postcardsData.length} Cards)`;
-                }
+                // if (typeof postcardsData !== "undefined" && Array.isArray(postcardsData) && postcardsData.length > 0) {
+                //     title = `${window.pageTitle} (${postcardsData.length} Cards)`;
+                // }
                 document.getElementById("fotw-header-title").textContent = title;
             }
             const links = document.querySelectorAll("a.keep-query");
