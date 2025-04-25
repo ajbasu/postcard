@@ -37,6 +37,10 @@ fetch("../assets/data/postcards.json")
 
         if (random) {
             postcardsData.sort(() => Math.random() - 0.5);
+            const count = Number(random);
+            if (!isNaN(count) && count > 0 && count < postcardsData.length) {
+                postcardsData = postcardsData.slice(0, count);
+            }
         }
 
         postcardsData.sort((a, b) => {
@@ -48,52 +52,50 @@ fetch("../assets/data/postcards.json")
         });
 
         const container = document.getElementById("gallery");
-        postcardsData.forEach((postcard, index) => {
-            const figure = document.createElement("figure");
-            // Apply orientation-based class; default to landscape if not provided
-            if (postcard.orientation && postcard.orientation.toLowerCase() === "portrait") {
-                figure.classList.add("portrait");
-            } else {
-                figure.classList.add("landscape");
-            }
+        container.innerHTML = "";
 
-            // Create image container
+        const frag = document.createDocumentFragment();
+
+        postcardsData.forEach((postcard, index) => {
+            const { orientation = "landscape", image, name, tag = [], cards } = postcard;
+
+            const figure = document.createElement("figure");
+            figure.classList.add(orientation.toLowerCase() === "portrait" ? "portrait" : "landscape");
+
             const imgContainer = document.createElement("div");
             imgContainer.classList.add("img-container");
-
+            imgContainer.dataset.index = index;            // for delegated click
             const img = document.createElement("img");
-            img.src = postcard.image;
-            img.alt = postcard.name;
-            // Set current index when image is clicked
-            img.onclick = () => openModal(index);
+            img.src = image;
+            img.alt = name;
+            img.loading = "lazy";
             imgContainer.appendChild(img);
-
-            // Add tag in gallery (if available)
-            const tagDiv = document.createElement("div");
-            tagDiv.classList.add("tag");
-
             let tagText = "";
-
-            if (postcard.tag && postcard.tag.length > 0) {
-                tagText += postcard.tag.slice().sort().join(", ");
-                if (postcard.cards > 1) {
-                    tagText += " | " + postcard.cards + "×";
-                }
-            } else if (postcard.cards > 1) {
-                tagText += postcard.cards + "×";
+            if (tag.length) {
+                tagText = tag.slice().sort().join(", ");
+                if (cards > 1) tagText += ` | ${cards}×`;
+            } else if (cards > 1) {
+                tagText = `${cards}×`;
             }
-
             if (tagText) {
+                const tagDiv = document.createElement("div");
+                tagDiv.classList.add("tag");
                 tagDiv.textContent = tagText;
                 imgContainer.appendChild(tagDiv);
             }
 
             const caption = document.createElement("figcaption");
-            caption.textContent = postcard.name;
+            caption.textContent = name;
 
-            figure.appendChild(imgContainer);
-            figure.appendChild(caption);
-            container.appendChild(figure);
+            figure.append(imgContainer, caption);
+            frag.appendChild(figure);
+        });
+
+        container.appendChild(frag);
+
+        container.addEventListener("click", e => {
+            const idx = e.target.closest(".img-container")?.dataset.index;
+            if (idx != null) openModal(Number(idx));
         });
 
         // if (!shTags || shTags.length === 0) {
