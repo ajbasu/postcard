@@ -12,10 +12,19 @@ const urlParams = new URLSearchParams(window.location.search);
 const shParamRaw = urlParams.get('sh');
 const shTags = shParamRaw ? shParamRaw.split(',').map(tag => tag.trim().toLowerCase()) : [];
 
-const levelParam = urlParams.get("l");
-const allowedLevels = levelParam ? levelParam.split(",").map(Number) : null;
+let levelParam = urlParams.get("l");
+let random = urlParams.get("r");
 
-const random = urlParams.get("r");
+const encoded = urlParams.get("q");
+if (encoded) {
+    const decodedString = atob(encoded);
+    const decodedParams = new URLSearchParams(decodedString);
+
+    random = decodedParams.get("r");
+    levelParam = decodedParams.get("l");
+
+}
+const allowedLevels = levelParam ? levelParam.split(",").map(Number) : null;
 
 fetch("../assets/data/postcards.json")
     .then(response => response.json())
@@ -129,7 +138,14 @@ function openModal(index) {
     const postcard = postcardsData[currentIndex];
     document.getElementById("modalImage").src = postcard.image;
     document.getElementById("modalCaption").textContent = postcard.name;
-    document.getElementById("modalTagBox").textContent = Array.isArray(postcard.tag) ? postcard.tag.slice().sort().join(", ") : "";
+    if (postcard.tag?.length) {
+        document.getElementById("modalTagBox").textContent = Array.isArray(postcard.tag) ? postcard.tag.slice().sort().join(", ") : "";
+        document.getElementById("modalTagBox").style.visibility = "visible";
+    }
+    else {
+        document.getElementById("modalTagBox").textContent = "";
+        document.getElementById("modalTagBox").style.visibility = "hidden";
+    }
     document.getElementById("modal").style.display = "flex";
 }
 
