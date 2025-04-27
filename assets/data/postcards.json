@@ -936,13 +936,13 @@
         "level": 1
     },
     {
-        "name": "Digita Awareness 1",
+        "name": "Digital Awareness 1",
         "image": "https://eu.zonerama.com/photos/516817601_1622x1160.jpg",
         "cards": 3,
         "level": 1
     },
     {
-        "name": "Digita Awareness 2",
+        "name": "Digital Awareness 2",
         "image": "https://eu.zonerama.com/photos/516817600_566x784.jpg",
         "orientation": "portrait",
         "cards": 3,
@@ -972,7 +972,7 @@
         "tag": [
             "UNESCO WHS"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -2296,6 +2296,73 @@
             "Small",
             "Transport",
             "Vintage"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "The Biryani Life",
+        "image": "https://eu.zonerama.com/photos/528095251_1340x936.jpg",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Cyprus Delight Hexagonal 1",
+        "image": "https://eu.zonerama.com/photos/528095248_1275x1109.jpg",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Cyprus Delight Hexagonal 2",
+        "image": "https://eu.zonerama.com/photos/528095252_1526x1314.jpg",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "100% Butter Croissant",
+        "image": "https://eu.zonerama.com/photos/528095233_875x1249.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Yoga Bar, Breakfast Protein Bar",
+        "image": "https://eu.zonerama.com/photos/528095250_933x1336.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "She believed she could, so she did.",
+        "image": "https://eu.zonerama.com/photos/528095249_953x1358.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Painting created with the mouth by Sunitha Thrippanikkara",
+        "image": "https://eu.zonerama.com/photos/528095263_937x1389.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Food Package"
         ],
         "cards": 1,
         "level": 1
