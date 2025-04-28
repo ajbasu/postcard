@@ -353,7 +353,7 @@
             },
             {
                 "id": "70",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2020/03/70_gummor-1.jpg"
             },
             {
@@ -1337,8 +1337,8 @@
                 "received": "no"
             },
             {
-                "name": "Domestic cat",
-                "received": "no"
+                "name": "Domestic Shorthair cat",
+                "received": "arranged"
             },
             {
                 "name": "Japanese Bobtail",
