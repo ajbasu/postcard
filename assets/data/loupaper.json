@@ -183,6 +183,10 @@
             {
                 "id": "US-NH",
                 "receivedon": "Will be added"
+            },
+            {
+                "id": "US-NM",
+                "receivedon": "29-04-2025"
             }
         ]
     },
@@ -191,10 +195,6 @@
         "data": [
             {
                 "id": "US-DE",
-                "receivedon": "Will be added"
-            },
-            {
-                "id": "US-NM",
                 "receivedon": "Will be added"
             },
             {

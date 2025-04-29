@@ -216,7 +216,7 @@
     {
         "name": "Market Place, Pune, Maharashtra",
         "image": "../assets/images/054 Market Place, Pune, Maharashtra.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -2363,6 +2363,25 @@
         "orientation": "portrait",
         "tag": [
             "Food Package"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "The Capitol, Rome",
+        "image": "https://eu.zonerama.com/photos/528694747_1752x1224.jpg",
+        "tag": [
+            "Vintage"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "The Harbour, Tenby",
+        "image": "https://eu.zonerama.com/photos/528694746_1752x1110.jpg",
+        "tag": [
+            "Vintage",
+            "Small"
         ],
         "cards": 1,
         "level": 1
