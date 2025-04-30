@@ -164,10 +164,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Calculate counter
                     const countableItems = (series.subgroups || [series]).flatMap(group => group.status || []).filter(item => item.countable !== "no");
                     const receivedItems = countableItems.filter(item => item.received === "yes");
+                    const arrangedItems = countableItems.filter(item => item.received === "arranged");
 
                     const counter = document.createElement("div");
                     counter.className = "counter";
-                    counter.textContent = `Received: ${receivedItems.length} / ${countableItems.length}`;
+                    counter.textContent = `Received: ${receivedItems.length}${arrangedItems.length ? ' + ' + arrangedItems.length : ''} / ${countableItems.length}`;
                     card.appendChild(counter);
 
 
