@@ -926,7 +926,7 @@
             {
                 "id": 10,
                 "name": "Belgium",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://postcardsmarket.com/cdn/shop/products/05Belgia-1_800x.jpg?v=1605402803"
             },
             {
@@ -980,7 +980,7 @@
             {
                 "id": 19,
                 "name": "France",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://postcardsmarket.com/cdn/shop/products/14France-1_400x.jpg?v=1605402406"
             },
             {
@@ -992,7 +992,7 @@
             {
                 "id": 21,
                 "name": "Italy",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://postcardsmarket.com/cdn/shop/products/16Italia-1_400x.jpg?v=1632496816"
             },
             {
@@ -1016,7 +1016,7 @@
             {
                 "id": 25,
                 "name": "Luxembourg",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://postcardsmarket.com/cdn/shop/products/20Luxemburg-1_400x.jpg?v=1605402406"
             },
             {

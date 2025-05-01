@@ -376,6 +376,7 @@ figcaption {
 
 .social-links {
     margin-top: 1rem;
+    text-align: right;
 }
 
 .social-links a {
