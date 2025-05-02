@@ -288,16 +288,19 @@ figcaption {
         padding: 10px;
     }
 
+    .fotw-header-right nav ul li {
+        margin-left: 0;
+    }
+
     /* Hide Navigation by Default */
     .fotw-header-right nav {
         display: none;
         position: absolute;
         top: 60px;
         right: 10px;
-        background: rgba(0, 0, 0, 0.9);
+        background: var(--bulu-kalar);
         border-radius: 5px;
-        width: 200px;
-        padding: 10px;
+        padding: 10px 20px 10px 10px;
     }
 
     .fotw-header-right nav ul {

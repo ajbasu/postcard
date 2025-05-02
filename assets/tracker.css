@@ -281,6 +281,13 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    #legend-container {
+        top: auto;
+        bottom: 5rem;
+    }
+}
+
 .single-image-modal {
     display: none;
     position: fixed;
