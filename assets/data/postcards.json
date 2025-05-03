@@ -1218,7 +1218,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 2
     },
     {
@@ -1700,7 +1700,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 7,
+        "cards": 5,
         "level": 3
     },
     {
@@ -1721,7 +1721,7 @@
             "Illustration",
             "Series"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 3
     },
     {

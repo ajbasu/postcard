@@ -187,6 +187,10 @@
             {
                 "id": "US-NM",
                 "receivedon": "29-04-2025"
+            },
+            {
+                "id": "US-DE",
+                "receivedon": "03-05-2024"
             }
         ]
     },
@@ -194,11 +198,11 @@
         "name": "Travelling",
         "data": [
             {
-                "id": "US-DE",
+                "id": "US-NC",
                 "receivedon": "Will be added"
             },
             {
-                "id": "US-NC",
+                "id": "US-ND",
                 "receivedon": "Will be added"
             }
         ]

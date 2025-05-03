@@ -223,7 +223,7 @@
             },
             {
                 "id": "44",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/44_gummor.jpg"
             },
             {
@@ -1311,6 +1311,10 @@
                     {
                         "name": "White Sands National Park, New Mexico",
                         "received": "yes"
+                    },
+                    {
+                        "name": "Glacier Bay National Park, Alaska",
+                        "received": "yes"
                     }
                 ]
             }
@@ -1410,10 +1414,6 @@
                         "received": "no"
                     },
                     {
-                        "name": "Holiday Mail postcard.",
-                        "received": "yes"
-                    },
-                    {
                         "name": "Breads Postcard.",
                         "received": "no"
                     },
@@ -1422,8 +1422,8 @@
                         "received": "arranged"
                     },
                     {
-                        "name": "Sushi Postcard.",
-                        "received": "arranged"
+                        "name": "Winter postcard.",
+                        "received": "no"
                     },
                     {
                         "name": "Old Fashioned Postcard. Classic cocktails.",
@@ -1444,10 +1444,6 @@
                     {
                         "name": "Earth Day 2023",
                         "received": "no"
-                    },
-                    {
-                        "name": "Meetup in Venice - 30 November 2024",
-                        "received": "yes"
                     }
                 ]
             }
