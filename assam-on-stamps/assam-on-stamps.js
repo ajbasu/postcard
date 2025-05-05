@@ -67,7 +67,7 @@ function formatIssuedDate(str) {
     return `${day} ${month} ${year}`;
 };
 
-fetch("../assets/data/assam-on-stamps.json")
+fetch("assam-on-stamps.json")
     .then(response => response.json())
     .then(data => {
         stampData = data;
