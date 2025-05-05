@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../assets/data/tracker.json")
+    fetch("tracker.json")
         .then(response => response.json())
         .then(data => {
             const gridContainer = document.getElementById("grid-container");
@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
         });
-    fetch("../assets/data/countrywise.csv")
+    fetch("countrywise.csv")
         .then(response => response.text())
         .then(csv => {
             const lines = csv.trim().split("\n");
