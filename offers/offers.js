@@ -26,7 +26,7 @@ if (encoded) {
 }
 const allowedLevels = levelParam ? levelParam.split(",").map(Number) : null;
 
-fetch("../assets/data/postcards.json")
+fetch("postcard-offers.json")
     .then(response => response.json())
     .then(data => {
         postcardsData = data.filter(postcard => postcard.cards > 0);;
