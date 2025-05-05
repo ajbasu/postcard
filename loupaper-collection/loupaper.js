@@ -1,7 +1,7 @@
 am5.ready(function () {
 
     // Load JSON Data
-    fetch("../assets/data/loupaper.json")
+    fetch("loupaper.json")
         .then(response => response.json())
         .then(groupData => {
 
