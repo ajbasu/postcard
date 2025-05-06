@@ -944,7 +944,7 @@
             {
                 "id": 13,
                 "name": "Denmark",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://postcardsmarket.com/cdn/shop/products/08Danemarca-1_800x.jpg?v=1605402743"
             },
             {
@@ -1419,7 +1419,7 @@
                     },
                     {
                         "name": "Donuts Postcard.",
-                        "received": "arranged"
+                        "received": "yes"
                     },
                     {
                         "name": "Winter postcard.",

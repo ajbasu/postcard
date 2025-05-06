@@ -208,11 +208,22 @@ figcaption {
     align-items: center;
 }
 
+.fotw-header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .fotw-header-left h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.fotw-header-left a {
+    font-size: 16px !important;
+    color: var(--boga-kalar);
 }
 
 .fotw-header-right nav ul {
@@ -336,7 +347,7 @@ figcaption {
 
 .view-counter {
     position: absolute;
-    left: 31px;
+    left: 4rem;
     top: 21px;
     opacity: 0;
 }
