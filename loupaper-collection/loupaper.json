@@ -206,14 +206,5 @@
                 "receivedon": "Will be added"
             }
         ]
-    },
-    {
-        "name": "Yet to Release",
-        "data": [
-            {
-                "id": "US-VT",
-                "receivedon": "Yet to Release"
-            }
-        ]
     }
 ]
