@@ -44,7 +44,8 @@
                 <div class="checkbox-div"><input type="checkbox" id="message"><label for="message">Message</label></div>
                 <div class="checkbox-div"><input type="checkbox" id="stamp"><label for="stamp">Stamp</label></div>
                 <div class="checkbox-div"><input type="checkbox" id="airmail"><label for="airmail">Airmail</label></div>
-                <div class="checkbox-div"><input type="checkbox" id="date"><label for="date">Date</label></div>
+                <div class="checkbox-div"><input type="checkbox" id="date"><label for="date">Date <span
+                            id="date-info"></span></label></div>
                 <div class="checkbox-div"><input type="checkbox" id="place"><label for="place">Place</label></div>
                 <div class="checkbox-div"><input type="checkbox" id="temp"><label for="temp">Temperature <span
                             id="weather-info"></span></label></div>
@@ -93,7 +94,7 @@
                 counter.textContent = `Counter: ${checked} / ${total}`;
             }
 
-            async function fetchWeather() {
+            async function fetchCurrentData() {
                 const lat = 13;
                 const lon = 77.75;
                 const response = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
@@ -105,6 +106,14 @@
                     const weatherElement = document.getElementById("weather-info");
                     weatherElement.textContent = `(${temp} ${unit})`;
                 }
+
+                const now = new Date();
+                const dd = String(now.getDate()).padStart(2, '0');
+                const mm = String(now.getMonth() + 1).padStart(2, '0');
+                const yy = String(now.getFullYear()).slice(-2);
+                const formattedDate = `${dd}-${mm}-${yy}`;
+                const dateElement = document.getElementById("date-info");
+                dateElement.textContent = `(${formattedDate})`;
             }
 
             checkboxes.forEach(checkbox => {
@@ -114,11 +123,11 @@
             document.getElementById("resetChecklist").addEventListener("click", () => {
                 checkboxes.forEach(cb => cb.checked = false);
                 updateCounter();
-                fetchWeather();
+                fetchCurrentData();
             });
 
             updateCounter();
-            fetchWeather();
+            fetchCurrentData();
 
         });
     </script>
