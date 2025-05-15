@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         card.appendChild(grid);
                     } else {
-                        const sortEnabled = series.sort !== "no";
+                        const sortEnabled = series.sort !== false;
 
                         if (series.subgroups && Array.isArray(series.subgroups)) {
                             // Process subgroups
@@ -259,6 +259,14 @@ function showGallery(event, series) {
         modalSubtitle.textContent = "Greyed out cards are missing.";
     }
 
+    if (series.sort !== false) {
+        filteredSeries.status = filteredSeries.status.slice().sort((a, b) => {
+            if (a.id && b.id) return Number(a.id) - Number(b.id);
+            if (a.name && b.name) return a.name.localeCompare(b.name);
+            return 0;
+        });
+    }
+
     filteredSeries.status.forEach(item => {
         const imgDiv = document.createElement("div");
         imgDiv.className = "image-item";
@@ -268,10 +276,17 @@ function showGallery(event, series) {
         img.src = item.image || "";
         img.alt = item.id ? item.id : item.name ? item.name : '';
 
-        if (item.id) {
+        const { id, received, count } = item;
+        const parts = [];
+
+        if (id) parts.push(id);
+        if (received === "arranged") parts.push("Arranged");
+        if (count > 1) parts.push(`${count}×`);
+
+        if (parts.length) {
             const tag = document.createElement("div");
             tag.className = "tag";
-            tag.textContent = item.id + (item.received === "arranged" ? " | Arranged" : "") + (item.count && item.count > 1 ? ` | ${item.count}×` : "");
+            tag.textContent = parts.join(" | ");
             imgDiv.appendChild(tag);
         }
 

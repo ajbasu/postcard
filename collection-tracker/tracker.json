@@ -1120,7 +1120,7 @@
     {
         "series": "Lokapedia by Loka Made",
         "link": "https://eu.zonerama.com/redteapost/Album/9338599",
-        "sort": "no",
+        "sort": false,
         "subgroups": [
             {
                 "series": "Volume 1",
@@ -1323,78 +1323,266 @@
     {
         "series": "Postallove Cat Breeds",
         "link": "https://eu.zonerama.com/redteapost/Album/10757059",
+        "gallery": true,
+        "artist": "Marianna Sztyma",
         "status": [
             {
                 "name": "Abyssinian cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-abisynski/kot-abisynski/506263-12-eng-US/Abyssinian-cat_width400_3.jpg"
             },
             {
                 "name": "Bengal cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-bengalski/kot-bengalski/517476-14-eng-US/Bengal-cat_width400_3.jpg"
             },
             {
                 "name": "British Shorthair cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-brytyjski/kot-brytyjski/382896-1-pol-PL/Kot-brytyjski_width400_3.jpg"
             },
             {
                 "name": "Devon Rex",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-devon-rex/kot-devon-rex/506308-14-pol-PL/Kot-Devon-Rex_width400_3.jpg"
             },
             {
                 "name": "Domestic Shorthair cat",
-                "received": "arranged"
+                "received": "arranged",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-domowy/kot-domowy/382971-4-pol-PL/Kot-domowy_width400_3.jpg"
             },
             {
                 "name": "Japanese Bobtail",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-japonski/kot-japonski/491423-7-pol-PL/Kot-japonski_width400_3.jpg"
             },
             {
-                "name": "Maine Coon cat",
-                "received": "no"
+                "name": "Maine Coon",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-maine-coon/kot-maine-coon/517521-15-pol-PL/Kot-Maine-Coon_width400_3.jpg"
             },
             {
                 "name": "Manx cat",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-manx/kot-manx/506359-12-eng-US/Manx-cat_width400_3.jpg"
             },
             {
                 "name": "Norwegian Forest cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-norweski/kot-norweski/383011-3-pol-PL/Kot-norweski_width400_3.jpg"
             },
             {
-                "name": "Oriental cat",
-                "received": "no"
+                "name": "Oriental Shorthair cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-orientalny/kot-orientalny/506407-12-eng-US/Oriental-cat_width400_3.jpg"
             },
             {
                 "name": "Persian cat",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-perski/kot-perski/383051-5-pol-PL/Kot-perski_width400_3.jpg"
             },
             {
                 "name": "Russian Blue cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-rosyjski-niebieski/kot-rosyjski-niebieski/383091-5-pol-PL/Kot-rosyjski-niebieski_width400_3.jpg"
             },
             {
-                "name": "Scottish cat",
-                "received": "no"
+                "name": "Scottish Fold cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-szkocki/kot-szkocki/491549-7-pol-PL/Kot-szkocki.jpg"
             },
             {
                 "name": "Siamese cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-syjamski/kot-syjamski/383131-6-pol-PL/Kot-syjamski_width400_3.jpg"
             },
             {
                 "name": "Siberian cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-syberyjski/kot-syberyjski/491507-7-pol-PL/Kot-syberyjski_width400_3.jpg"
             },
             {
                 "name": "Sphynx cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-sfinks/kot-sfinks/491465-7-pol-PL/Kot-sfinks_width400_3.jpg"
             },
             {
                 "name": "Tonkinese cat",
-                "received": "no"
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-tonkijski/kot-tonkijski/517572-14-eng-US/Tonkinese-cat_width400_3.jpg"
             },
             {
                 "name": "Turkish Angora cat",
-                "received": "yes"
+                "received": "yes",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-angora/kot-angora/517428-14-eng-US/Turkish-Angora-cat_width400_3.jpg"
+            }
+        ]
+    },
+    {
+        "series": "Terakoty",
+        "gallery": true,
+        "artist": "Katarzyna Kalder",
+        "sort": false,
+        "status": [
+            {
+                "name": "Adventure",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-hej-ho-przygodo/terakoty-hej-ho-przygodo/372103-12-pol-PL/Terakoty-Hej-ho-Przygodo_width400_3.jpg"
+            },
+            {
+                "name": "Black cats",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-czarne-koty/terakoty-czarne-koty/391287-16-pol-PL/Terakoty-Czarne-koty_width400_3.jpg"
+            },
+            {
+                "name": "Cat mom",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kocia-mama/terakoty-kocia-mama/503991-25-eng-US/Terakoty-Cat-mom_width400_3.jpg"
+            },
+            {
+                "name": "Cat music",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kocia-muzyka/terakoty-kocia-muzyka/504039-27-eng-US/Terakoty-Cat-music_width400_3.jpg"
+            },
+            {
+                "name": "Christmas houses",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-swiateczne-domki/terakoty-swiateczne-domki/6607045-5-pol-PL/Terakoty-Swiateczne-domki_width400_3.jpg"
+            },
+            {
+                "name": "Cookies",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/zimowe-i-swiateczne/terakoty-ciastka/terakoty-ciastka/6608195-25-pol-PL/Terakoty-Ciastka_width400_3.jpg"
+            },
+            {
+                "name": "Count Leon",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-hrabicz-leon/terakoty-hrabicz-leon/87504-22-pol-PL/Terakoty-Hrabicz-Leon_width400_3.jpg"
+            },
+            {
+                "name": "Friends",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/zimowe-i-swiateczne/terakoty-przyjaciele/terakoty-przyjaciele/6608133-24-pol-PL/Terakoty-Przyjaciele_width400_3.jpg"
+            },
+            {
+                "name": "I Like Cats",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-i-like-cats/terakoty-i-like-cats/503940-22-pol-PL/Terakoty-I-Like-Cats_width400_3.jpg"
+            },
+            {
+                "name": "Maneki neko",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-maneki-neko/terakoty-maneki-neko/504087-29-eng-US/Terakoty-Maneki-neko_width400_3.jpg"
+            },
+            {
+                "name": "Merry Christmas",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/zimowe-i-swiateczne/terakoty-wesolych-swiat/terakoty-wesolych-swiat/490472-2-pol-PL/Terakoty-Wesolych-Swiat_width400_3.jpg"
+            },
+            {
+                "name": "Mice will play",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-myszy-harcuja/terakoty-myszy-harcuja/391247-14-pol-PL/Terakoty-Myszy-harcuja_width400_3.jpg"
+            },
+            {
+                "name": "Playing Christmas kittens",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/zimowe-i-swiateczne/terakoty-zabawa/terakoty-zabawa/6608053-23-pol-PL/Terakoty-Zabawa_width400_3.jpg"
+            },
+            {
+                "name": "Sailor Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kot-w-marynarce/terakoty-kot-w-marynarce/27512-10-eng-US/Terakoty-Sailor-Cat_width400_3.jpg"
+            },
+            {
+                "name": "Sleeping cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-spiacy-kot/terakoty-spiacy-kot/391207-17-pol-PL/Terakoty-Spiacy-kot_width400_3.jpg"
+            },
+            {
+                "name": "Spring cats",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-wiosenne-koty/terakoty-wiosenne-koty/391385-16-pol-PL/Terakoty-Wiosenne-koty_width400_3.jpg"
+            },
+            {
+                "name": "The Perfect Housecat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-perfekcyjna-kotka-domowa/terakoty-perfekcyjna-kotka-domowa/391327-15-pol-PL/Terakoty-Perfekcyjna-Kotka-Domowa_width400_3.jpg"
+            },
+            {
+                "name": "Winter dream",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-zimowy-sen/terakoty-zimowy-sen/6606688-1-pol-PL/Terakoty-Zimowy-sen_width400_3.jpg"
+            },
+            {
+                "name": "Birthday boy",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-solenizant/terakoty-solenizant/27586-12-eng-US/Terakoty-Birthday-boy_width400_3.jpg"
+            },
+            {
+                "name": "Cat carnival",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-koci-karnawal/terakoty-koci-karnawal/505217-31-eng-US/Terakoty-Cat-carnival_width400_3.jpg"
+            },
+            {
+                "name": "Christmas cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-swiateczny-kot/terakoty-swiateczny-kot/6606867-3-pol-PL/Terakoty-Swiateczny-kot_width400_3.jpg"
+            },
+            {
+                "name": "Christmas fox",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-lisek/terakoty-lisek/6606965-4-pol-PL/Terakoty-Lisek_width400_3.jpg"
+            },
+            {
+                "name": "Christmas wreath",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-swiateczny-wieniec/terakoty-swiateczny-wieniec/6606751-2-pol-PL/Terakoty-Swiateczny-wieniec_width400_3.jpg"
+            },
+            {
+                "name": "Colorful Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kot-kolorowy/terakoty-kot-kolorowy/27670-15-eng-US/Terakoty-Colorful-Cat_width400_3.jpg"
+            },
+            {
+                "name": "Count Catula",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-hrabia-kotula/terakoty-hrabia-kotula/27549-11-eng-US/Terakoty-Count-Catula_width400_3.jpg"
+            },
+            {
+                "name": "Da Vinci Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kot-da-vinci/terakoty-kot-da-vinci/87465-19-pol-PL/Terakoty-Kot-da-Vinci_width400_3.jpg"
+            },
+            {
+                "name": "Easter cats",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-wielkanocne-koty/terakoty-wielkanocne-koty/391425-18-pol-PL/Terakoty-Wielkanocne-koty_width400_3.jpg"
+            },
+            {
+                "name": "Holiday Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kot-wakacyjny/terakoty-kot-wakacyjny/372060-12-pol-PL/Terakoty-Kot-Wakacyjny_width400_3.jpg"
+            },
+            {
+                "name": "If it fits I sits",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-pudelkowiec/terakoty-pudelkowiec/372017-11-pol-PL/Terakoty-Pudelkowiec_width400_3.jpg"
+            },
+            {
+                "name": "Pannakotka",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-pannakotka/terakoty-pannakotka/27633-15-eng-US/Terakoty-Birthday-boy_width400_3.jpg"
+            },
+            {
+                "name": "Postman Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-kot-pocztowy/terakoty-kot-pocztowy/27478-7-eng-US/Terakoty-Postman-Cat_width400_3.jpg"
+            },
+            {
+                "name": "Sport Cat",
+                "received": "no",
+                "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/pocztowki-artystyczne/terakoty-dress-kot/terakoty-dress-kot/87426-18-pol-PL/Terakoty-Dress-Kot_width400_3.jpg"
             }
         ]
     },
@@ -1516,7 +1704,7 @@
     },
     {
         "series": "Postcard Albums",
-        "sort": "no",
+        "sort": false,
         "status": [
             {
                 "name": "<136 Pockets>: LouPaper, GF"
