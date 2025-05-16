@@ -14,7 +14,7 @@
     {
         "name": "Mysore Palace, Mysore, Karnataka (Night View)",
         "image": "../assets/images/022 Mysore Palace, Mysore, Karnataka.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -187,7 +187,7 @@
     {
         "name": "Flower Seller, Mysore, Karnataka",
         "image": "../assets/images/049 Flower Seller, Mysore, Karnataka.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1156,7 +1156,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 2
     },
     {
@@ -1166,7 +1166,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 2
     },
     {
