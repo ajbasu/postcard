@@ -253,7 +253,7 @@
             },
             {
                 "id": "50",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2016/02/50.jpg"
             },
             {
@@ -1603,7 +1603,7 @@
                     },
                     {
                         "name": "Breads Postcard",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Donuts Postcard",
