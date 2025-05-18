@@ -254,6 +254,12 @@ figcaption {
     height: calc(100vh - 80px);
 }
 
+#lou-list-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0px 20px;
+}
+
 /* Desktop / Tablet View */
 @media (min-width: 768px) {
     #fotw-sheet-container {
@@ -270,6 +276,16 @@ figcaption {
 
     #fotw-chartdiv {
         width: 40%;
+        height: 100%;
+    }
+
+    #lou-chartdiv {
+        width: 70%;
+        height: 90vh;
+    }
+
+    #lou-list-container {
+        width: 30%;
         height: 100%;
     }
 }
@@ -291,11 +307,12 @@ figcaption {
         height: 100%;
         border: none;
     }
-}
 
-#lou-chartdiv {
-    width: 95vw;
-    height: 90vh;
+    #lou-list-container,
+    #lou-chartdiv {
+        width: 100%;
+        height: 50vh;
+    }
 }
 
 /* Hide Menu Button on Desktop */

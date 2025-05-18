@@ -57,7 +57,7 @@ am5.ready(function () {
             var colors = am5.ColorSet.new(root, { step: 2 });
             colors.next();
 
-            am5.array.each(groupData, function (group) {
+            am5.array.each(groupData.state, function (group) {
                 var countries = [];
                 var color = group.name == 'Yet to Release' ? am5.color(0xd3d3d9) : colors.next();
 
@@ -74,6 +74,32 @@ am5.ready(function () {
 
                 polygonSeries.data.setAll(group.data);
                 legend.data.push(polygonSeries);
+            });
+
+            const listContainer = document.getElementById("lou-list-container");
+
+            const categories = [
+                { title: "Missing", items: groupData.nonstate.missing },
+                { title: "Arranged", items: groupData.nonstate.arranged },
+                { title: "Received", items: groupData.nonstate.received },
+                { title: "Countries", items: groupData.nonstate.others }
+            ];
+
+            categories.forEach(({ title, items }) => {
+                const sorted = [...items].sort((a, b) => a.localeCompare(b));
+
+                const heading = document.createElement("h2");
+                heading.textContent = title;
+                listContainer.appendChild(heading);
+
+                const list = document.createElement("ol");
+                sorted.forEach(item => {
+                    const li = document.createElement("li");
+                    li.textContent = item;
+                    list.appendChild(li);
+                });
+
+                listContainer.appendChild(list);
             });
         });
 
