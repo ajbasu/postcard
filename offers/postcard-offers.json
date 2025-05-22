@@ -268,7 +268,7 @@
     {
         "name": "Snake Charmers",
         "image": "../assets/images/062 Snake Charmers.jpg",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -515,7 +515,7 @@
         "tag": [
             "Vintage"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {

@@ -196,7 +196,7 @@
             ]
         },
         {
-            "name": "Arranged",
+            "name": "Missing",
             "data": [
                 {
                     "id": "US-NC",
@@ -204,6 +204,10 @@
                 },
                 {
                     "id": "US-ND",
+                    "receivedon": "Will be added"
+                },
+                {
+                    "id": "US-VT",
                     "receivedon": "Will be added"
                 }
             ]
