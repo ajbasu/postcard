@@ -1599,7 +1599,7 @@
                     },
                     {
                         "name": "Garden Vegetables Postcard",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Breads Postcard",
@@ -1703,6 +1703,27 @@
                         "received": "yes"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "series": "Max & Oscar",
+        "gallery": true,
+        "status": [
+            {
+                "name": "United States",
+                "received": "yes",
+                "image": "https://www.maxandoscar.com/cdn/shop/products/USAmapW_a07d5707-8656-4477-81b6-d7ec2cdd4e75.jpg?v=1590490515&width=1680"
+            },
+            {
+                "name": "Mexico City",
+                "received": "yes",
+                "image": "https://www.maxandoscar.com/cdn/shop/products/MexicoCityW_2_15b759a8-b1d9-43e4-b364-fe24bc377cd5.jpg?v=1605546385&width=1100"
+            },
+            {
+                "name": "Caesars Head State Park, South Carolina",
+                "received": "yes",
+                "image": "https://www.maxandoscar.com/cdn/shop/products/CaersarsheadW.jpg?v=1589885614&width=1100"
             }
         ]
     },
