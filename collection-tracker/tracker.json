@@ -1595,7 +1595,7 @@
                 "status": [
                     {
                         "name": "Flowers of North America Postcard (2025 Edition)",
-                        "received": "no"
+                        "received": "arranged"
                     },
                     {
                         "name": "Garden Vegetables Postcard",
@@ -1724,6 +1724,11 @@
                 "name": "Caesars Head State Park, South Carolina",
                 "received": "yes",
                 "image": "https://www.maxandoscar.com/cdn/shop/products/CaersarsheadW.jpg?v=1589885614&width=1100"
+            },
+            {
+                "name": "Denver, Colorado",
+                "received": "yes",
+                "image": "https://www.maxandoscar.com/cdn/shop/products/DenverW.jpg?v=1589865974"
             }
         ]
     },
