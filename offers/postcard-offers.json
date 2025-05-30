@@ -37,6 +37,12 @@
         "level": 1
     },
     {
+        "name": "Kundadri, Shivamogga, Karnataka",
+        "image": "https://eu.zonerama.com/photos/535981743_1409x929.jpg",
+        "cards": 1,
+        "level": 1
+    },
+    {
         "name": "Colva Beach, Goa",
         "image": "../assets/images/025 Colva Beach, Goa.jpg",
         "cards": 1,
@@ -963,7 +969,7 @@
         "tag": [
             "UNESCO WHS"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -2384,6 +2390,36 @@
             "Small"
         ],
         "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Richard Scarry's Busy World - from Best First Book Ever (1979)",
+        "image": "https://eu.zonerama.com/photos/535981742_1389x983.jpg",
+        "tag": [
+            "Illustration",
+            "Boxset"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Richard Scarry's Busy World - from Cars and Trucks and Things That Go (1974)",
+        "image": "https://eu.zonerama.com/photos/535981739_1406x989.jpg",
+        "tag": [
+            "Illustration",
+            "Boxset"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "International Day of Happiness - Illustration by Saumya Rosario",
+        "image": "https://eu.zonerama.com/photos/535981737_902x1372.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "orientation": "portrait",
+        "cards": 2,
         "level": 1
     }
 ]
