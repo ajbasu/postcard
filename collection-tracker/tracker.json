@@ -1192,7 +1192,7 @@
                     },
                     {
                         "name": "Peranakan Origins",
-                        "received": "arranged",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/S29_F_720x.jpg"
                     },
                     {
@@ -1314,6 +1314,10 @@
                     },
                     {
                         "name": "Glacier Bay National Park, Alaska",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Death Valley National Park, California and Nevada",
                         "received": "yes"
                     }
                 ]
