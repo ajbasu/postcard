@@ -87,7 +87,7 @@
             },
             {
                 "id": "17",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/17_gummor.jpg"
             },
             {
@@ -117,7 +117,7 @@
             },
             {
                 "id": "23",
-                "received": "no",
+                "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/23_gummor.jpg"
             },
             {
@@ -413,7 +413,7 @@
             },
             {
                 "id": "82",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2024/04/82_gummor.jpg"
             },
             {
@@ -783,7 +783,7 @@
             },
             {
                 "name": "Canada",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://mymagicard.com/aimeos/1.d/preview/e/5/e543130c_01a529f2_AWT06_World-Trip-Canada.jpg"
             },
             {
@@ -1016,7 +1016,7 @@
             {
                 "id": 25,
                 "name": "Luxembourg",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://postcardsmarket.com/cdn/shop/products/20Luxemburg-1_400x.jpg?v=1605402406"
             },
             {
@@ -1615,7 +1615,7 @@
                     },
                     {
                         "name": "Winter postcard",
-                        "received": "arranged"
+                        "received": "yes"
                     },
                     {
                         "name": "Classic Cocktails: Old Fashioned Postcard",
