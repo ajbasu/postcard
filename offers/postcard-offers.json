@@ -1096,7 +1096,7 @@
             "Illustration"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Suga, BTS",
@@ -1105,7 +1105,7 @@
             "Illustration"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Happy Pride Day",
@@ -2421,5 +2421,62 @@
         "orientation": "portrait",
         "cards": 1,
         "level": 1
+    },
+    {
+        "name": "Meetup Card",
+        "image": "https://eu.zonerama.com/photos/537606189_945x1420.jpg",
+        "tag": [
+            "Meetup"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Julia Child's List of Title Suggestions for Mastering the Art of French Cooking, Curious Feast, Blue",
+        "image": "https://eu.zonerama.com/photos/537606193_881x1280.jpg",
+        "tag": [
+            "Boxset"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Holy Trinity of Southern Cooking, Curious Feast, Yellow",
+        "image": "https://eu.zonerama.com/photos/537606188_1345x925.jpg",
+        "tag": [
+            "Boxset"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "French Salad Named After French Women, Curious Feast, Green",
+        "image": "https://eu.zonerama.com/photos/537606191_951x1375.jpg",
+        "tag": [
+            "Boxset"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Misleading Food Names, Curious Feast, Purple",
+        "image": "https://eu.zonerama.com/photos/537606192_1446x996.jpg",
+        "tag": [
+            "Boxset"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Neville Longbottom and Luna Lovegood, Harry Potter",
+        "image": "https://eu.zonerama.com/photos/537606190_1409x997.jpg",
+        "tag": [
+            "PHQ"
+        ],
+        "cards": 1,
+        "level": 3
     }
 ]
