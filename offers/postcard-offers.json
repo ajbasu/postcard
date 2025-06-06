@@ -39,7 +39,7 @@
     {
         "name": "Kundadri, Shivamogga, Karnataka",
         "image": "https://eu.zonerama.com/photos/535981743_1409x929.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -2419,7 +2419,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     }
 ]
