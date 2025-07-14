@@ -1,7 +1,7 @@
 {
     "state": [
         {
-            "name": "Received",
+            "name": "Received all 50 States",
             "data": [
                 {
                     "id": "US-AL",
@@ -200,15 +200,10 @@
                 {
                     "id": "US-ND",
                     "receivedon": "18-06-25"
-                }
-            ]
-        },
-        {
-            "name": "Missing",
-            "data": [
+                },
                 {
                     "id": "US-VT",
-                    "receivedon": "Will be added"
+                    "receivedon": "13-07-25"
                 }
             ]
         }
@@ -268,7 +263,9 @@
             "Postcard Love 2024",
             "Earth Day 2024 (2×)",
             "Winter",
-            "Meetup in Venice - 30 November 2024"
+            "Meetup in Venice - 30 November 2024",
+            "Garden Vegetables",
+            "Flowers of North America (2025 Edition)"
         ],
         "missing": [
             "Bloody Mary Classic cocktails",
@@ -277,12 +274,11 @@
             "LouCrew Virtual Meetup 2024",
             "Earth Day 2023",
             "Beer Cans",
-            "Fireworks"
+            "Fireworks",
+            "Brilliant Bugs"
         ],
         "arranged": [
-            "Breads",
-            "Garden Vegetables",
-            "Flowers of North America (2025 Edition)"
+            "Breads"
         ],
         "others": [
             "Scotland (Received)",
