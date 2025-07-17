@@ -1,5 +1,159 @@
 [
     {
+        "name": "Key Monastery, Spiti Valley, Himachal Pradesh, Winter, Vertical",
+        "image": "https://eu.zonerama.com/photos/548034179_983x1411.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Key Monastery, Spiti Valley, Himachal Pradesh, Winter, Night, Vertical",
+        "image": "https://eu.zonerama.com/photos/548034188_932x1340.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Key Monastery, Spiti Valley, Himachal Pradesh, Summer",
+        "image": "https://eu.zonerama.com/photos/548034182_876x613.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Dhankhar, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034178_876x610.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Tabo, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034191_890x1276.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Langza Village, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034198_612x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Dhankhar, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034187_619x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Tandi, Lahaul, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034183_876x622.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Spiti Valley Multiview",
+        "image": "https://eu.zonerama.com/photos/548034176_1438x1010.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 2,
+        "level": 2
+    },
+    {
+        "name": "The World's Highest Post Office Sign Board, Hikkim, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034175_1465x1023.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 2,
+        "level": 2
+    },
+    {
+        "name": "Spitian Girls in Traditional Outfits, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034193_1399x980.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 2,
+        "level": 2
+    },
+    {
+        "name": "Sadhu or ascetic, McLeod Ganj, Kangra, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034195_615x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Paddy Farmer, Kullu, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034204_984x1398.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Kangra Gaddi (Shepherd), Suraj Tal, Lahaul, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034196_876x613.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Spitian Woman in Traditional Outfit, art by @hrnawang",
+        "image": "https://eu.zonerama.com/photos/548034173_876x613.jpg",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 3,
+        "level": 3
+    },
+    {
+        "name": "Monastery in the Clouds, art by @hrnawang",
+        "image": "https://eu.zonerama.com/photos/548034170_986x1407.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 1,
+        "level": 3
+    },
+    {
         "name": "Vidhana Soudha, Bangalore, Karnataka",
         "image": "../assets/images/020 Vidhana Soudha, Bangalore, Karnataka.jpg",
         "cards": 1,
