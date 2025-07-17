@@ -68,12 +68,48 @@
         "level": 2
     },
     {
+        "name": "Dhankhar Village, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064120_1752x1177.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Chicham Bridge: the Highest Bridge in Asia, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064125_1752x1213.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
         "name": "Tandi, Lahaul, Himachal Pradesh",
         "image": "https://eu.zonerama.com/photos/548034183_876x622.jpg",
         "tag": [
             "Spiti Valley"
         ],
         "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "The World's Highest Post Office with its Postman, Hikkim, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064123_1687x1208.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "The World's Highest Post Office Sign Board, Hikkim, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548034175_1465x1023.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 2,
         "level": 2
     },
     {
@@ -86,12 +122,21 @@
         "level": 2
     },
     {
-        "name": "The World's Highest Post Office Sign Board, Hikkim, Spiti Valley, Himachal Pradesh",
-        "image": "https://eu.zonerama.com/photos/548034175_1465x1023.jpg",
+        "name": "Spitian Woman in Traditional Outfits Dancing in Komic Monastery, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064122_1752x1267.jpg",
         "tag": [
             "Spiti Valley"
         ],
         "cards": 2,
+        "level": 2
+    },
+    {
+        "name": "Two Spitian Girls in Traditional Outfits, Spiti Valley, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064121_1752x1239.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 3,
         "level": 2
     },
     {
@@ -124,6 +169,15 @@
         "level": 2
     },
     {
+        "name": "Miyar Valley Trek, Lahaul, Himachal Pradesh",
+        "image": "https://eu.zonerama.com/photos/548064127_1625x1140.jpg",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 2,
+        "level": 2
+    },
+    {
         "name": "Kangra Gaddi (Shepherd), Suraj Tal, Lahaul, Himachal Pradesh",
         "image": "https://eu.zonerama.com/photos/548034196_876x613.jpg",
         "tag": [
@@ -152,6 +206,71 @@
         ],
         "cards": 1,
         "level": 3
+    },
+    {
+        "name": "Traditional Spiti Attire, art by @_sita_l",
+        "image": "https://eu.zonerama.com/photos/548064141_585x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 1,
+        "level": 3
+    },
+    {
+        "name": "Young Spiti Nuns Heading for Class, art by @_sita_l",
+        "image": "https://eu.zonerama.com/photos/548064132_1017x1524.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 1,
+        "level": 3
+    },
+    {
+        "name": "Monk Performing Prayers, Spiti, art by @_sita_l",
+        "image": "https://eu.zonerama.com/photos/548064133_963x1440.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 2,
+        "level": 3
+    },
+    {
+        "name": "The World's Highest Post Office with its Postman, art by @_sita_l",
+        "image": "https://eu.zonerama.com/photos/548064135_587x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 2,
+        "level": 3
+    },
+    {
+        "name": "Kaza Milestone, art by @artmospherestudio",
+        "image": "https://eu.zonerama.com/photos/548064143_586x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley",
+            "Picky"
+        ],
+        "cards": 2,
+        "level": 3
+    },
+    {
+        "name": "Julley: Spiti's Magical Word, art by @thematchboxgirl",
+        "image": "https://eu.zonerama.com/photos/548064130_939x1407.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Spiti Valley"
+        ],
+        "cards": 1,
+        "level": 2
     },
     {
         "name": "Vidhana Soudha, Bangalore, Karnataka",
