@@ -488,11 +488,26 @@
         "level": 2
     },
     {
-        "name": "Santa is coming!",
-        "image": "https://eu.zonerama.com/photos/511021750_1417x991.jpg",
-        "tag": [
-            "Holiday"
-        ],
+        "name": "Oracle Headquarters in Redwood Shores, Silicon Valley, California",
+        "image": "https://eu.zonerama.com/photos/548025718_876x580.jpg",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Captain H.L. Tibbals Building a.k.a. Palace Hotel, Port Townsend, Washington",
+        "image": "https://eu.zonerama.com/photos/548025719_876x581.jpg",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Sandstone Falls, New River Gorge National Park & Preserve, West Virginia",
+        "image": "https://eu.zonerama.com/photos/548025720_876x591.jpg",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "The 1916 Rising, Easter Rising, GPO Museum Dublin",
+        "image": "https://eu.zonerama.com/photos/548025721_876x655.jpg",
         "cards": 1,
         "level": 1
     },
@@ -1028,7 +1043,7 @@
             "With Matching Stamp"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1049,7 +1064,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1576,7 +1591,7 @@
             "Series",
             "Not From Origin"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 3
     },
     {
@@ -1613,7 +1628,7 @@
             "Series",
             "Not From Origin"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 3
     },
     {
@@ -2478,5 +2493,24 @@
         ],
         "cards": 1,
         "level": 3
+    },
+    {
+        "name": "Santa is coming!",
+        "image": "https://eu.zonerama.com/photos/511021750_1417x991.jpg",
+        "tag": [
+            "Holiday"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "The Cricket from the Pathfinder Role Playing Game by Kyle Stanley Hunter Art",
+        "image": "https://eu.zonerama.com/photos/548025717_586x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 1
     }
 ]
