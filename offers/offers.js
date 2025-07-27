@@ -66,7 +66,7 @@ fetch("postcard-offers.json")
         const frag = document.createDocumentFragment();
 
         postcardsData.forEach((postcard, index) => {
-            const { orientation = "landscape", image, name, tag = [], cards } = postcard;
+            const { orientation = "landscape", image, name, tag = [], cards, level } = postcard;
 
             const figure = document.createElement("figure");
             figure.classList.add(orientation.toLowerCase() === "portrait" ? "portrait" : "landscape");
@@ -79,6 +79,7 @@ fetch("postcard-offers.json")
             img.alt = name;
             img.loading = "lazy";
             imgContainer.appendChild(img);
+            if (level > 1) tag.push('Not for Tags');
             let tagText = "";
             if (tag.length) {
                 tagText = tag.slice().sort().join(", ");
