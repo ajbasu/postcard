@@ -20,7 +20,7 @@ if (encoded) {
     const decodedString = atob(encoded);
     const decodedParams = new URLSearchParams(decodedString);
 
-    random = decodedParams.get("r");
+    random = decodedParams.get("rand");
     levelParam = decodedParams.get("l");
 
 }
