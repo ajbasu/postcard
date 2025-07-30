@@ -13,7 +13,7 @@ const shParamRaw = urlParams.get('sh');
 const shTags = shParamRaw ? shParamRaw.split(',').map(tag => tag.trim().toLowerCase()) : [];
 
 let levelParam = urlParams.get("l");
-let random = urlParams.get("r");
+let random = urlParams.get("rand");
 
 const encoded = urlParams.get("q");
 if (encoded) {
