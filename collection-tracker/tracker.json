@@ -12,7 +12,7 @@
             },
             {
                 "id": "2",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/2_gummor.jpg"
             },
             {
@@ -27,12 +27,12 @@
             },
             {
                 "id": "5",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/5_gummor.jpg"
             },
             {
                 "id": "6",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/6_gummor.jpg"
             },
             {
@@ -323,7 +323,7 @@
             },
             {
                 "id": "64",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2018/10/64_gummor.jpg"
             },
             {
@@ -388,7 +388,7 @@
             },
             {
                 "id": "77",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/02/77_gummor.jpg"
             },
             {
@@ -1157,7 +1157,7 @@
                     },
                     {
                         "name": "Made With Durian",
-                        "received": "arranged",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/S25_F_720x.jpg"
                     },
                     {
@@ -1182,7 +1182,7 @@
                     },
                     {
                         "name": "Air Batu Campur",
-                        "received": "no",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/S28_F_720x.jpg"
                     },
                     {
