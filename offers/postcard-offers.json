@@ -472,7 +472,8 @@
     {
         "name": "Market Place, South India",
         "image": "../assets/images/050 Market Place, South India.jpg",
-        "cards": 1
+        "cards": 1,
+        "level": 1
     },
     {
         "name": "Banana Market, Kerala",
@@ -2727,7 +2728,7 @@
             "Meetup"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {

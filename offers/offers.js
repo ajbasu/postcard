@@ -29,7 +29,7 @@ const allowedLevels = levelParam ? levelParam.split(",").map(Number) : null;
 fetch("postcard-offers.json")
     .then(response => response.json())
     .then(data => {
-        postcardsData = data.filter(postcard => postcard.cards > 0);;
+        postcardsData = data.filter(postcard => postcard.cards > 0);
 
         if (shTags.length > 0) {
             postcardsData = postcardsData.filter(postcard => {
@@ -55,10 +55,19 @@ fetch("postcard-offers.json")
         postcardsData.sort((a, b) => {
             const orientationA = a.orientation || "";
             const orientationB = b.orientation || "";
+
+            // First compare orientation
             if (!orientationA && orientationB) return -1;
             if (orientationA && !orientationB) return 1;
-            return orientationA.localeCompare(orientationB);
+            const orientationCompare = orientationA.localeCompare(orientationB);
+            if (orientationCompare !== 0) return orientationCompare;
+
+            // Then compare level (higher level first)
+            const levelA = a.level || 0;
+            const levelB = b.level || 0;
+            return levelB - levelA;
         });
+
 
         const container = document.getElementById("gallery");
         container.innerHTML = "";
@@ -67,6 +76,8 @@ fetch("postcard-offers.json")
 
         postcardsData.forEach((postcard, index) => {
             const { orientation = "landscape", image, name, tag = [], cards, level } = postcard;
+
+            if (tag.includes("My Favourite")) return;
 
             const figure = document.createElement("figure");
             figure.classList.add(orientation.toLowerCase() === "portrait" ? "portrait" : "landscape");
