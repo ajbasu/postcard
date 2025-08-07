@@ -764,7 +764,7 @@
     {
         "name": "Oracle Headquarters in Redwood Shores, Silicon Valley, California",
         "image": "https://eu.zonerama.com/photos/548025718_876x580.jpg",
-        "cards": 0,
+        "cards": 1,
         "level": 1
     },
     {
@@ -777,7 +777,7 @@
         "name": "Sandstone Falls, New River Gorge National Park & Preserve, West Virginia",
         "image": "https://eu.zonerama.com/photos/548025720_876x591.jpg",
         "cards": 1,
-        "level": 1
+        "level": 0
     },
     {
         "name": "The 1916 Rising, Easter Rising, GPO Museum Dublin",
@@ -2798,6 +2798,16 @@
         "level": 1
     },
     {
+        "name": "Hot Chocolate Fairy by Kate Babok",
+        "image": "https://eu.zonerama.com/photos/551906290_588x876.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
         "name": "4 Houses of Harry Potter by Shikoart",
         "image": "https://eu.zonerama.com/photos/550528201_1474x983.jpg",
         "tag": [
@@ -2807,8 +2817,26 @@
         "level": 2
     },
     {
+        "name": "Windows of Harry Potter by Shikoart",
+        "image": "https://eu.zonerama.com/photos/551906292_1752x1171.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
         "name": "Steampunk Bee by Liza Melkozerova",
         "image": "https://eu.zonerama.com/photos/550528196_1462x979.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Steampunk Dragonfly by Liza Melkozerova",
+        "image": "https://eu.zonerama.com/photos/551906291_1752x1164.jpg",
         "tag": [
             "Illustration"
         ],
