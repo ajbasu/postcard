@@ -1,7 +1,7 @@
 {
     "state": [
         {
-            "name": "Received all 50 States",
+            "name": "Received all 50 States (Missing Washington DC)",
             "data": [
                 {
                     "id": "US-AL",
@@ -275,14 +275,16 @@
             "Earth Day 2023",
             "Beer Cans",
             "Fireworks",
-            "Brilliant Bugs"
+            "Brilliant Bugs",
+            "Luna Moth"
         ],
         "arranged": [
             "Breads"
         ],
         "others": [
             "Scotland (Received)",
-            "Sweden (Received)"
+            "Sweden (Received)",
+            "Washington DC (Missing)"
         ]
     }
 }
