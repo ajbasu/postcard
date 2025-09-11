@@ -920,6 +920,11 @@
                 "name": "Singapore",
                 "received": "no",
                 "image": "https://mymagicard.com/aimeos/1.d/preview/e/9/e987ce15_AWT34_World-Trip-Singapore.jpg"
+            },
+            {
+                "name": "Sweden",
+                "received": "no",
+                "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Sweden"
             }
         ]
     },
