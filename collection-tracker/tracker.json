@@ -533,7 +533,7 @@
             },
             {
                 "id": "15",
-                "received": "arranged",
+                "received": "yes",
                 "name": "Afternoon in the town of cats",
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib6edcda15f090dbe/version/1637666887/image.jpg"
             },
@@ -575,7 +575,7 @@
             },
             {
                 "id": "22",
-                "received": "arranged",
+                "received": "yes",
                 "name": "Autumn festival dusk",
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/icd4377e90d254905/version/1637666887/image.jpg"
             },
@@ -778,7 +778,7 @@
             },
             {
                 "name": "Brazil",
-                "received": "no",
+                "received": "yes",
                 "image": "https://mymagicard.com/aimeos/1.d/preview/7/f/7f8d781e_AWT28_World-Trip-Brazil.jpg"
             },
             {

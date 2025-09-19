@@ -354,7 +354,7 @@
     {
         "name": "Auto Rickshaw, Hampi, Karnataka",
         "image": "../assets/images/031 Auto rickshaw, Hampi, Karnataka.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -366,7 +366,7 @@
     {
         "name": "Atul Shakti Cargo, Kutch, Gujarat",
         "image": "../assets/images/033 Atul Shakti Cargo, Kutch, Gujarat.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -478,7 +478,7 @@
     {
         "name": "Banana Market, Kerala",
         "image": "../assets/images/051 Banana Market, Kerala.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1630,7 +1630,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
