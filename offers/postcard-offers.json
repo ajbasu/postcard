@@ -776,8 +776,8 @@
     {
         "name": "Sandstone Falls, New River Gorge National Park & Preserve, West Virginia",
         "image": "https://eu.zonerama.com/photos/548025720_876x591.jpg",
-        "cards": 1,
-        "level": 0
+        "cards": 0,
+        "level": 1
     },
     {
         "name": "The 1916 Rising, Easter Rising, GPO Museum Dublin",
@@ -1564,7 +1564,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
