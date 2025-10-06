@@ -1203,7 +1203,7 @@
     {
         "name": "Gaganendranath Tagore, Daak",
         "image": "https://eu.zonerama.com/photos/504372035_1600x996.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -2106,6 +2106,41 @@
         ],
         "orientation": "portrait",
         "cards": 1,
+        "level": 4
+    },
+    {
+        "name": "HPC India",
+        "image": "https://papersisters.de/thumbnail/50/3f/27/1693915576/papersisters-postcard-happy-postcrossing-from-india-hpc-intas521mzdmcd5_600x600.jpg?ts=1693915614",
+        "tag": [
+            "Series",
+            "From Origin",
+            "Illustration"
+        ],
+        "cards": 10,
+        "level": 4
+    },
+    {
+        "name": "WPD Stamp India",
+        "image": "https://papersisters.de/thumbnail/45/af/1c/1753804885/papersisters%20World%20Postcard%20Day%20Postcard%20India%20WPD%20Stamp%20IN_800x800.jpg?ts=1753804885",
+        "tag": [
+            "Illustration",
+            "Series",
+            "From Origin"
+        ],
+        "orientation": "portrait",
+        "cards": 2,
+        "level": 4
+    },
+    {
+        "name": "20 Years of Postcrossing India",
+        "image": "https://papersisters.de/thumbnail/a1/ab/14/1748950409/papersisters%20India%2020%20Years%20of%20Postcrossing%20IN%20Postcard_800x800.jpg?ts=1748950409",
+        "tag": [
+            "Illustration",
+            "Series",
+            "From Origin"
+        ],
+        "orientation": "portrait",
+        "cards": 2,
         "level": 4
     },
     {
