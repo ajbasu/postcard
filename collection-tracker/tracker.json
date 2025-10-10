@@ -1605,57 +1605,6 @@
         ]
     },
     {
-        "series": "LouPaper",
-        "link": "https://eu.zonerama.com/redteapost/Album/8601479",
-        "subgroups": [
-            {
-                "series": "Missing Non-State ",
-                "status": [
-                    {
-                        "name": "Flowers of North America Postcard (2025 Edition)",
-                        "received": "arranged"
-                    },
-                    {
-                        "name": "Garden Vegetables Postcard",
-                        "received": "arranged"
-                    },
-                    {
-                        "name": "Breads Postcard",
-                        "received": "arranged"
-                    },
-                    {
-                        "name": "Donuts Postcard",
-                        "received": "yes"
-                    },
-                    {
-                        "name": "Winter postcard",
-                        "received": "yes"
-                    },
-                    {
-                        "name": "Classic Cocktails: Old Fashioned Postcard",
-                        "received": "no"
-                    },
-                    {
-                        "name": "Classic Cocktails: Mint Julep Postcard",
-                        "received": "no"
-                    },
-                    {
-                        "name": "Classic Cocktails: Bloody Mary Postcard",
-                        "received": "no"
-                    },
-                    {
-                        "name": "Lou Crew Postcard 2024",
-                        "received": "no"
-                    },
-                    {
-                        "name": "Earth Day 2023",
-                        "received": "no"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "series": "PostcardSisters Colorful Postboxes",
         "link": "https://eu.zonerama.com/redteapost/Album/10758012",
         "status": [
