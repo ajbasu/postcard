@@ -118,7 +118,7 @@
         "tag": [
             "Spiti Valley"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 2
     },
     {
@@ -136,7 +136,7 @@
         "tag": [
             "Spiti Valley"
         ],
-        "cards": 3,
+        "cards": 2,
         "level": 2
     },
     {
@@ -454,7 +454,7 @@
     {
         "name": "Market Place, South India",
         "image": "../assets/images/047 Market Place, South India.jpg",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
