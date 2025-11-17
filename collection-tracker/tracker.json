@@ -432,6 +432,11 @@
                 "image": "https://www.ingelook.com/wp-content/uploads/2025/03/85_gummor.jpg.jpeg"
             },
             {
+                "id": "86",
+                "received": "no",
+                "image": "https://www.ingelook.com/wp-content/uploads/2025/11/86_gummor.jpg"
+            },
+            {
                 "id": "616",
                 "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/01/616_gummor.jpg",
@@ -925,6 +930,11 @@
                 "name": "Sweden",
                 "received": "no",
                 "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Sweden"
+            },
+            {
+                "name": "Latvia",
+                "received": "no",
+                "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Latvia"
             }
         ]
     },
