@@ -403,7 +403,7 @@
         "name": "Temple Elephant, Srirangam, Tamil Nadu",
         "image": "../assets/images/039 Temple Elephant, Srirangam, Tamil Nadu.jpg",
         "orientation": "portrait",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -1064,7 +1064,7 @@
             "Animal",
             "Illustration"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
