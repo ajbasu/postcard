@@ -460,7 +460,7 @@
     {
         "name": "Market Place, India",
         "image": "../assets/images/048 Market Place, India.jpg",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -1403,7 +1403,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 3,
+        "cards": 2,
         "level": 2
     },
     {
