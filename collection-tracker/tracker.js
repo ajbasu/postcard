@@ -247,6 +247,11 @@ function showGallery(event, series) {
     modalImages.innerHTML = "";
     modalTitle.textContent = series.series;
 
+    if (series.subgroups) {
+        let mergedStatus = series.subgroups.flatMap(group => group.status || []);
+        series.status = mergedStatus;
+    }
+
     let filteredSeries = { ...series };
     let isMeta = false;
 

@@ -1141,6 +1141,7 @@
         "series": "Lokapedia by Loka Made",
         "link": "https://eu.zonerama.com/redteapost/Album/9338599",
         "sort": false,
+        "gallery": true,
         "subgroups": [
             {
                 "series": "Volume 1",
@@ -1241,9 +1242,54 @@
                         "image": "https://lokamade.com/cdn/shop/files/S23_F_720x.jpg"
                     },
                     {
-                        "name": "A City In A Garden ",
+                        "name": "A City In A Garden",
                         "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/S22_F_720x.jpg"
+                    }
+                ]
+            },
+            {
+                "series": "Singapore Set C",
+                "status": [
+                    {
+                        "name": "Bak Kut Teh",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP42_F_720x.jpg?v=1761796798"
+                    },
+                    {
+                        "name": "Chilli Crab",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP43_F_720x.jpg?v=1761797950"
+                    },
+                    {
+                        "name": "Shophouses of Singapore",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP44_F_720x.jpg?v=1761798021"
+                    },
+                    {
+                        "name": "Singapore Changi Airport",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP45_F_720x.jpg?v=1761798092"
+                    },
+                    {
+                        "name": "Marina Bay",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP46_F_720x.jpg?v=1761798128"
+                    },
+                    {
+                        "name": "Orchids of Singapore",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP47_F_720x.jpg?v=1761798171"
+                    },
+                    {
+                        "name": "Smooth-coated Otters",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP48_F_720x.jpg?v=1761798210"
+                    },
+                    {
+                        "name": "Republic of Singapore",
+                        "received": "no",
+                        "image": "https://lokamade.com/cdn/shop/files/SSP49_F_720x.jpg?v=1761798258"
                     }
                 ]
             }
