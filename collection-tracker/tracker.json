@@ -12,7 +12,7 @@
             },
             {
                 "id": "2",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/2_gummor.jpg"
             },
             {
@@ -27,12 +27,12 @@
             },
             {
                 "id": "5",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/5_gummor.jpg"
             },
             {
                 "id": "6",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/6_gummor.jpg"
             },
             {
@@ -107,12 +107,12 @@
             },
             {
                 "id": "21",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/21_gummor.jpg"
             },
             {
                 "id": "22",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/22_gummor.jpg"
             },
             {
@@ -183,7 +183,7 @@
             },
             {
                 "id": "36",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/36_gummor.jpg"
             },
             {
@@ -193,7 +193,7 @@
             },
             {
                 "id": "38",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/38_gummor.jpg"
             },
             {
@@ -273,7 +273,7 @@
             },
             {
                 "id": "54",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2017/02/54u.jpg"
             },
             {
@@ -323,7 +323,7 @@
             },
             {
                 "id": "64",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2018/10/64_gummor.jpg"
             },
             {
@@ -388,7 +388,7 @@
             },
             {
                 "id": "77",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/02/77_gummor.jpg"
             },
             {
@@ -946,7 +946,7 @@
             {
                 "id": 10,
                 "name": "Belgium",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/05Belgia-1_800x.jpg?v=1605402803"
             },
             {
@@ -976,7 +976,7 @@
             {
                 "id": 15,
                 "name": "Estonia",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/10EEsti-1_800x.jpg?v=1605402743"
             },
             {
@@ -1000,7 +1000,7 @@
             {
                 "id": 19,
                 "name": "France",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/14France-1_400x.jpg?v=1605402406"
             },
             {
@@ -1157,7 +1157,7 @@
                     },
                     {
                         "name": "Malaysia's Floral Treasures",
-                        "received": "arranged",
+                        "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/MSP138_F_B_720x.jpg"
                     },
                     {
@@ -1167,7 +1167,7 @@
                     },
                     {
                         "name": "Know Your Durian",
-                        "received": "no",
+                        "received": "arranged",
                         "image": "https://lokamade.com/cdn/shop/files/S24_F_720x.jpg"
                     },
                     {
@@ -1177,7 +1177,7 @@
                     },
                     {
                         "name": "Perahu - Malaysia Traditional Boat",
-                        "received": "arranged",
+                        "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/MSP134_F_B_720x.jpg"
                     },
                     {
@@ -1217,7 +1217,7 @@
                     },
                     {
                         "name": "Nasi Kerabu",
-                        "received": "arranged",
+                        "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/jpeg-optimizer_MSP156_F_720x.jpg"
                     },
                     {
@@ -1237,7 +1237,7 @@
                 "status": [
                     {
                         "name": "Samsui Women",
-                        "received": "arranged",
+                        "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/S23_F_720x.jpg"
                     },
                     {
@@ -1376,7 +1376,7 @@
             },
             {
                 "name": "Domestic Shorthair cat",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.postallove.com/var/plain_site/storage/images/pocztowki/kocie-rasy/kot-domowy/kot-domowy/382971-4-pol-PL/Kot-domowy_width400_3.jpg"
             },
             {
