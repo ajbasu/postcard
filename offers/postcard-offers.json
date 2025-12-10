@@ -127,7 +127,7 @@
         "tag": [
             "Spiti Valley"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 2
     },
     {
@@ -330,7 +330,7 @@
     {
         "name": "Chinese Fishing Net, Cochin, Kerala",
         "image": "../assets/images/027 Chinese Fishing Net, Cochin, Kerala.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -917,7 +917,7 @@
     {
         "name": "The Main Hall of Nariaiji Temple in Winter, Miyazu, Japan",
         "image": "https://eu.zonerama.com/photos/488288132_1752x1245.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1045,7 +1045,7 @@
         "tag": [
             "Animal"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1642,7 +1642,7 @@
             "Animal"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 2
     },
     {
@@ -2655,7 +2655,7 @@
         "tag": [
             "Food Package"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
