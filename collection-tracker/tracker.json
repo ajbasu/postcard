@@ -1218,7 +1218,7 @@
                     },
                     {
                         "name": "Nasi Kerabu",
-                        "received": "no",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/jpeg-optimizer_MSP156_F_720x.jpg"
                     },
                     {
@@ -1388,6 +1388,10 @@
                     },
                     {
                         "name": "Wind Cave National Park, South Dakota",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "Cuyahoga Valley National Park, Ohio",
                         "received": "yes"
                     }
                 ]
