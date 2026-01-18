@@ -174,7 +174,7 @@
         "tag": [
             "Spiti Valley"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -659,6 +659,15 @@
         ],
         "cards": 2,
         "level": 2
+    },
+    {
+        "name": "Dholavira: a Harappan City",
+        "image": "https://eu.zonerama.com/photos/592353513_1195x799_16.jpg",
+        "tag": [
+            "UNESCO WHS"
+        ],
+        "cards": 2,
+        "level": 1
     },
     {
         "name": "Taj Mahal, Uttar Pradesh",
@@ -2806,6 +2815,16 @@
         ],
         "orientation": "portrait",
         "cards": 0,
+        "level": 1
+    },
+    {
+        "name": "Commissioned art by @joyeeta.joyart",
+        "image": "https://eu.zonerama.com/photos/592353514_614x801_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
         "level": 1
     },
     {
