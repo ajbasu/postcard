@@ -2010,8 +2010,39 @@
         "level": 3
     },
     {
+        "name": "Owls - Illustrator Anna Feskova",
+        "image": "https://eu.zonerama.com/photos/593170227_523x801_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Happy New Year! A. Paper",
+        "image": "https://eu.zonerama.com/photos/593170214_1101x801_16.jpg",
+        "tag": [
+            "Illustration",
+            "Holiday"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
+        "name": "Christmas Boy",
+        "image": "https://eu.zonerama.com/photos/593170216_556x801_16.jpg",
+        "tag": [
+            "Illustration",
+            "Holiday"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 2
+    },
+    {
         "name": "LouPaper Love postcard. Valentines postcard.",
-        "image": "https://eu.zonerama.com/photos/465094143_1752x1174_timestamp(638710423423000000).jpg",
+        "image": "https://eu.zonerama.com/photos/593175025_1195x793_16.jpg",
         "tag": [
             "Illustration",
             "LouPaper"
@@ -2021,7 +2052,7 @@
     },
     {
         "name": "Spy × Family Anya Forger Glossy",
-        "image": "https://eu.zonerama.com/photos/447132057_523x772_timestamp(638710423423000000).jpg",
+        "image": "https://eu.zonerama.com/photos/593175038_538x801_16.jpg",
         "tag": [
             "Illustration",
             "Anime"
