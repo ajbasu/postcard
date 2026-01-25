@@ -1622,7 +1622,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1650,6 +1650,38 @@
             "Illustration"
         ],
         "cards": 0,
+        "level": 1
+    },
+    {
+        "name": "Girl",
+        "image": "https://eu.zonerama.com/photos/593489250_555x801_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Bird and birdhouse",
+        "image": "https://eu.zonerama.com/photos/593489251_553x801_16.jpg",
+        "tag": [
+            "Illustration",
+            "Animal"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Dragonfly",
+        "image": "https://eu.zonerama.com/photos/593489256_555x801_16.jpg",
+        "tag": [
+            "Illustration",
+            "Animal"
+        ],
+        "orientation": "portrait",
+        "cards": 1,
         "level": 1
     },
     {
@@ -2956,7 +2988,8 @@
         "name": "Steampunk Bee by Liza Melkozerova",
         "image": "https://eu.zonerama.com/photos/550528196_1462x979.jpg",
         "tag": [
-            "Illustration"
+            "Illustration",
+            "Animal"
         ],
         "cards": 1,
         "level": 2
@@ -2965,7 +2998,8 @@
         "name": "Steampunk Dragonfly by Liza Melkozerova",
         "image": "https://eu.zonerama.com/photos/551906291_1752x1164.jpg",
         "tag": [
-            "Illustration"
+            "Illustration",
+            "Animal"
         ],
         "cards": 1,
         "level": 2
