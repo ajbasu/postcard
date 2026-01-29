@@ -348,7 +348,7 @@
     {
         "name": "Backwaters, Kerala",
         "image": "../assets/images/030 Backwaters, Kerala.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1785,7 +1785,7 @@
             "Illustration",
             "AR"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 2
     },
     {
@@ -1820,7 +1820,7 @@
     },
     {
         "name": "Larnaca, Cyprus Muliview",
-        "image": "https://eu.zonerama.com/photos/504371834_1600x794.jpg",
+        "image": "https://eu.zonerama.com/photos/594431787_1195x581_16.jpg",
         "tag": [
             "Oversized",
             "From My Travel"
@@ -1830,7 +1830,7 @@
     },
     {
         "name": "Larnaca, Cyprus 3D 1",
-        "image": "https://eu.zonerama.com/photos/504371845_1600x1105.jpg",
+        "image": "https://eu.zonerama.com/photos/594431786_1171x801_16.jpg",
         "tag": [
             "Lenticular",
             "From My Travel"
@@ -1840,7 +1840,7 @@
     },
     {
         "name": "Larnaca, Cyprus 3D 2",
-        "image": "https://eu.zonerama.com/photos/504371853_1600x1106.jpg",
+        "image": "https://eu.zonerama.com/photos/594431785_1165x801_16.jpg",
         "tag": [
             "Lenticular",
             "From My Travel"

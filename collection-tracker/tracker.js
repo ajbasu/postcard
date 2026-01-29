@@ -370,7 +370,10 @@ document.getElementById("countrySearch").addEventListener("input", function () {
     const entries = document.querySelectorAll("#country-tracker .country-entry");
 
     entries.forEach(entry => {
-        const text = entry.textContent.toLowerCase();
+        const text = Array.from(entry.childNodes)
+            .map(node => node.textContent.trim())
+            .join(" ")
+            .toLowerCase();
         entry.style.display = text.includes(query) ? "block" : "none";
     });
 });
