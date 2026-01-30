@@ -1789,6 +1789,43 @@
         ]
     },
     {
+        "series": "Indie Artists (Received)",
+        "gallery": true,
+        "sort": false,
+        "subgroups": [
+            {
+                "series": "Natsuka Murata",
+                "status": [
+                    {
+                        "name": "Shiba Inu and Sakura Latte",
+                        "received": "yes",
+                        "image": "https://eu.zonerama.com/photos/594620271_529x801_16.jpg"
+                    },
+                    {
+                        "name": "Shiba Inu and Cold Sake",
+                        "received": "yes",
+                        "image": "https://eu.zonerama.com/photos/594620272_531x801_16.jpg"
+                    }
+                ]
+            },
+            {
+                "series": "Edit CUE",
+                "status": [
+                    {
+                        "name": "Posuka Hiroden Zenbu",
+                        "received": "yes",
+                        "image": "https://eu.zonerama.com/photos/594620270_534x801_16.jpg"
+                    },
+                    {
+                        "name": "Hiroshima Dentetsu 2",
+                        "received": "arranged",
+                        "image": "https://eu.zonerama.com/photos/594620414_564x846_16.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "series": "Postcard Albums",
         "sort": false,
         "status": [
