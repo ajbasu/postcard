@@ -1029,7 +1029,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1819,6 +1819,15 @@
         "level": 2
     },
     {
+        "name": "Your region. Your food...",
+        "image": "https://eu.zonerama.com/photos/595289600_1195x565_16.jpg",
+        "tag": [
+            "Oversized"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
         "name": "Larnaca, Cyprus Muliview",
         "image": "https://eu.zonerama.com/photos/594431787_1195x581_16.jpg",
         "tag": [
@@ -1884,7 +1893,7 @@
             "Illustration",
             "Blue Cats"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 3
     },
     {
