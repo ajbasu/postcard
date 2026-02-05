@@ -454,13 +454,13 @@
     {
         "name": "Market Place, South India",
         "image": "../assets/images/047 Market Place, South India.jpg",
-        "cards": 1,
+        "cards": -1,
         "level": 1
     },
     {
         "name": "Market Place, India",
         "image": "../assets/images/048 Market Place, India.jpg",
-        "cards": 1,
+        "cards": -1,
         "level": 1
     },
     {
@@ -484,7 +484,7 @@
     {
         "name": "Tikka Market, India",
         "image": "../assets/images/052 Tikka Market, India.jpg",
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
@@ -536,7 +536,7 @@
     {
         "name": "Paddy Plantation, Tamil Nadu",
         "image": "../assets/images/060 Paddy Plantation, Tamil Nadu.jpg",
-        "cards": 1,
+        "cards": -1,
         "level": 1
     },
     {
@@ -554,7 +554,7 @@
     {
         "name": "Pots Sellers, Rajasthan",
         "image": "../assets/images/063 Pots Sellers, Rajasthan.jpg",
-        "cards": 1,
+        "cards": -1,
         "level": 1
     },
     {
@@ -1029,7 +1029,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 0,
+        "cards": 1,
         "level": 1
     },
     {
@@ -2099,7 +2099,7 @@
             "Anime"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 3
     },
     {
