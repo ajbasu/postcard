@@ -454,13 +454,13 @@
     {
         "name": "Market Place, South India",
         "image": "../assets/images/047 Market Place, South India.jpg",
-        "cards": -1,
+        "cards": 1,
         "level": 1
     },
     {
         "name": "Market Place, India",
         "image": "../assets/images/048 Market Place, India.jpg",
-        "cards": -1,
+        "cards": 1,
         "level": 1
     },
     {
@@ -536,7 +536,7 @@
     {
         "name": "Paddy Plantation, Tamil Nadu",
         "image": "../assets/images/060 Paddy Plantation, Tamil Nadu.jpg",
-        "cards": -1,
+        "cards": 1,
         "level": 1
     },
     {
@@ -554,7 +554,7 @@
     {
         "name": "Pots Sellers, Rajasthan",
         "image": "../assets/images/063 Pots Sellers, Rajasthan.jpg",
-        "cards": -1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -1014,7 +1014,7 @@
         "name": "Crossing Street, Black and White",
         "image": "https://eu.zonerama.com/photos/507364800_582x876.jpg",
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
