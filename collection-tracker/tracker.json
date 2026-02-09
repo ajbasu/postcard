@@ -1726,23 +1726,27 @@
                         "received": "yes"
                     },
                     {
-                        "name": "Year of the Tiger (2022)",
+                        "name": "(2022) Year of the Tiger",
                         "received": "yes"
                     },
                     {
-                        "name": "Year of the Rabbit (2023)",
+                        "name": "(2023) Year of the Rabbit",
                         "received": "yes"
                     },
                     {
-                        "name": "Year of the Dragon (2024)",
+                        "name": "(2024) Year of the Dragon",
                         "received": "yes"
                     },
                     {
-                        "name": "Year of the Snake (2024)",
+                        "name": "(2025) Year of the Snake",
                         "received": "yes"
                     },
                     {
-                        "name": "Year of the Pig (2019)",
+                        "name": "(2019) Year of the Pig",
+                        "received": "yes"
+                    },
+                    {
+                        "name": "(2026) Year of the Horse",
                         "received": "yes"
                     },
                     {
@@ -1805,6 +1809,11 @@
                         "name": "Shiba Inu and Cold Sake",
                         "received": "yes",
                         "image": "https://eu.zonerama.com/photos/594620272_531x801_16.jpg"
+                    },
+                    {
+                        "name": "Shiba Inu and Watermelon",
+                        "received": "arranged",
+                        "image": "https://www.papertreatshop.com/cdn/shop/files/FullSizeRender_a35d3d19-3395-42ff-81f0-4dae1817fb6e.heic?v=1716148706&width=1200"
                     }
                 ]
             },
