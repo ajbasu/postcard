@@ -27,7 +27,7 @@
             },
             {
                 "id": "5",
-                "received": "arranged",
+                "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/5_gummor.jpg"
             },
             {
@@ -748,6 +748,12 @@
                 "name": "Sakura on the Hill",
                 "count": 2,
                 "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ife49757c65e4c099/version/1637666666/image.jpg"
+            },
+            {
+                "id": "SE",
+                "received": "yes",
+                "name": "Good day!",
+                "image": "https://eu.zonerama.com/photos/596728758_1190x801_16.jpg"
             }
         ]
     },
