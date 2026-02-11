@@ -17,7 +17,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Key Monastery, Spiti Valley, Himachal Pradesh, Summer",
@@ -45,7 +45,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Langza Village, Spiti Valley, Himachal Pradesh",
@@ -65,7 +65,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Dhankhar Village, Spiti Valley, Himachal Pradesh",
@@ -128,7 +128,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Two Spitian Girls in Traditional Outfits, Spiti Valley, Himachal Pradesh",
@@ -137,7 +137,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Spitian Girls in Traditional Outfits, Spiti Valley, Himachal Pradesh",
@@ -146,7 +146,7 @@
             "Spiti Valley"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Sadhu or ascetic, McLeod Ganj, Kangra, Himachal Pradesh",
@@ -267,7 +267,18 @@
         "image": "https://eu.zonerama.com/photos/548064130_939x1407.jpg",
         "orientation": "portrait",
         "tag": [
-            "Spiti Valley"
+            "Spiti Valley",
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Banana and flower, art by @kadaannahmol",
+        "image": "https://eu.zonerama.com/photos/596929425_526x801_16.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Illustration"
         ],
         "cards": 1,
         "level": 2
@@ -612,7 +623,7 @@
             "UNESCO Tentative"
         ],
         "cards": 2,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Evolution of Temple Architecture – Aihole-Badami-Pattadakal, Karnataka (Cave Temple, Badami)",
@@ -630,7 +641,7 @@
             "UNESCO Tentative"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Sri Ranganathaswamy Temple, Srirangam, Tamil Nadu",
@@ -649,7 +660,7 @@
             "UNESCO Tentative"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Temples of Kanchipuram, Tamil Nadu (Varadharaja Perumal Temple, Kanchipuram)",
@@ -658,7 +669,7 @@
             "UNESCO Tentative"
         ],
         "cards": 2,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Dholavira: a Harappan City",
@@ -704,7 +715,7 @@
             "UNESCO WHS"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Group of Monuments at Hampi, Karnataka (Pushkarani or Water Tank, Hampi)",
@@ -713,7 +724,7 @@
             "UNESCO WHS"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Group of Monuments at Hampi, Karnataka",
@@ -758,7 +769,7 @@
             "UNESCO WHS"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Jaipur City, Rajasthan",
@@ -1395,7 +1406,7 @@
         ],
         "orientation": "portrait",
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "RM, BTS",
@@ -1423,7 +1434,7 @@
         ],
         "orientation": "portrait",
         "cards": 2,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Send a Postcard Postcrossing Papersisters",
@@ -1511,7 +1522,7 @@
         ],
         "orientation": "portrait",
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Karnataka",
@@ -1545,7 +1556,7 @@
         "name": "Neville Longbottom, Harry Potter",
         "image": "https://eu.zonerama.com/photos/427930146_1752x1126.jpg",
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Howl's Moving Castle, Studio Ghibli",
@@ -1564,7 +1575,7 @@
             "Boxset"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Tintin au Tibet",
@@ -1605,7 +1616,7 @@
             "Holiday"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Vote! E Pluribus Unum: Our State Flowers, art by Mary Hawkins",
@@ -1706,7 +1717,7 @@
         ],
         "orientation": "portrait",
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Beaulieu: Office of Chief Postmaster General, Bangalore",
@@ -1716,7 +1727,7 @@
             "AR"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "General Post Office, Bangalore",
@@ -1726,7 +1737,7 @@
             "AR"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Sandesh: Museum of Communication, Bangalore",
@@ -1736,7 +1747,7 @@
             "AR"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "KR Market, Bangalore",
@@ -1776,7 +1787,7 @@
             "AR"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Glass House, Lal Bagh, Bangalore",
@@ -1796,7 +1807,7 @@
             "AR"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Namaste from India",
@@ -2288,7 +2299,7 @@
             "Thin"
         ],
         "cards": 1,
-        "level": 1
+        "level": -1
     },
     {
         "name": "Japanese Folk Tales 2",
@@ -2298,7 +2309,7 @@
             "Thin"
         ],
         "cards": 1,
-        "level": 1
+        "level": -1
     },
     {
         "name": "Japanese Folk Tales 3",
@@ -2308,7 +2319,7 @@
             "Thin"
         ],
         "cards": 1,
-        "level": 1
+        "level": -1
     },
     {
         "name": "Japanese Folk Tales 4",
@@ -2318,7 +2329,7 @@
             "Thin"
         ],
         "cards": 1,
-        "level": 1
+        "level": -1
     },
     {
         "name": "Japanese Folk Tales 5",
@@ -2982,7 +2993,7 @@
             "Illustration"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Windows of Harry Potter by Shikoart",
@@ -2991,7 +3002,7 @@
             "Illustration"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Steampunk Bee by Liza Melkozerova",
@@ -3001,7 +3012,7 @@
             "Animal"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     },
     {
         "name": "Steampunk Dragonfly by Liza Melkozerova",
@@ -3011,6 +3022,6 @@
             "Animal"
         ],
         "cards": 1,
-        "level": 2
+        "level": 1
     }
 ]
