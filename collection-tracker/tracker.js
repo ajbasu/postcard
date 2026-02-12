@@ -51,6 +51,9 @@ document.addEventListener("DOMContentLoaded", function () {
                             cell.textContent = item.id;
 
                             if (item.received === "yes") {
+                                if (item.countable === "no") {
+                                    cell.classList.add("uncountable");
+                                }
                                 cell.classList.add("received");
                                 cell.title = "Received";
                             }

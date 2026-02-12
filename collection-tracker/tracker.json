@@ -437,6 +437,11 @@
                 "image": "https://www.ingelook.com/wp-content/uploads/2025/11/86_gummor.jpg"
             },
             {
+                "id": "87",
+                "received": "no",
+                "image": "https://www.ingelook.com/wp-content/uploads/2026/02/87_gummor.jpg"
+            },
+            {
                 "id": "616",
                 "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/01/616_gummor.jpg",
@@ -753,7 +758,8 @@
                 "id": "SE",
                 "received": "yes",
                 "name": "Good day!",
-                "image": "https://eu.zonerama.com/photos/596728758_1190x801_16.jpg"
+                "image": "https://eu.zonerama.com/photos/596728758_1190x801_16.jpg",
+                "countable": "no"
             }
         ]
     },

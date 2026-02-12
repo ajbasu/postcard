@@ -97,6 +97,10 @@ body {
     color: black;
 }
 
+.grid-cell.uncountable {
+    opacity: 0.5;
+}
+
 .grid-cell.arranged {
     background-color: var(--arranged-kalar);
     color: black;
