@@ -442,6 +442,11 @@
                 "image": "https://www.ingelook.com/wp-content/uploads/2026/02/87_gummor.jpg"
             },
             {
+                "id": "88",
+                "received": "no",
+                "image": "https://www.ingelook.com/wp-content/uploads/2026/03/88_gummor.jpg"
+            },
+            {
                 "id": "616",
                 "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/01/616_gummor.jpg",
@@ -1824,8 +1829,8 @@
                     },
                     {
                         "name": "Shiba Inu and Watermelon",
-                        "received": "arranged",
-                        "image": "https://www.papertreatshop.com/cdn/shop/files/FullSizeRender_a35d3d19-3395-42ff-81f0-4dae1817fb6e.heic?v=1716148706&width=1200"
+                        "received": "yes",
+                        "image": "https://eu.zonerama.com/photos/601797069_1188x801_16.jpg"
                     }
                 ]
             },
