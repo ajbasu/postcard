@@ -482,7 +482,7 @@
     {
         "name": "Market Place, India",
         "image": "../assets/images/048 Market Place, India.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -679,7 +679,7 @@
         "tag": [
             "UNESCO Tentative"
         ],
-        "cards": 2,
+        "cards": 1,
         "level": 1
     },
     {
