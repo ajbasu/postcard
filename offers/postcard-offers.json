@@ -437,7 +437,7 @@
     {
         "name": "Bullock Cart on the Road, Goa",
         "image": "../assets/images/041 Bullock cart on the Road, Goa.jpg",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -734,7 +734,7 @@
         "tag": [
             "UNESCO WHS"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -2898,7 +2898,7 @@
             "Illustration"
         ],
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
