@@ -3109,5 +3109,26 @@
         ],
         "cards": 1,
         "level": 1
+    },
+    {
+        "name": "Dutch children's book",
+        "orientation": "portrait",
+        "translation": "De Geschiedenis van Jantje Kwak (The History of Johnny Quack)",
+        "image": "https://eu.zonerama.com/photos/606592708_614x801_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 1
+    },
+    {
+        "name": "Snow White and the Seven Dwarfs",
+        "image": "https://eu.zonerama.com/photos/606592707_548x801_16.jpg",
+        "orientation": "portrait",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 1
     }
 ]
