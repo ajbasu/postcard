@@ -107,7 +107,7 @@
             },
             {
                 "id": "21",
-                "received": "no",
+                "received": "arranged",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/21_gummor.jpg"
             },
             {
@@ -957,6 +957,11 @@
                 "name": "Latvia",
                 "received": "no",
                 "image": "https://mymagicard.com/aimeos/1.d/preview/4/b/4b47b269_AWT36_World-Trip-Latvia.jpg"
+            },
+            {
+                "name": "Ireland",
+                "received": "no",
+                "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Ireland"
             }
         ]
     },
