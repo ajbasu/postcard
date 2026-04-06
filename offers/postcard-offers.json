@@ -7,7 +7,7 @@
             "Illustration",
             "Boxset"
         ],
-        "cards": 100,
+        "cards": 98,
         "level": 1
     },
     {
@@ -2186,7 +2186,7 @@
             "From Origin"
         ],
         "cards": 1,
-        "level": 1
+        "level": 2
     },
     {
         "name": "FOTW India",
@@ -3068,7 +3068,7 @@
         "tag": [
             "Animal"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
@@ -3128,7 +3128,7 @@
         "tag": [
             "Illustration"
         ],
-        "cards": 1,
+        "cards": 0,
         "level": 1
     }
 ]
