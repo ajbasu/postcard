@@ -525,20 +525,20 @@
         "name": "Market Scene, Goa",
         "image": "../assets/images/055 Market Scene, Goa.jpg",
         "orientation": "portrait",
-        "cards": 1,
+        "cards": 0,
         "level": 1
     },
     {
         "name": "Flower Seller, Goa",
         "image": "../assets/images/056 Flower Seller, Goa.jpg",
-        "cards": 1,
+        "cards": 0,
         "orientation": "portrait",
         "level": 1
     },
     {
         "name": "Market Scene, India",
         "image": "../assets/images/057 Market Scene, India.jpg",
-        "cards": 1,
+        "cards": 0,
         "orientation": "portrait",
         "level": 1
     },
