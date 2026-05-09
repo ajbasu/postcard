@@ -107,7 +107,7 @@
             },
             {
                 "id": "21",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://www.ingelook.com/wp-content/uploads/2015/06/21_gummor.jpg"
             },
             {
@@ -1147,7 +1147,7 @@
             {
                 "id": 92,
                 "name": "Globe",
-                "received": "arranged",
+                "received": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/01Globe-1_3414bbe8-e3fc-4826-99e2-3f3a0bc5bdfa_400x.jpg?v=1605402994"
             },
             {
@@ -1184,7 +1184,7 @@
                         "image": "https://lokamade.com/cdn/shop/files/MSP136_F_B_720x.jpg"
                     },
                     {
-                        "name": "Malaysia's Floral Treasures",
+                        "name": "Malaysia's Floral Treasures*",
                         "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/MSP138_F_B_720x.jpg"
                     },
@@ -1195,7 +1195,7 @@
                     },
                     {
                         "name": "Know Your Durian",
-                        "received": "arranged",
+                        "received": "no",
                         "image": "https://lokamade.com/cdn/shop/files/S24_F_720x.jpg"
                     },
                     {
