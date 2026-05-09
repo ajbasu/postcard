@@ -295,6 +295,24 @@
         "level": 2
     },
     {
+        "name": "Made With Durian, Lokapedia Volume 1",
+        "image": "https://eu.zonerama.com/photos/617447244_1691x1199_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+        {
+        "name": "Satay, Lokapedia Volume 1",
+        "image": "https://eu.zonerama.com/photos/617447233_1691x1205_16.jpg",
+        "tag": [
+            "Illustration"
+        ],
+        "cards": 1,
+        "level": 2
+    },
+    {
         "name": "Vidhana Soudha, Bangalore, Karnataka",
         "image": "../assets/images/020 Vidhana Soudha, Bangalore, Karnataka.jpg",
         "cards": 1,
