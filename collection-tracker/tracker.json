@@ -955,7 +955,7 @@
             },
             {
                 "name": "Latvia",
-                "received": "no",
+                "received": "yes",
                 "image": "https://mymagicard.com/aimeos/1.d/preview/4/b/4b47b269_AWT36_World-Trip-Latvia.jpg"
             },
             {
@@ -1180,7 +1180,7 @@
                     },
                     {
                         "name": "Beauty of Traditional Wau",
-                        "received": "arranged",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/MSP136_F_B_720x.jpg"
                     },
                     {
