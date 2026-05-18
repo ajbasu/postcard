@@ -43,7 +43,18 @@ document.addEventListener("DOMContentLoaded", function () {
                         const grid = document.createElement("div");
                         grid.className = "grid-layout";
 
-                        const sorted = series.status.slice().sort((a, b) => Number(a.id) - Number(b.id));
+                        const sorted = series.status.slice().sort((a, b) => {
+                            const key = series.sortBy || "id";
+
+                            const valA = a[key];
+                            const valB = b[key];
+
+                            if (!isNaN(valA) && !isNaN(valB)) {
+                                return Number(valA) - Number(valB);
+                            }
+
+                            return String(valA).localeCompare(String(valB));
+                        });
 
                         sorted.forEach(item => {
                             const cell = document.createElement("div");
@@ -268,9 +279,22 @@ function showGallery(event, series) {
     }
 
     if (series.sort !== false) {
+        const key = series.sortBy || "id";
+
         filteredSeries.status = filteredSeries.status.slice().sort((a, b) => {
+            const valA = a[key];
+            const valB = b[key];
+
+            if (valA != null && valB != null) {
+                if (!isNaN(valA) && !isNaN(valB)) {
+                    return Number(valA) - Number(valB);
+                }
+                return String(valA).localeCompare(String(valB));
+            }
+
             if (a.id && b.id) return Number(a.id) - Number(b.id);
             if (a.name && b.name) return a.name.localeCompare(b.name);
+
             return 0;
         });
     }
@@ -372,12 +396,25 @@ document.getElementById("countrySearch").addEventListener("input", function () {
     const query = this.value.toLowerCase().trim();
     const entries = document.querySelectorAll("#country-tracker .country-entry");
 
+    let visibleCount = 0;
+
     entries.forEach(entry => {
         const text = Array.from(entry.childNodes)
             .map(node => node.textContent.trim())
             .join(" ")
             .toLowerCase();
-        entry.style.display = text.includes(query) ? "block" : "none";
+
+        const isMatch = text.includes(query);
+        entry.style.display = isMatch ? "block" : "none";
+
+        if (isMatch) visibleCount++;
     });
+
+    const title = document.getElementById("trackerTitle");
+    if (title) {
+        title.textContent = query
+            ? `Country-wise Collection Tracker (${visibleCount})`
+            : "Country-wise Collection Tracker";
+    }
 });
 
