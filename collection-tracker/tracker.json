@@ -1,5 +1,751 @@
 [
     {
+        "series": "Blue Cats WT",
+        "link": "https://eu.zonerama.com/redteapost/Album/8596077",
+        "gallery": true,
+        "type": "grid",
+        "sortBy": "name",
+        "status": [
+            {
+                "name": "Argentina",
+                "id": "🇦🇷",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/files/8/a/8a8b9ff1_AWT31_World-Trip-Argentina.jpg"
+            },
+            {
+                "name": "Australia",
+                "id": "🇦🇺",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/9/79a7db34_AWT27_World-Trip-Australia.jpg"
+            },
+            {
+                "name": "Austria",
+                "id": "🇦🇹",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/d/3/d3096d6a_AWT21_World-Trip-Austria.jpg"
+            },
+            {
+                "name": "Belarus",
+                "id": "🇧🇾",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bef5c37_29934092_AWT01_World-Trip-Belarus.jpg"
+            },
+            {
+                "name": "Belgium",
+                "id": "🇧🇪",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/1/61fc43e9_AWT29_World-Trip-Belgium.jpg"
+            },
+            {
+                "name": "Brazil",
+                "id": "🇧🇷",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/f/7f8d781e_AWT28_World-Trip-Brazil.jpg"
+            },
+            {
+                "name": "Canada",
+                "id": "🇨🇦",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/e/5/e543130c_01a529f2_AWT06_World-Trip-Canada.jpg"
+            },
+            {
+                "name": "China",
+                "id": "🇨🇳",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/4/a/4a905030_0d2f4dff_AWT02_World-Trip-China.jpg"
+            },
+            {
+                "name": "Czechia",
+                "id": "🇨🇿",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/3/f37ef8b4_a2e76b0d_AWT07_World-Trip-Czechia.jpg"
+            },
+            {
+                "name": "Egypt",
+                "id": "🇪🇬",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/b/0/b01927df_1f2a6cff_AWT19_World-Trip-Egypt.jpg"
+            },
+            {
+                "name": "England",
+                "id": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/b/e/beaed1b8_AWT22_World-Trip-England.jpg"
+            },
+            {
+                "name": "Finland",
+                "id": "🇫🇮",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/2/0/20cdb78a_bb2532b4_AWT20_World-Trip-Finland.jpg"
+            },
+            {
+                "name": "France",
+                "id": "🇫🇷",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/a/2/a24cfdd2_5398589a_AWT04_World-Trip-France.jpg"
+            },
+            {
+                "name": "Germany",
+                "id": "🇩🇪",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/a/fa8cc9fa_e399c8f3_AWT17_World-Trip-Germany.jpg"
+            },
+            {
+                "name": "Greece",
+                "id": "🇬🇷",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/f/c/fcfda7d0_73c8fdea_AWT15_World-Trip-Greece.jpg"
+            },
+            {
+                "name": "India",
+                "id": "🇮🇳",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/f/5f81ab8b_1b702916_AWT18_World-Trip-India.jpg"
+            },
+            {
+                "name": "Italy",
+                "id": "🇮🇹",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/7/07222de4_75cf3417_AWT03_Italy.jpg"
+            },
+            {
+                "name": "Japan",
+                "id": "🇯🇵",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/0/60e7fca0_cfd6de2c_AWT11_World-Trip-Japan.jpg"
+            },
+            {
+                "name": "Lithuania",
+                "id": "🇱🇹",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/5/059c7a66_AWT33_World-Trip-Lithuania.jpg"
+            },
+            {
+                "name": "Mexico",
+                "id": "🇲🇽",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/c/5c40a4de_AWT23_World-Trip-Mexico.jpg"
+            },
+            {
+                "name": "Netherlands",
+                "id": "🇳🇱",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bf401fe_98e5a584_AWT12_World-Trip-Netherlands.jpg"
+            },
+            {
+                "name": "Norway",
+                "id": "🇳🇴",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/a/6a8951d9_3d70b530_AWT10_World-Trip-Norway.jpg"
+            },
+            {
+                "name": "Poland",
+                "id": "🇵🇱",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/8/5/85ba054e_f727c942_AWT16_World-Trip-Poland.jpg"
+            },
+            {
+                "name": "Portugal",
+                "id": "🇵🇹",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/d/b/dbbaf765_AWT26_World-Trip-Portugal.jpg"
+            },
+            {
+                "name": "Romania",
+                "id": "🇷🇴",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/7/a/7a7f9f54_305fb298_AWT05_World-Trip-Romania.jpg"
+            },
+            {
+                "name": "Russia",
+                "id": "🇷🇺",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/5/d/5d7c8b98_95e5d64e_AWT09_World-Trip-Russia.jpg"
+            },
+            {
+                "name": "South Korea",
+                "id": "🇰🇷",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/9/f/9f9f897a_AWT30_World-Trip-South-Korea.jpg"
+            },
+            {
+                "name": "Spain",
+                "id": "🇪🇸",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/d/6d3d472e_5a3235b4_AWT14_World-Trip-Spain.jpg"
+            },
+            {
+                "name": "Switzerland",
+                "id": "🇨🇭",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/8/686a66bf_327b6a03_AWT08_-World-Trip-Switzerland.jpg"
+            },
+            {
+                "name": "Thailand",
+                "id": "🇹🇭",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/1/7/17b948ec_AWT32_World-Trip-Thailand.jpg"
+            },
+            {
+                "name": "Turkey",
+                "id": "🇹🇷",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/6/7/6719ce55_144c5070_AWT13_World-Trip-Turkey.jpg"
+            },
+            {
+                "name": "UAE",
+                "id": "🇦🇪",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/c/5/c516a887_1-d-preview-4-4-44fa67af_WT_United-Arab-Emirates.jpg"
+            },
+            {
+                "name": "USA",
+                "id": "🇺🇸",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/e/c/ec3731d5_AWT24_World-Trip-USA.jpg"
+            },
+            {
+                "name": "Singapore",
+                "id": "🇸🇬",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/e/9/e987ce15_AWT34_World-Trip-Singapore.jpg"
+            },
+            {
+                "name": "Sweden",
+                "id": "🇸🇪",
+                "received": "no",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/b/b/bb7d3113_AWT35_World-Trip-Sweden.jpg"
+            },
+            {
+                "name": "Latvia",
+                "id": "🇱🇻",
+                "received": "yes",
+                "image": "https://mymagicard.com/aimeos/1.d/preview/4/b/4b47b269_AWT36_World-Trip-Latvia.jpg"
+            },
+            {
+                "name": "Ireland",
+                "id": "🇮🇪",
+                "received": "no",
+                "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Ireland"
+            }
+        ]
+    },
+    {
+        "series": "Unity in Diversity",
+        "link": "https://eu.zonerama.com/redteapost/Album/9198102",
+        "gallery": true,
+        "type": "grid",
+        "sortBy": "name",
+        "status": [
+            {
+                "id": "🇧🇪",
+                "name": "10 - Belgium",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/05Belgia-1_800x.jpg?v=1605402803"
+            },
+            {
+                "id": "🇧🇬",
+                "name": "11 - Bulgaria",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/06Bulgaria-1_800x.jpg?v=1605402925"
+            },
+            {
+                "id": "🇨🇿",
+                "name": "12 - Czech Republic",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/07Cehia-1_800x.jpg?v=1605402803"
+            },
+            {
+                "id": "🇩🇰",
+                "name": "13 - Denmark",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/08Danemarca-1_800x.jpg?v=1605402743"
+            },
+            {
+                "id": "🇩🇪",
+                "name": "14 - Germany",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/09Deutschland-1_800x.jpg?v=1605402683"
+            },
+            {
+                "id": "🇪🇪",
+                "name": "15 - Estonia",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/10EEsti-1_800x.jpg?v=1605402743"
+            },
+            {
+                "id": "🇮🇪",
+                "name": "16 - Ireland",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/11Ireland-1_400x.jpg?v=1605402804"
+            },
+            {
+                "id": "🇬🇷",
+                "name": "17 - Greece",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/12Grecia-1.jpg?v=1605402683"
+            },
+            {
+                "id": "🇪🇸",
+                "name": "18 - Spain",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/13Espana-1_400x.jpg?v=1605402682"
+            },
+            {
+                "id": "🇫🇷",
+                "name": "19 - France",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/14France-1_400x.jpg?v=1605402406"
+            },
+            {
+                "id": "🇭🇷",
+                "name": "20 - Croatia",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/15Hrvatska-1_400x.jpg?v=1605402467"
+            },
+            {
+                "id": "🇮🇹",
+                "name": "21 - Italy",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/16Italia-1_400x.jpg?v=1632496816"
+            },
+            {
+                "id": "🇨🇾",
+                "name": "22 - Cyprus",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/17Kypros-1_400x.jpg?v=1605402468"
+            },
+            {
+                "id": "🇱🇻",
+                "name": "23 - Latvia",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/18Latvia-1_400x.jpg?v=1605402406"
+            },
+            {
+                "id": "🇱🇹",
+                "name": "24 - Lithuania",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/19Lietuva-1_400x.jpg?v=1605402466"
+            },
+            {
+                "id": "🇱🇺",
+                "name": "25 - Luxembourg",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/20Luxemburg-1_400x.jpg?v=1605402406"
+            },
+            {
+                "id": "🇭🇺",
+                "name": "26 - Hungary",
+                "received": "yes",
+                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-a9wxx47jwzpb1.png?width=1080&crop=smart&auto=webp&s=323f2dd27eafa2210792acaff116bfbd763e8153"
+            },
+            {
+                "id": "🇲🇹",
+                "name": "27 - Malta",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/22Malta-1_400x.jpg?v=1605402528"
+            },
+            {
+                "id": "🇳🇱",
+                "name": "28 - Netherlands",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/23Nederland-1_400x.jpg?v=1605402406"
+            },
+            {
+                "id": "🇦🇹",
+                "name": "29 - Austria",
+                "received": "yes",
+                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-fwcb62z2wzpb1.png?width=1080&crop=smart&auto=webp&s=0199ad46b644d9f918d0c221871d963141fe0b4b"
+            },
+            {
+                "id": "🇵🇱",
+                "name": "30 - Poland",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/25Polska-1_800x.jpg?v=1605402153"
+            },
+            {
+                "id": "🇵🇹",
+                "name": "31 - Portugal",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/26Portugal-1_800x.jpg?v=1605402153"
+            },
+            {
+                "id": "🇷🇴",
+                "name": "32 - Romania",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/27Romania-1_800x.jpg?v=1621265598"
+            },
+            {
+                "id": "🇸🇮",
+                "name": "33 - Slovenia",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/28Slovenia-1_800x.jpg?v=1605402153"
+            },
+            {
+                "id": "🇸🇰",
+                "name": "34 - Slovakia",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/29Slovensko-1_800x.jpg?v=1605402396"
+            },
+            {
+                "id": "🇫🇮",
+                "name": "35 - Finland",
+                "received": "yes",
+                "image": "https://postcardsmarket.com/cdn/shop/products/30Suomi-1_400x.jpg?v=1605402275"
+            },
+            {
+                "id": "🇸🇪",
+                "name": "36 - Sweden",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/31Sverige-1_1200x.jpg?v=1606408631"
+            },
+            {
+                "id": "🇬🇧",
+                "name": "37 - United Kingdom",
+                "received": "yes",
+                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-fxeph3tvuzpb1.png?width=1080&crop=smart&auto=webp&s=d650c7be073725d119ff48f63a631ffa0fe9a11b"
+            },
+            {
+                "id": "🗺️",
+                "name": "91 - Map",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/files/03EuMap-1_400x.jpg?v=1704803209"
+            },
+            {
+                "id": "🌍",
+                "name": "92 - Globe",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/01Globe-1_3414bbe8-e3fc-4826-99e2-3f3a0bc5bdfa_400x.jpg?v=1605402994"
+            },
+            {
+                "id": "💶",
+                "name": "93 - Euro Currency",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/products/Screenshot2020-11-26181139_268x.jpg?v=1606407406"
+            },
+            {
+                "id": "🚅",
+                "name": "Train",
+                "received": "no",
+                "image": "https://postcardsmarket.com/cdn/shop/files/02Train-1_268x.jpg?v=1704803508"
+            }
+        ]
+    },
+    {
+        "series": "Tabineko",
+        "type": "grid",
+        "link": "https://eu.zonerama.com/redteapost/Album/9335861",
+        "gallery": true,
+        "status": [
+            {
+                "id": "1",
+                "received": "yes",
+                "name": "Contrails in winter",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8ac6ff499273a902/version/1637666887/image.jpg"
+            },
+            {
+                "id": "2",
+                "received": "yes",
+                "name": "Snow jungle gym",
+                "count": 2,
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i1ce0391569be2e56/version/1637666887/image.jpg"
+            },
+            {
+                "id": "3",
+                "received": "no",
+                "name": "Snow mischief",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ifed26b4e016ca935/version/1637666887/image.jpg"
+            },
+            {
+                "id": "4",
+                "received": "yes",
+                "name": "Under the Sakura tree",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i041c3629dd36b993/version/1637666887/image.jpg"
+            },
+            {
+                "id": "5",
+                "received": "no",
+                "name": "Sky Promenade",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i291695fd370fa085/version/1637666887/image.jpg"
+            },
+            {
+                "id": "6",
+                "received": "yes",
+                "name": "Staying in the rain Amayadori",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i13f7455877471d4c/version/1637666887/image.jpg"
+            },
+            {
+                "id": "7",
+                "received": "no",
+                "name": "Bloom under the bridge",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/id0db24f715b6ff2b/version/1637666887/image.jpg"
+            },
+            {
+                "id": "8",
+                "received": "yes",
+                "name": "Wind from the sea",
+                "count": 2,
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iae44ab745b306f22/version/1637666887/image.jpg"
+            },
+            {
+                "id": "9",
+                "received": "yes",
+                "name": "Scale cloud",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i5b9c3d98aa0bf6e4/version/1637666887/image.jpg"
+            },
+            {
+                "id": "10",
+                "received": "yes",
+                "name": "Carp in the garden",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ida1cd17385358b89/version/1637666887/image.jpg"
+            },
+            {
+                "id": "11",
+                "received": "yes",
+                "name": "Hidden in the leaves",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i0574fcb82627964d/version/1637666887/image.jpg"
+            },
+            {
+                "id": "12",
+                "received": "no",
+                "name": "Footprints on the snow",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib774ef90949d0221/version/1637666887/image.jpg"
+            },
+            {
+                "id": "13",
+                "received": "yes",
+                "name": "Snow New Year's Visit",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/idc309dcd7179cb89/version/1637666887/image.jpg"
+            },
+            {
+                "id": "14",
+                "received": "yes",
+                "name": "Chased by pheasants",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib8b35a9f109f10fb/version/1637666887/image.jpg"
+            },
+            {
+                "id": "15",
+                "received": "yes",
+                "name": "Afternoon in the town of cats",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib6edcda15f090dbe/version/1637666887/image.jpg"
+            },
+            {
+                "id": "16",
+                "received": "yes",
+                "name": "Hanami at the station",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ic8cf051c0f548c87/version/1637666887/image.jpg"
+            },
+            {
+                "id": "17",
+                "received": "yes",
+                "name": "Green wind",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i4d181b57a4723811/version/1637666887/image.jpg"
+            },
+            {
+                "id": "18",
+                "received": "yes",
+                "name": "Jizodo in the rain",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/id3f4995740189be1/version/1637666887/image.jpg"
+            },
+            {
+                "id": "19",
+                "received": "yes",
+                "name": "Cross the river in summer",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib29ccd9f6a48bde1/version/1637666887/image.jpg"
+            },
+            {
+                "id": "20",
+                "received": "yes",
+                "name": "Summer embankment",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8e4e708a3ae8c323/version/1637666887/image.jpg"
+            },
+            {
+                "id": "21",
+                "received": "no",
+                "name": "Lunch break for rice harvesting",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iea4098744e394b85/version/1637666887/image.jpg"
+            },
+            {
+                "id": "22",
+                "received": "yes",
+                "name": "Autumn festival dusk",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/icd4377e90d254905/version/1637666887/image.jpg"
+            },
+            {
+                "id": "23",
+                "received": "yes",
+                "name": "Ginkgo drop",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i22fb246dddfc5d04/version/1637666887/image.jpg"
+            },
+            {
+                "id": "24",
+                "received": "yes",
+                "name": "Christmas illumination",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i2db0a17ac3ea71e6/version/1637666887/image.jpg"
+            },
+            {
+                "id": "25",
+                "received": "no",
+                "name": "Nandina domestica shrine",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i282628fb2c9663c7/version/1637666886/image.jpg"
+            },
+            {
+                "id": "26",
+                "received": "no",
+                "name": "Lemon field monorail",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=png/path/sdb208a26f9008cba/image/ibd041961f370f29d/version/1637666886/image.png"
+            },
+            {
+                "id": "27",
+                "received": "yes",
+                "name": "On the matsu tree",
+                "count": 2,
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i4b98b2b31d6ba39c/version/1637666886/image.jpg"
+            },
+            {
+                "id": "28",
+                "received": "yes",
+                "name": "Barber shop on Sakura Street",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib2ab84a9a9a11665/version/1637666886/image.jpg"
+            },
+            {
+                "id": "29",
+                "received": "yes",
+                "name": "Promised place",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ifcfdae480ae24e96/version/1637666886/image.jpg"
+            },
+            {
+                "id": "30",
+                "received": "yes",
+                "name": "Early summer light",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i23e85db612ba066b/version/1637666886/image.jpg"
+            },
+            {
+                "id": "31",
+                "received": "yes",
+                "name": "Summer umbrella",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ic7dd7695edcd5375/version/1637666886/image.jpg"
+            },
+            {
+                "id": "32",
+                "received": "yes",
+                "name": "Cross to the island",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i9ab27199fa4c90c9/version/1637666886/image.jpg"
+            },
+            {
+                "id": "33",
+                "received": "yes",
+                "name": "Chestnut tree and postal car",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/if1b60ef5dae205cc/version/1637666886/image.jpg"
+            },
+            {
+                "id": "34",
+                "received": "yes",
+                "name": "Railroad crossing and freight train",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iaff3ac13b6ab312c/version/1637666886/image.jpg"
+            },
+            {
+                "id": "35",
+                "received": "yes",
+                "name": "Autumn color patchwork",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i88c80c97024db87a/version/1637666886/image.jpg"
+            },
+            {
+                "id": "36",
+                "received": "yes",
+                "name": "Christmas song",
+                "count": 2,
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i62d1b118cd53bd1b/version/1637666886/image.jpg"
+            },
+            {
+                "id": "37",
+                "received": "yes",
+                "name": "Cat new year's card",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib7323d6841baba2e/version/1637666886/image.jpg"
+            },
+            {
+                "id": "38",
+                "received": "yes",
+                "name": "Wait for spring",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i3f44278f9b8cf131/version/1659806244/image.jpg"
+            },
+            {
+                "id": "39",
+                "received": "yes",
+                "name": "Rape blossoms dance",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i227275febe084cda/version/1659806244/image.jpg"
+            },
+            {
+                "id": "40",
+                "received": "yes",
+                "name": "Sakura festival",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i9084df241370d6c7/version/1659806244/image.jpg"
+            },
+            {
+                "id": "41",
+                "received": "yes",
+                "name": "Sky fish",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ie87cf310a60ab92c/version/1659806244/image.jpg"
+            },
+            {
+                "id": "42",
+                "received": "yes",
+                "name": "Kyoto Flower Shop",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i6df99676a67a33ae/version/1659806255/image.jpg"
+            },
+            {
+                "id": "43",
+                "received": "yes",
+                "name": "Vegetable garden on a summer day",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i5f169212be7c7ad2/version/1659806267/image.jpg"
+            },
+            {
+                "id": "44",
+                "received": "yes",
+                "name": "Summer Launch Fireworks",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8290f87b3f9bf506/version/1659806282/image.jpg"
+            },
+            {
+                "id": "45",
+                "received": "yes",
+                "name": "Autumn sun drying",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/icebfee1c74397520/version/1659806292/image.jpg"
+            },
+            {
+                "id": "46",
+                "received": "no",
+                "name": "Rendezvous in the moonlight",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i52564d9dc882e617/version/1659806292/image.jpg"
+            },
+            {
+                "id": "47",
+                "received": "yes",
+                "name": "Cat Town Fresh Fish Store",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ia6a7a91baf3b43a8/version/1659806345/image.jpg"
+            },
+            {
+                "id": "48",
+                "received": "yes",
+                "name": "Snow Sake Brewery",
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i663c370978d8e715/version/1659806345/image.jpg"
+            },
+            {
+                "id": "49",
+                "received": "yes",
+                "name": "Sakura on the Hill",
+                "count": 2,
+                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ife49757c65e4c099/version/1637666666/image.jpg"
+            },
+            {
+                "id": "SE",
+                "received": "yes",
+                "name": "Good day!",
+                "image": "https://eu.zonerama.com/photos/596728758_1190x801_16.jpg",
+                "countable": "no"
+            }
+        ]
+    },
+    {
         "series": "Inge Löök Aunties",
         "type": "grid",
         "link": "https://eu.zonerama.com/redteapost/Album/9198137",
@@ -456,752 +1202,6 @@
                 "received": "yes",
                 "image": "https://www.ingelook.com/wp-content/uploads/2023/01/616_gummor.jpg",
                 "countable": "no"
-            }
-        ]
-    },
-    {
-        "series": "Tabineko",
-        "type": "grid",
-        "link": "https://eu.zonerama.com/redteapost/Album/9335861",
-        "gallery": true,
-        "status": [
-            {
-                "id": "1",
-                "received": "yes",
-                "name": "Contrails in winter",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8ac6ff499273a902/version/1637666887/image.jpg"
-            },
-            {
-                "id": "2",
-                "received": "yes",
-                "name": "Snow jungle gym",
-                "count": 2,
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i1ce0391569be2e56/version/1637666887/image.jpg"
-            },
-            {
-                "id": "3",
-                "received": "no",
-                "name": "Snow mischief",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ifed26b4e016ca935/version/1637666887/image.jpg"
-            },
-            {
-                "id": "4",
-                "received": "yes",
-                "name": "Under the Sakura tree",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i041c3629dd36b993/version/1637666887/image.jpg"
-            },
-            {
-                "id": "5",
-                "received": "no",
-                "name": "Sky Promenade",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i291695fd370fa085/version/1637666887/image.jpg"
-            },
-            {
-                "id": "6",
-                "received": "yes",
-                "name": "Staying in the rain Amayadori",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i13f7455877471d4c/version/1637666887/image.jpg"
-            },
-            {
-                "id": "7",
-                "received": "no",
-                "name": "Bloom under the bridge",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/id0db24f715b6ff2b/version/1637666887/image.jpg"
-            },
-            {
-                "id": "8",
-                "received": "yes",
-                "name": "Wind from the sea",
-                "count": 2,
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iae44ab745b306f22/version/1637666887/image.jpg"
-            },
-            {
-                "id": "9",
-                "received": "yes",
-                "name": "Scale cloud",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i5b9c3d98aa0bf6e4/version/1637666887/image.jpg"
-            },
-            {
-                "id": "10",
-                "received": "yes",
-                "name": "Carp in the garden",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ida1cd17385358b89/version/1637666887/image.jpg"
-            },
-            {
-                "id": "11",
-                "received": "yes",
-                "name": "Hidden in the leaves",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i0574fcb82627964d/version/1637666887/image.jpg"
-            },
-            {
-                "id": "12",
-                "received": "no",
-                "name": "Footprints on the snow",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib774ef90949d0221/version/1637666887/image.jpg"
-            },
-            {
-                "id": "13",
-                "received": "yes",
-                "name": "Snow New Year's Visit",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/idc309dcd7179cb89/version/1637666887/image.jpg"
-            },
-            {
-                "id": "14",
-                "received": "yes",
-                "name": "Chased by pheasants",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib8b35a9f109f10fb/version/1637666887/image.jpg"
-            },
-            {
-                "id": "15",
-                "received": "yes",
-                "name": "Afternoon in the town of cats",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib6edcda15f090dbe/version/1637666887/image.jpg"
-            },
-            {
-                "id": "16",
-                "received": "yes",
-                "name": "Hanami at the station",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ic8cf051c0f548c87/version/1637666887/image.jpg"
-            },
-            {
-                "id": "17",
-                "received": "yes",
-                "name": "Green wind",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i4d181b57a4723811/version/1637666887/image.jpg"
-            },
-            {
-                "id": "18",
-                "received": "yes",
-                "name": "Jizodo in the rain",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/id3f4995740189be1/version/1637666887/image.jpg"
-            },
-            {
-                "id": "19",
-                "received": "yes",
-                "name": "Cross the river in summer",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib29ccd9f6a48bde1/version/1637666887/image.jpg"
-            },
-            {
-                "id": "20",
-                "received": "yes",
-                "name": "Summer embankment",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8e4e708a3ae8c323/version/1637666887/image.jpg"
-            },
-            {
-                "id": "21",
-                "received": "no",
-                "name": "Lunch break for rice harvesting",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iea4098744e394b85/version/1637666887/image.jpg"
-            },
-            {
-                "id": "22",
-                "received": "yes",
-                "name": "Autumn festival dusk",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/icd4377e90d254905/version/1637666887/image.jpg"
-            },
-            {
-                "id": "23",
-                "received": "yes",
-                "name": "Ginkgo drop",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i22fb246dddfc5d04/version/1637666887/image.jpg"
-            },
-            {
-                "id": "24",
-                "received": "yes",
-                "name": "Christmas illumination",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i2db0a17ac3ea71e6/version/1637666887/image.jpg"
-            },
-            {
-                "id": "25",
-                "received": "no",
-                "name": "Nandina domestica shrine",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i282628fb2c9663c7/version/1637666886/image.jpg"
-            },
-            {
-                "id": "26",
-                "received": "no",
-                "name": "Lemon field monorail",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=png/path/sdb208a26f9008cba/image/ibd041961f370f29d/version/1637666886/image.png"
-            },
-            {
-                "id": "27",
-                "received": "yes",
-                "name": "On the matsu tree",
-                "count": 2,
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i4b98b2b31d6ba39c/version/1637666886/image.jpg"
-            },
-            {
-                "id": "28",
-                "received": "yes",
-                "name": "Barber shop on Sakura Street",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib2ab84a9a9a11665/version/1637666886/image.jpg"
-            },
-            {
-                "id": "29",
-                "received": "yes",
-                "name": "Promised place",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ifcfdae480ae24e96/version/1637666886/image.jpg"
-            },
-            {
-                "id": "30",
-                "received": "yes",
-                "name": "Early summer light",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i23e85db612ba066b/version/1637666886/image.jpg"
-            },
-            {
-                "id": "31",
-                "received": "yes",
-                "name": "Summer umbrella",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ic7dd7695edcd5375/version/1637666886/image.jpg"
-            },
-            {
-                "id": "32",
-                "received": "yes",
-                "name": "Cross to the island",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i9ab27199fa4c90c9/version/1637666886/image.jpg"
-            },
-            {
-                "id": "33",
-                "received": "yes",
-                "name": "Chestnut tree and postal car",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/if1b60ef5dae205cc/version/1637666886/image.jpg"
-            },
-            {
-                "id": "34",
-                "received": "yes",
-                "name": "Railroad crossing and freight train",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/iaff3ac13b6ab312c/version/1637666886/image.jpg"
-            },
-            {
-                "id": "35",
-                "received": "yes",
-                "name": "Autumn color patchwork",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i88c80c97024db87a/version/1637666886/image.jpg"
-            },
-            {
-                "id": "36",
-                "received": "yes",
-                "name": "Christmas song",
-                "count": 2,
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i62d1b118cd53bd1b/version/1637666886/image.jpg"
-            },
-            {
-                "id": "37",
-                "received": "yes",
-                "name": "Cat new year's card",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ib7323d6841baba2e/version/1637666886/image.jpg"
-            },
-            {
-                "id": "38",
-                "received": "yes",
-                "name": "Wait for spring",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i3f44278f9b8cf131/version/1659806244/image.jpg"
-            },
-            {
-                "id": "39",
-                "received": "yes",
-                "name": "Rape blossoms dance",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i227275febe084cda/version/1659806244/image.jpg"
-            },
-            {
-                "id": "40",
-                "received": "yes",
-                "name": "Sakura festival",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i9084df241370d6c7/version/1659806244/image.jpg"
-            },
-            {
-                "id": "41",
-                "received": "yes",
-                "name": "Sky fish",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ie87cf310a60ab92c/version/1659806244/image.jpg"
-            },
-            {
-                "id": "42",
-                "received": "yes",
-                "name": "Kyoto Flower Shop",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i6df99676a67a33ae/version/1659806255/image.jpg"
-            },
-            {
-                "id": "43",
-                "received": "yes",
-                "name": "Vegetable garden on a summer day",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i5f169212be7c7ad2/version/1659806267/image.jpg"
-            },
-            {
-                "id": "44",
-                "received": "yes",
-                "name": "Summer Launch Fireworks",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i8290f87b3f9bf506/version/1659806282/image.jpg"
-            },
-            {
-                "id": "45",
-                "received": "yes",
-                "name": "Autumn sun drying",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/icebfee1c74397520/version/1659806292/image.jpg"
-            },
-            {
-                "id": "46",
-                "received": "no",
-                "name": "Rendezvous in the moonlight",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i52564d9dc882e617/version/1659806292/image.jpg"
-            },
-            {
-                "id": "47",
-                "received": "yes",
-                "name": "Cat Town Fresh Fish Store",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ia6a7a91baf3b43a8/version/1659806345/image.jpg"
-            },
-            {
-                "id": "48",
-                "received": "yes",
-                "name": "Snow Sake Brewery",
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/i663c370978d8e715/version/1659806345/image.jpg"
-            },
-            {
-                "id": "49",
-                "received": "yes",
-                "name": "Sakura on the Hill",
-                "count": 2,
-                "image": "https://image.jimcdn.com/app/cms/image/transf/dimension=1920x400:format=jpg/path/sdb208a26f9008cba/image/ife49757c65e4c099/version/1637666666/image.jpg"
-            },
-            {
-                "id": "SE",
-                "received": "yes",
-                "name": "Good day!",
-                "image": "https://eu.zonerama.com/photos/596728758_1190x801_16.jpg",
-                "countable": "no"
-            }
-        ]
-    },
-    {
-        "series": "Blue Cats WT",
-        "link": "https://eu.zonerama.com/redteapost/Album/8596077",
-        "gallery": true,
-        "type": "grid",
-        "sortBy": "name",
-        "status": [
-            {
-                "name": "Argentina",
-                "id": "🇦🇷",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/files/8/a/8a8b9ff1_AWT31_World-Trip-Argentina.jpg"
-            },
-            {
-                "name": "Australia",
-                "id": "🇦🇺",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/7/9/79a7db34_AWT27_World-Trip-Australia.jpg"
-            },
-            {
-                "name": "Austria",
-                "id": "🇦🇹",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/d/3/d3096d6a_AWT21_World-Trip-Austria.jpg"
-            },
-            {
-                "name": "Belarus",
-                "id": "🇧🇾",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bef5c37_29934092_AWT01_World-Trip-Belarus.jpg"
-            },
-            {
-                "name": "Belgium",
-                "id": "🇧🇪",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/1/61fc43e9_AWT29_World-Trip-Belgium.jpg"
-            },
-            {
-                "name": "Brazil",
-                "id": "🇧🇷",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/7/f/7f8d781e_AWT28_World-Trip-Brazil.jpg"
-            },
-            {
-                "name": "Canada",
-                "id": "🇨🇦",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/e/5/e543130c_01a529f2_AWT06_World-Trip-Canada.jpg"
-            },
-            {
-                "name": "China",
-                "id": "🇨🇳",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/4/a/4a905030_0d2f4dff_AWT02_World-Trip-China.jpg"
-            },
-            {
-                "name": "Czechia",
-                "id": "🇨🇿",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/f/3/f37ef8b4_a2e76b0d_AWT07_World-Trip-Czechia.jpg"
-            },
-            {
-                "name": "Egypt",
-                "id": "🇪🇬",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/b/0/b01927df_1f2a6cff_AWT19_World-Trip-Egypt.jpg"
-            },
-            {
-                "name": "England",
-                "id": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/b/e/beaed1b8_AWT22_World-Trip-England.jpg"
-            },
-            {
-                "name": "Finland",
-                "id": "🇫🇮",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/2/0/20cdb78a_bb2532b4_AWT20_World-Trip-Finland.jpg"
-            },
-            {
-                "name": "France",
-                "id": "🇫🇷",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/a/2/a24cfdd2_5398589a_AWT04_World-Trip-France.jpg"
-            },
-            {
-                "name": "Germany",
-                "id": "🇩🇪",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/f/a/fa8cc9fa_e399c8f3_AWT17_World-Trip-Germany.jpg"
-            },
-            {
-                "name": "Greece",
-                "id": "🇬🇷",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/f/c/fcfda7d0_73c8fdea_AWT15_World-Trip-Greece.jpg"
-            },
-            {
-                "name": "India",
-                "id": "🇮🇳",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/5/f/5f81ab8b_1b702916_AWT18_World-Trip-India.jpg"
-            },
-            {
-                "name": "Italy",
-                "id": "🇮🇹",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/0/7/07222de4_75cf3417_AWT03_Italy.jpg"
-            },
-            {
-                "name": "Japan",
-                "id": "🇯🇵",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/0/60e7fca0_cfd6de2c_AWT11_World-Trip-Japan.jpg"
-            },
-            {
-                "name": "Lithuania",
-                "id": "🇱🇹",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/0/5/059c7a66_AWT33_World-Trip-Lithuania.jpg"
-            },
-            {
-                "name": "Mexico",
-                "id": "🇲🇽",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/5/c/5c40a4de_AWT23_World-Trip-Mexico.jpg"
-            },
-            {
-                "name": "Netherlands",
-                "id": "🇳🇱",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/0/b/0bf401fe_98e5a584_AWT12_World-Trip-Netherlands.jpg"
-            },
-            {
-                "name": "Norway",
-                "id": "🇳🇴",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/a/6a8951d9_3d70b530_AWT10_World-Trip-Norway.jpg"
-            },
-            {
-                "name": "Poland",
-                "id": "🇵🇱",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/8/5/85ba054e_f727c942_AWT16_World-Trip-Poland.jpg"
-            },
-            {
-                "name": "Portugal",
-                "id": "🇵🇹",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/d/b/dbbaf765_AWT26_World-Trip-Portugal.jpg"
-            },
-            {
-                "name": "Romania",
-                "id": "🇷🇴",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/7/a/7a7f9f54_305fb298_AWT05_World-Trip-Romania.jpg"
-            },
-            {
-                "name": "Russia",
-                "id": "🇷🇺",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/5/d/5d7c8b98_95e5d64e_AWT09_World-Trip-Russia.jpg"
-            },
-            {
-                "name": "South Korea",
-                "id": "🇰🇷",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/9/f/9f9f897a_AWT30_World-Trip-South-Korea.jpg"
-            },
-            {
-                "name": "Spain",
-                "id": "🇪🇸",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/d/6d3d472e_5a3235b4_AWT14_World-Trip-Spain.jpg"
-            },
-            {
-                "name": "Switzerland",
-                "id": "🇨🇭",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/8/686a66bf_327b6a03_AWT08_-World-Trip-Switzerland.jpg"
-            },
-            {
-                "name": "Thailand",
-                "id": "🇹🇭",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/1/7/17b948ec_AWT32_World-Trip-Thailand.jpg"
-            },
-            {
-                "name": "Turkey",
-                "id": "🇹🇷",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/6/7/6719ce55_144c5070_AWT13_World-Trip-Turkey.jpg"
-            },
-            {
-                "name": "UAE",
-                "id": "🇦🇪",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/c/5/c516a887_1-d-preview-4-4-44fa67af_WT_United-Arab-Emirates.jpg"
-            },
-            {
-                "name": "USA",
-                "id": "🇺🇸",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/e/c/ec3731d5_AWT24_World-Trip-USA.jpg"
-            },
-            {
-                "name": "Singapore",
-                "id": "🇸🇬",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/e/9/e987ce15_AWT34_World-Trip-Singapore.jpg"
-            },
-            {
-                "name": "Sweden",
-                "id": "🇸🇪",
-                "received": "no",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/b/b/bb7d3113_AWT35_World-Trip-Sweden.jpg"
-            },
-            {
-                "name": "Latvia",
-                "id": "🇱🇻",
-                "received": "yes",
-                "image": "https://mymagicard.com/aimeos/1.d/preview/4/b/4b47b269_AWT36_World-Trip-Latvia.jpg"
-            },
-            {
-                "name": "Ireland",
-                "id": "🇮🇪",
-                "received": "no",
-                "image": "https://placehold.jp/30/dddee3/ffffff/160x240.png?text=Ireland"
-            }
-        ]
-    },
-    {
-        "series": "Unity in Diversity",
-        "link": "https://eu.zonerama.com/redteapost/Album/9198102",
-        "gallery": true,
-        "type": "grid",
-        "sortBy": "name",
-        "status": [
-            {
-                "id": "🇧🇪",
-                "name": "10 - Belgium",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/05Belgia-1_800x.jpg?v=1605402803"
-            },
-            {
-                "id": "🇧🇬",
-                "name": "11 - Bulgaria",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/06Bulgaria-1_800x.jpg?v=1605402925"
-            },
-            {
-                "id": "🇨🇿",
-                "name": "12 - Czech Republic",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/07Cehia-1_800x.jpg?v=1605402803"
-            },
-            {
-                "id": "🇩🇰",
-                "name": "13 - Denmark",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/08Danemarca-1_800x.jpg?v=1605402743"
-            },
-            {
-                "id": "🇩🇪",
-                "name": "14 - Germany",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/09Deutschland-1_800x.jpg?v=1605402683"
-            },
-            {
-                "id": "🇪🇪",
-                "name": "15 - Estonia",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/10EEsti-1_800x.jpg?v=1605402743"
-            },
-            {
-                "id": "🇮🇪",
-                "name": "16 - Ireland",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/11Ireland-1_400x.jpg?v=1605402804"
-            },
-            {
-                "id": "🇬🇷",
-                "name": "17 - Greece",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/12Grecia-1.jpg?v=1605402683"
-            },
-            {
-                "id": "🇪🇸",
-                "name": "18 - Spain",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/13Espana-1_400x.jpg?v=1605402682"
-            },
-            {
-                "id": "🇫🇷",
-                "name": "19 - France",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/14France-1_400x.jpg?v=1605402406"
-            },
-            {
-                "id": "🇭🇷",
-                "name": "20 - Croatia",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/15Hrvatska-1_400x.jpg?v=1605402467"
-            },
-            {
-                "id": "🇮🇹",
-                "name": "21 - Italy",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/16Italia-1_400x.jpg?v=1632496816"
-            },
-            {
-                "id": "🇨🇾",
-                "name": "22 - Cyprus",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/17Kypros-1_400x.jpg?v=1605402468"
-            },
-            {
-                "id": "🇱🇻",
-                "name": "23 - Latvia",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/18Latvia-1_400x.jpg?v=1605402406"
-            },
-            {
-                "id": "🇱🇹",
-                "name": "24 - Lithuania",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/19Lietuva-1_400x.jpg?v=1605402466"
-            },
-            {
-                "id": "🇱🇺",
-                "name": "25 - Luxembourg",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/20Luxemburg-1_400x.jpg?v=1605402406"
-            },
-            {
-                "id": "🇭🇺",
-                "name": "26 - Hungary",
-                "received": "yes",
-                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-a9wxx47jwzpb1.png?width=1080&crop=smart&auto=webp&s=323f2dd27eafa2210792acaff116bfbd763e8153"
-            },
-            {
-                "id": "🇲🇹",
-                "name": "27 - Malta",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/22Malta-1_400x.jpg?v=1605402528"
-            },
-            {
-                "id": "🇳🇱",
-                "name": "28 - Netherlands",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/23Nederland-1_400x.jpg?v=1605402406"
-            },
-            {
-                "id": "🇦🇹",
-                "name": "29 - Austria",
-                "received": "yes",
-                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-fwcb62z2wzpb1.png?width=1080&crop=smart&auto=webp&s=0199ad46b644d9f918d0c221871d963141fe0b4b"
-            },
-            {
-                "id": "🇵🇱",
-                "name": "30 - Poland",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/25Polska-1_800x.jpg?v=1605402153"
-            },
-            {
-                "id": "🇵🇹",
-                "name": "31 - Portugal",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/26Portugal-1_800x.jpg?v=1605402153"
-            },
-            {
-                "id": "🇷🇴",
-                "name": "32 - Romania",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/27Romania-1_800x.jpg?v=1621265598"
-            },
-            {
-                "id": "🇸🇮",
-                "name": "33 - Slovenia",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/28Slovenia-1_800x.jpg?v=1605402153"
-            },
-            {
-                "id": "🇸🇰",
-                "name": "34 - Slovakia",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/29Slovensko-1_800x.jpg?v=1605402396"
-            },
-            {
-                "id": "🇫🇮",
-                "name": "35 - Finland",
-                "received": "yes",
-                "image": "https://postcardsmarket.com/cdn/shop/products/30Suomi-1_400x.jpg?v=1605402275"
-            },
-            {
-                "id": "🇸🇪",
-                "name": "36 - Sweden",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/31Sverige-1_1200x.jpg?v=1606408631"
-            },
-            {
-                "id": "🇬🇧",
-                "name": "37 - United Kingdom",
-                "received": "yes",
-                "image": "https://preview.redd.it/the-united-in-diversity-postcards-featuring-the-eu-member-v0-fxeph3tvuzpb1.png?width=1080&crop=smart&auto=webp&s=d650c7be073725d119ff48f63a631ffa0fe9a11b"
-            },
-            {
-                "id": "🗺️",
-                "name": "91 - Map",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/files/03EuMap-1_400x.jpg?v=1704803209"
-            },
-            {
-                "id": "🌍",
-                "name": "92 - Globe",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/01Globe-1_3414bbe8-e3fc-4826-99e2-3f3a0bc5bdfa_400x.jpg?v=1605402994"
-            },
-            {
-                "id": "💶",
-                "name": "93 - Euro Currency",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/products/Screenshot2020-11-26181139_268x.jpg?v=1606407406"
-            },
-            {
-                "id": "🚅",
-                "name": "Train",
-                "received": "no",
-                "image": "https://postcardsmarket.com/cdn/shop/files/02Train-1_268x.jpg?v=1704803508"
             }
         ]
     },
