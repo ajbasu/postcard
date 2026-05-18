@@ -409,24 +409,28 @@
                 "id": "🗺️",
                 "name": "91 - Map",
                 "received": "no",
+                "countable": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/files/03EuMap-1_400x.jpg?v=1704803209"
             },
             {
                 "id": "🌍",
                 "name": "92 - Globe",
                 "received": "no",
+                "countable": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/01Globe-1_3414bbe8-e3fc-4826-99e2-3f3a0bc5bdfa_400x.jpg?v=1605402994"
             },
             {
                 "id": "💶",
                 "name": "93 - Euro Currency",
                 "received": "no",
+                "countable": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/products/Screenshot2020-11-26181139_268x.jpg?v=1606407406"
             },
             {
                 "id": "🚅",
                 "name": "Train",
                 "received": "no",
+                "countable": "no",
                 "image": "https://postcardsmarket.com/cdn/shop/files/02Train-1_268x.jpg?v=1704803508"
             }
         ]
