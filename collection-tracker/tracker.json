@@ -1265,7 +1265,7 @@
                 "status": [
                     {
                         "name": "Local Kopitiam",
-                        "received": "no",
+                        "received": "yes",
                         "image": "https://lokamade.com/cdn/shop/files/S27_F_720x.jpg"
                     },
                     {
