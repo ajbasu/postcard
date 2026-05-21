@@ -12,16 +12,6 @@
     <meta name="description"
         content="Personal collection of LouPaper US 50 States postcards by Louise Neumann through an interactive map.">
 
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="LouPaper Collection by redteapost">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Postcards by redteapost" />
-    <meta property="og:description"
-        content="Personal collection of LouPaper US 50 States postcards by Louise Neumann through an interactive map.">
-    <meta property="og:image" content="https://eu.zonerama.com/photos/529208389_1200x630.jpg">
-    <meta property="og:url" content="https://ajbasu.github.io/postcard/loupaper-collection/">
-    <meta property="og:locale" content="en_IN" />
-
     <!-- Twitter Card meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LouPaper Collection by redteapost">
@@ -35,6 +25,73 @@
     <script>
         window.pageTitle = "LouPaper Collection";
     </script>
+
+    <style>
+        .series-block {
+            margin-bottom: 40px;
+        }
+
+        .series-title {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .series-subtitle {
+            font-size: 13px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 10px;
+        }
+
+        .image-item {
+            position: relative;
+            text-align: center;
+        }
+
+        .image-item img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            background: #eee;
+            border-radius: 6px;
+        }
+
+        .greyed {
+            opacity: 0.3;
+        }
+
+        .tag {
+            position: absolute;
+            top: 4px;
+            left: 4px;
+            background: black;
+            color: white;
+            font-size: 10px;
+            padding: 2px 4px;
+        }
+
+        .name {
+            font-size: 12px;
+        }
+
+        #galleryContainer {
+            padding: 10px;
+            /* background: black; */
+        }
+
+        .selectContainer {
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px;
+            position: absolute;
+            right: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,16 +99,15 @@
     <!-- Header -->
     <div id="header-container"></div>
 
-    <!-- Chart Container -->
-    <div id="fotw-container">
-        <div id="lou-chartdiv"></div>
-        <div id="lou-list-container"> </div>
+    <div class="selectContainer">
+        <select id="filterSelect">
+            <option value="all">All</option>
+            <option value="received">Received</option>
+            <option value="missing">Not Received</option>
+        </select>
     </div>
 
-    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
-    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <div id="galleryContainer"></div>
 
     <script src="loupaper.js"></script>
     <script src="../scripts/loadHeader.js"></script>

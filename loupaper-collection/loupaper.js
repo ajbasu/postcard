@@ -1,106 +1,126 @@
-am5.ready(function () {
+const DEFAULT_IMAGE = "https://placehold.jp/30/dddee3/ffffff/320x240.png?text=";
+let fullData = [];
 
-    // Load JSON Data
-    fetch("loupaper.json")
-        .then(response => response.json())
-        .then(groupData => {
+async function loadGallery() {
+    const res = await fetch("loupaper.json");
+    fullData = await res.json();
+    renderGallery("all");
+}
 
-            // Create Root
-            var root = am5.Root.new("lou-chartdiv");
+document.getElementById("filterSelect").addEventListener("change", function () {
+    renderGallery(this.value);
+});
+document.getElementById("filterSelect").value = "all";
 
-            // Set Theme
-            root.setThemes([
-                am5themes_Animated.new(root)
-            ]);
+function renderGallery(filter) {
+    const container = document.getElementById("galleryContainer");
+    container.innerHTML = "";
 
-            // Create Map
-            var chart = root.container.children.push(am5map.MapChart.new(root, {
-                panX: "rotateX",
-                panY: "none",
-                projection: am5map.geoAlbersUsa(),
-                layout: root.horizontalLayout
-            }));
+    fullData.forEach(series => {
+        let items = series.status || [];
 
-            // Create Map Polygon Series
-            var worldSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                geoJSON: am5geodata_usaLow,
-                valueField: "value",
-                calculateAggregates: true
-            }));
+        // FILTER
+        if (filter === "received") {
+            items = items.filter(i => i.received === "yes");
+        } else if (filter === "missing") {
+            items = items.filter(i => i.received !== "yes");
+        }
 
-            worldSeries.mapPolygons.template.setAll({
-                fill: am5.color(0xaaaaaa),
-                tooltipText: "{name}"
+        if (!items.length) return;
+
+        const block = document.createElement("div");
+        block.className = "series-block";
+
+        const title = document.createElement("div");
+        title.className = "series-title";
+        title.textContent = series.series;
+
+        const subtitle = document.createElement("div");
+        subtitle.className = "series-subtitle";
+
+        if (filter === "missing") {
+            subtitle.textContent = `${items.length} Missing or Arranged`;
+        } else if (filter === "received") {
+            subtitle.textContent = `${items.length} Received`;
+        } else {
+            const total = series.status || [];
+
+            const receivedCount = total.filter(i => i.received === "yes").length;
+            const arrangedCount = total.filter(i => i.received === "arranged").length;
+            const missingCount = total.filter(i => i.received !== "yes" && i.received !== "arranged").length;
+
+            subtitle.textContent = `${receivedCount} received, ${arrangedCount} arranged, ${missingCount} missing`;
+        }
+
+        const grid = document.createElement("div");
+        grid.className = "grid";
+
+        // SORT
+        if (series.sort !== false) {
+            const key = series.sortBy || "id";
+
+            items = items.slice().sort((a, b) => {
+                const valA = a[key];
+                const valB = b[key];
+
+                if (valA != null && valB != null) {
+                    if (!isNaN(valA) && !isNaN(valB)) {
+                        return Number(valA) - Number(valB);
+                    }
+                    return String(valA).localeCompare(String(valB));
+                }
+
+                if (a.id && b.id) return Number(a.id) - Number(b.id);
+                if (a.name && b.name) return a.name.localeCompare(b.name);
+
+                return 0;
             });
+        }
 
-            worldSeries.events.on("datavalidated", () => {
-                chart.goHome();
-            });
+        items.forEach(item => {
+            const imgDiv = document.createElement("div");
+            imgDiv.className = "image-item";
 
-            // Create Legend
-            var legend = chart.children.push(am5.Legend.new(root, {
-                useDefaultMarker: true,
-                centerX: am5.p50,
-                x: am5.p50,
-                centerY: am5.p100,
-                y: am5.p100,
-                dy: -20,
-                background: am5.RoundedRectangle.new(root, {
-                    fill: am5.color(0xffffff),
-                    fillOpacity: 0.2
-                })
-            }));
+            if (filter === "all" && item.received !== "yes") {
+                imgDiv.classList.add("greyed");
+            }
 
-            legend.valueLabels.template.set("forceHidden", true);
+            const img = document.createElement("img");
+            img.src = item.image || DEFAULT_IMAGE + item.name.replace(/&/g, "and");
+            img.alt = item.id || item.name || "";
 
-            // Create Series for Each Group
-            var colors = am5.ColorSet.new(root, { step: 2 });
-            colors.next();
+            const { id, received, count } = item;
+            const parts = [];
 
-            am5.array.each(groupData.state, function (group) {
-                var countries = [];
-                var color = group.name == 'Yet to Release' ? am5.color(0xd3d3d9) : colors.next();
+            // if (id) parts.push(id);
+            if (received === "arranged") parts.push("Arranged");
+            if (count > 1) parts.push(`${count}×`);
 
-                am5.array.each(group.data, function (country) {
-                    countries.push(country.id);
-                });
+            if (parts.length) {
+                const tag = document.createElement("div");
+                tag.className = "tag";
+                tag.textContent = parts.join(" | ");
+                imgDiv.appendChild(tag);
+            }
 
-                var polygonSeries = chart.series.push(am5map.MapPolygonSeries.new(root, {
-                    geoJSON: am5geodata_usaLow,
-                    include: countries,
-                    name: group.name,
-                    fill: color,
-                }));
+            imgDiv.appendChild(img);
 
-                polygonSeries.data.setAll(group.data);
-                legend.data.push(polygonSeries);
-            });
+            if (item.name) {
+                const name = document.createElement("div");
+                name.className = "name";
+                name.textContent = item.name;
+                imgDiv.appendChild(name);
+            }
 
-            const listContainer = document.getElementById("lou-list-container");
-
-            const categories = [
-                { title: "Missing", items: groupData.nonstate.missing },
-                { title: "Arranged", items: groupData.nonstate.arranged },
-                { title: "Received", items: groupData.nonstate.received },
-                { title: "Countries", items: groupData.nonstate.others }
-            ];
-
-            categories.forEach(({ title, items }) => {
-                const sorted = [...items].sort((a, b) => a.localeCompare(b));
-
-                const heading = document.createElement("h2");
-                heading.textContent = title;
-                listContainer.appendChild(heading);
-
-                const list = document.createElement("ol");
-                sorted.forEach(item => {
-                    const li = document.createElement("li");
-                    li.textContent = item;
-                    list.appendChild(li);
-                });
-
-                listContainer.appendChild(list);
-            });
+            grid.appendChild(imgDiv);
         });
 
-});
+        block.appendChild(title);
+        block.appendChild(subtitle);
+        block.appendChild(grid);
+        container.appendChild(block);
+    });
+}
+
+loadGallery();
+
