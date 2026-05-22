@@ -371,7 +371,7 @@ function showSingleImage(item) {
     name.textContent = `${item.id || ""}${item.id && item.name ? " - " : ""}${item.name || ""} ${item.received === "yes"
         ? "(Received)"
         : item.received === "no"
-            ? "(Not Received)"
+            ? "(Missing)"
             : item.received === "arranged"
                 ? "(Arranged)"
                 : ""
