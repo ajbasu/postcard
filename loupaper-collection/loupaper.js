@@ -1,22 +1,45 @@
 const DEFAULT_IMAGE = "https://placehold.jp/30/dddee3/ffffff/320x240.png?text=";
 let fullData = [];
 
+const params = new URLSearchParams(window.location.search);
+const queryFilter = params.get("s") || "all";
+
 async function loadGallery() {
     const res = await fetch("loupaper.json");
     fullData = await res.json();
-    renderGallery("all");
+    document.getElementById("filterSelect").value = queryFilter;
+    renderGallery(queryFilter);
 }
 
 document.getElementById("filterSelect").addEventListener("change", function () {
-    renderGallery(this.value);
+    const value = this.value;
+
+    const url = new URL(window.location);
+    url.searchParams.set("s", value);
+    window.history.replaceState({}, "", url);
+
+    renderGallery(value);
 });
-document.getElementById("filterSelect").value = "all";
 
 function renderGallery(filter) {
     const container = document.getElementById("galleryContainer");
     container.innerHTML = "";
 
     fullData.forEach(series => {
+
+        const categoryParam = params.get("c") || "all";
+        if (categoryParam !== "all") {
+            const name = series.series.toLowerCase();
+
+            if (
+                (categoryParam === "states" && name !== "us states") ||
+                (categoryParam === "countries" && name !== "countries") ||
+                (categoryParam === "general" && name !== "general")
+            ) {
+                return;
+            }
+        }
+
         let items = series.status || [];
 
         // FILTER
@@ -39,7 +62,15 @@ function renderGallery(filter) {
         subtitle.className = "series-subtitle";
 
         if (filter === "missing") {
-            subtitle.textContent = `${items.length} Missing or Arranged`;
+            const missingCount = items.filter(i => i.received !== "yes" && i.received !== "arranged").length;
+            const arrangedCount = items.filter(i => i.received === "arranged").length;
+
+            let text = `${missingCount} missing`;
+            if (arrangedCount > 0) {
+                text += `, ${arrangedCount} arranged`;
+            }
+
+            subtitle.textContent = text;
         } else if (filter === "received") {
             subtitle.textContent = `${items.length} Received`;
         } else {
@@ -86,7 +117,7 @@ function renderGallery(filter) {
             }
 
             const img = document.createElement("img");
-            img.src = item.image || DEFAULT_IMAGE + item.name.replace(/&/g, "and");
+            img.src = item.image || DEFAULT_IMAGE + (item.name || "").replace(/&/g, "and");
             img.alt = item.id || item.name || "";
 
             const { id, received, count } = item;
