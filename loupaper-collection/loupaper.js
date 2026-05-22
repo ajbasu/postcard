@@ -143,6 +143,10 @@ function renderGallery(filter) {
                 imgDiv.appendChild(name);
             }
 
+            imgDiv.addEventListener("click", () => {
+                showSingleImage(item);
+            });
+
             grid.appendChild(imgDiv);
         });
 
@@ -152,6 +156,38 @@ function renderGallery(filter) {
         container.appendChild(block);
     });
 }
+
+function showSingleImage(item) {
+    const modal = document.getElementById("singleImageModal");
+    const img = document.getElementById("singleImage");
+    const name = document.getElementById("singleImageName");
+
+    img.src = item.image || "";
+    img.alt = item.id || "";
+
+    name.textContent = `${item.id || ""}${item.id && item.name ? " - " : ""}${item.name || ""} ${item.received === "yes"
+        ? "(Received)"
+        : item.received === "no"
+            ? "(Missing)"
+            : item.received === "arranged"
+                ? "(Arranged)"
+                : ""
+        }`.trim();
+
+
+    modal.style.display = "flex";
+}
+
+document.querySelector("#singleImageModal .close").onclick = () => {
+    document.getElementById("singleImageModal").style.display = "none";
+};
+
+window.addEventListener("click", (e) => {
+    const modal = document.getElementById("singleImageModal");
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+});
 
 loadGallery();
 
