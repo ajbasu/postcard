@@ -119,6 +119,7 @@ function renderGallery(filter) {
             const img = document.createElement("img");
             img.src = item.image || DEFAULT_IMAGE + (item.name || "").replace(/&/g, "and");
             img.alt = item.id || item.name || "";
+            img.onclick = () => showSingleImage(item);
 
             const { id, received, count } = item;
             const parts = [];
@@ -142,10 +143,6 @@ function renderGallery(filter) {
                 name.textContent = item.name;
                 imgDiv.appendChild(name);
             }
-
-            imgDiv.addEventListener("click", () => {
-                showSingleImage(item);
-            });
 
             grid.appendChild(imgDiv);
         });
