@@ -273,7 +273,7 @@
             {
                 "received": "yes",
                 "image": "https://eu.zonerama.com/photos/621673518_1691x1130_16.jpg",
-                "name": "Meetup in Venice - 30 November 2024"
+                "name": "Meetup - Venice 30 Nov 2024"
             },
             {
                 "received": "yes",
@@ -403,7 +403,7 @@
             {
                 "received": "no",
                 "image": "https://eu.zonerama.com/photos/621703660_1691x1142_16.jpg",
-                "name": "Luna Moth Meetup"
+                "name": "Meetup - Luna Moth"
             },
             {
                 "received": "no",
@@ -419,6 +419,11 @@
                 "received": "arranged",
                 "image": "https://eu.zonerama.com/photos/621957235_588x407.jpg",
                 "name": "La Dolce Vida"
+            },
+            {
+                "received": "no",
+                "image": "https://eu.zonerama.com/photos/623209771_1179x868.jpg",
+                "name": "Meetup - Boston 2026 World Expo 24 May 2026"
             }
         ]
     },
